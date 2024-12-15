@@ -1,9 +1,0 @@
-{
-	"gtceu:multiplied": "com.gregtechceu.gtceu.common.data.GTValueProviderTypes$$Lambda$17168/0x0000000802101798",
-	"minecraft:uniform": "net.minecraft.util.valueproviders.FloatProviderType$$Lambda$3003/0x0000000800b8a9a8",
-	"minecraft:constant": "net.minecraft.util.valueproviders.FloatProviderType$$Lambda$3003/0x0000000800b8a9a8",
-	"gtceu:casted": "com.gregtechceu.gtceu.common.data.GTValueProviderTypes$$Lambda$17170/0x0000000802101bc8",
-	"minecraft:trapezoid": "net.minecraft.util.valueproviders.FloatProviderType$$Lambda$3003/0x0000000800b8a9a8",
-	"gtceu:added": "com.gregtechceu.gtceu.common.data.GTValueProviderTypes$$Lambda$17169/0x00000008021019b0",
-	"minecraft:clamped_normal": "net.minecraft.util.valueproviders.FloatProviderType$$Lambda$3003/0x0000000800b8a9a8"
-}

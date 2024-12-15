@@ -1,8 +1,0 @@
-{
-	"type": "minecraft:stonecutting",
-	"count": 1,
-	"ingredient": {
-		"tag": "xtonesreworked:vect"
-	},
-	"result": "xtonesreworked:vect_block_15"
-}

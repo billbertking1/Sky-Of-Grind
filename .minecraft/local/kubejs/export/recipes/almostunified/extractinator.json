@@ -1,7 +1,0 @@
-{
-	"type": "almostunified:client_recipe_tracker",
-	"namespace": "extractinator",
-	"recipes": [
-		"1$extractinator"
-	]
-}

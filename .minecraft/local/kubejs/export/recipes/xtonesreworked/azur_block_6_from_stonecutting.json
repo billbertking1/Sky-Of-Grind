@@ -1,8 +1,0 @@
-{
-	"type": "minecraft:stonecutting",
-	"count": 1,
-	"ingredient": {
-		"tag": "xtonesreworked:azur"
-	},
-	"result": "xtonesreworked:azur_block_6"
-}

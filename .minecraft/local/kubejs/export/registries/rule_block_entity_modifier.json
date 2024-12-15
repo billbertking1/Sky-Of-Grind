@@ -1,6 +1,0 @@
-{
-	"minecraft:append_static": "net.minecraft.world.level.levelgen.structure.templatesystem.rule.blockentity.RuleBlockEntityModifierType$$Lambda$2851/0x0000000800b40cf8",
-	"minecraft:append_loot": "net.minecraft.world.level.levelgen.structure.templatesystem.rule.blockentity.RuleBlockEntityModifierType$$Lambda$2851/0x0000000800b40cf8",
-	"minecraft:clear": "net.minecraft.world.level.levelgen.structure.templatesystem.rule.blockentity.RuleBlockEntityModifierType$$Lambda$2851/0x0000000800b40cf8",
-	"minecraft:passthrough": "net.minecraft.world.level.levelgen.structure.templatesystem.rule.blockentity.RuleBlockEntityModifierType$$Lambda$2851/0x0000000800b40cf8"
-}

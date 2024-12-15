@@ -1,9 +1,0 @@
-[
-	"enderio:conduit",
-	"fluxnetworks:basic_flux_storage",
-	"fluxnetworks:flux_controller",
-	"fluxnetworks:flux_plug",
-	"fluxnetworks:flux_point",
-	"fluxnetworks:gargantuan_flux_storage",
-	"fluxnetworks:herculean_flux_storage"
-]

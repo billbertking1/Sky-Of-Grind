@@ -1,9 +1,0 @@
-{
-	"type": "almostunified:client_recipe_tracker",
-	"namespace": "avaritia",
-	"recipes": [
-		"1$diamond_lattice_recipe",
-		"1$neutron_collector_jei",
-		"1$neutronium_compressor_jei"
-	]
-}

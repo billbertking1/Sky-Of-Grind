@@ -1,3 +1,0 @@
-minecraft:overworld
-minecraft:the_end
-ad_astra:mercury

@@ -1,7 +1,0 @@
-minecraft:overworld
-ad_astra:mercury
-ad_astra:venus
-ad_extendra:b
-ad_extendra:ceres
-ad_extendra:jupiter
-ad_astra:glacio

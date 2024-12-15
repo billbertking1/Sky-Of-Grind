@@ -1,7 +1,0 @@
-{
-	"type": "bloodmagic:livingdowngrade",
-	"input": {
-		"item": "minecraft:glass_bottle"
-	},
-	"resource": "bloodmagic:quenched"
-}

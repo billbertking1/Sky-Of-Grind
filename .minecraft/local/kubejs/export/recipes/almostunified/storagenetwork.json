@@ -1,9 +1,0 @@
-{
-	"type": "almostunified:client_recipe_tracker",
-	"namespace": "storagenetwork",
-	"recipes": [
-		"1$single_upgrade",
-		"1$slow_upgrade",
-		"1$speed_upgrade"
-	]
-}

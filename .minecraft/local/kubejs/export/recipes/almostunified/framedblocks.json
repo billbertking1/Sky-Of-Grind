@@ -1,8 +1,0 @@
-{
-	"type": "almostunified:client_recipe_tracker",
-	"namespace": "framedblocks",
-	"recipes": [
-		"1$framed_iron_door",
-		"1$framed_iron_trapdoor"
-	]
-}

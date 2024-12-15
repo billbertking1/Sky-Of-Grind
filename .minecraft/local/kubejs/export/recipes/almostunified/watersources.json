@@ -1,7 +1,0 @@
-{
-	"type": "almostunified:client_recipe_tracker",
-	"namespace": "watersources",
-	"recipes": [
-		"1$water_source_tier_5"
-	]
-}
