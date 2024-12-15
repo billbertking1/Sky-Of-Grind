@@ -14,13 +14,18 @@ GTCEuStartupEvents.registry('gtceu:material_icon_set', event => {
 
 
 GTCEuStartupEvents.registry('gtceu:material', event => {
-
+    
+    const $IngotProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty');
     const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty');
+    const $BlastProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.BlastProperty');
 
 GTMaterials.Neutronium.addFlags(GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_RING, GTMaterialFlags.GENERATE_ROUND, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_DENSE)
 GTMaterials.StainlessSteel.addFlags(GTMaterialFlags.GENERATE_DENSE)
 
 GTMaterials.Californium.setProperty(PropertyKey.DUST, new $DustProperty());
+
+GTMaterials.Nihonium.setProperty(PropertyKey.DUST, new $DustProperty());
+GTMaterials.Nihonium.setProperty(PropertyKey.INGOT, new $IngotProperty());
 
 
 
@@ -198,7 +203,7 @@ GTMaterials.Californium.setProperty(PropertyKey.DUST, new $DustProperty());
         .liquid()
         .color(0x099409)
     event.create('resonant_essence')
-        .ingot().dust()
+        .ingot().dust().fluid()
         .color(0x8ceb34)
         .blastTemp(12000)
         .iconSet('bright')
@@ -289,7 +294,7 @@ GTMaterials.Californium.setProperty(PropertyKey.DUST, new $DustProperty());
         .element('awakened_draconium')
         .iconSet('shiny')
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_ROTOR, GTMaterialFlags.GENERATE_BOLT_SCREW)
-        .blastTemp(15000, 'highest', 33554432, 3400)
+        .blastTemp(15000, 'highest', 134217728, 3400)
     
     event.create('californite')
         .ingot().fluid()
@@ -297,7 +302,7 @@ GTMaterials.Californium.setProperty(PropertyKey.DUST, new $DustProperty());
         .color(0xa0b0bd).secondaryColor(0x232020)
         .iconSet('radioactive')
     event.create('stabilized_iridium')
-        .ingot()
+        .ingot().fluid()
         .element('stabilized_iridium')
         .color(0x9deafa).secondaryColor(0x232020)
         .iconSet('radioactive')
@@ -325,8 +330,74 @@ GTMaterials.Californium.setProperty(PropertyKey.DUST, new $DustProperty());
         .iconSet('dull')
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_LENS, GTMaterialFlags.GENERATE_DENSE)
     
+/// C O S M I C   M A T E R I A L S   F U S I O N
     
-    
+event.create('cosmic_tungsten')
+.ingot().fluid()
+.element('cosmic_tungsten')
+.color(0x04011c)
+.iconSet('radioactive')
+.blastTemp(13000, 'highest', 8388608, 900)
+.flags(
+    GTMaterialFlags.GENERATE_PLATE, 
+    GTMaterialFlags.GENERATE_ROD, 
+    GTMaterialFlags.GENERATE_GEAR, 
+    GTMaterialFlags.GENERATE_FINE_WIRE,
+    GTMaterialFlags.GENERATE_FRAME, 
+    GTMaterialFlags.GENERATE_DENSE, 
+    GTMaterialFlags.GENERATE_ROTOR, 
+    GTMaterialFlags.GENERATE_BOLT_SCREW
+)
+event.create('cosmic_titanium')
+.ingot().fluid()
+.element('cosmic_titanium')
+.color(0x3d0245)
+.iconSet('radioactive')
+.blastTemp(13000, 'highest', 8388608, 900)
+.flags(
+    GTMaterialFlags.GENERATE_PLATE, 
+    GTMaterialFlags.GENERATE_ROD, 
+    GTMaterialFlags.GENERATE_GEAR, 
+    GTMaterialFlags.GENERATE_FINE_WIRE,
+    GTMaterialFlags.GENERATE_FRAME, 
+    GTMaterialFlags.GENERATE_DENSE, 
+    GTMaterialFlags.GENERATE_ROTOR, 
+    GTMaterialFlags.GENERATE_BOLT_SCREW
+)
+event.create('cosmic_iridium')
+.ingot().fluid()
+.element('cosmic_iridium')
+.color(0x016646)
+.iconSet('radioactive')
+.blastTemp(13000, 'highest', 33554432, 900)
+.flags(
+    GTMaterialFlags.GENERATE_PLATE, 
+    GTMaterialFlags.GENERATE_ROD, 
+    GTMaterialFlags.GENERATE_GEAR, 
+    GTMaterialFlags.GENERATE_FINE_WIRE,
+    GTMaterialFlags.GENERATE_FRAME, 
+    GTMaterialFlags.GENERATE_DENSE, 
+    GTMaterialFlags.GENERATE_ROTOR, 
+    GTMaterialFlags.GENERATE_BOLT_SCREW
+)
+event.create('cosmic_osmium')
+.ingot().fluid()
+.element('cosmic_osmium')
+.color(0x023e45)
+.iconSet('radioactive')
+.blastTemp(13000, 'highest', 8388608, 900)
+.flags(
+    GTMaterialFlags.GENERATE_PLATE, 
+    GTMaterialFlags.GENERATE_ROD, 
+    GTMaterialFlags.GENERATE_GEAR, 
+    GTMaterialFlags.GENERATE_FINE_WIRE,
+    GTMaterialFlags.GENERATE_FRAME, 
+    GTMaterialFlags.GENERATE_DENSE, 
+    GTMaterialFlags.GENERATE_ROTOR, 
+    GTMaterialFlags.GENERATE_BOLT_SCREW
+)
+
+
     })
 
 

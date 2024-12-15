@@ -84,6 +84,11 @@
     "material.gtceu.mycena_hypsizyga": "Mycena Hypsizyga",
     "material.gtceu.stropharic_hypoxylon": "Stropharic Hypoxylon",
     "material.gtceu.chaos": "Chaos",
+    "material.gtceu.infinity_catalyst": "Infinity Catalyst",
+    "material.gtceu.cosmic_titanium": "Cosmic Titanium",
+    "material.gtceu.cosmic_tungsten": "Cosmic Tungsten",
+    "material.gtceu.cosmic_iridium": "Cosmic Iridium",
+    "material.gtceu.cosmic_osmium": "Cosmic Osmium",
 
     "block.gtceu.atomicompressor":"§5Sub-Atomical Compressor§f",
     "gtceu.atomiccompressor":"§5Sub-Atomical Compressor§f",
@@ -131,7 +136,7 @@
     "gtceu.uiv_parallel_hatch.desc": "§rAllows to run up to 16384 recipes in parallel",
     "gtceu.uxv_parallel_hatch.desc": "§rAllows to run up to 65536 recipes in parallel",
     "gtceu.opv_parallel_hatch.desc": "§rAllows to run up to 262144 recipes in parallel",
-    "gtceu.multiblock.uev_fusion_reactor.description": "§7The Fusion Reactor §7MK§7 4 is a large multiblock structure used for fusing elements into heavier ones. It can only use UEV Energy Hatches. For every Hatch it has, its buffer increases by 160M EU, and has a maximum of 2560M.",
+    "gtceu.multiblock.uev_fusion_reactor.description": "§7The Fusion Reactor MK 4 is a large multiblock structure used for fusing elements into heavier ones. It can only use UEV Energy Hatches. For every Hatch it has, its buffer increases by 160M EU, and has a maximum of 2560M.",
     
     "tagprefix.venus_stone": "Venus %s Ore",
     "tagprefix.mercury_stone": "Mercury %s Ore",
