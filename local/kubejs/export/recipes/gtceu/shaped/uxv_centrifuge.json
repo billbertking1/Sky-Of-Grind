@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"CEC",
+		"WMW",
+		"CEC"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uxv_machine_hull"
+		},
+		"E": {
+			"item": "gtceu:uxv_electric_motor"
+		},
+		"C": {
+			"tag": "gtceu:circuits/uxv"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		}
+	},
+	"result": {
+		"item": "gtceu:uxv_centrifuge"
+	}
+}

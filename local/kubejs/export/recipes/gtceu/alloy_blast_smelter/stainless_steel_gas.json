@@ -1,0 +1,115 @@
+{
+	"type": "gtceu:alloy_blast_smelter",
+	"duration": 4974,
+	"data": {
+		"ebf_temp": 1700
+	},
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 9000,
+					"value": [
+						{
+							"fluid": "gtceu:nitrogen"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		],
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 6,
+					"ingredient": {
+						"tag": "forge:dusts/iron"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"tag": "forge:dusts/chromium"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"tag": "forge:dusts/manganese"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"tag": "forge:dusts/nickel"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:circuit",
+					"configuration": 14
+				},
+				"chance": 0,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 1296,
+					"value": [
+						{
+							"fluid": "gtceu:stainless_steel"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 480,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

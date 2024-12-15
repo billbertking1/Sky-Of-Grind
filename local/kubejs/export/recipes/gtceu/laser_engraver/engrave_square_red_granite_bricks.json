@@ -1,0 +1,63 @@
+{
+	"type": "gtceu:laser_engraver",
+	"duration": 50,
+	"inputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:polished_red_granite"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"tag": "forge:lenses/green"
+					}
+				},
+				"chance": 0,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:square_red_granite_bricks"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 16,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

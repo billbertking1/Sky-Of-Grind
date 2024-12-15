@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "gtceu:fluid_filter",
+		"count": 1
+	},
+	"pattern": [
+		"AAA",
+		"AWA",
+		"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "gtceu:steel_foil"
+		},
+		"W": {
+			"item": "minecraft:water_bucket"
+		}
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"type": "gtceu:centrifuge",
+	"duration": 160,
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 160,
+					"value": [
+						{
+							"tag": "forge:hydrogen"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 40,
+					"value": [
+						{
+							"fluid": "gtceu:deuterium"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 20,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

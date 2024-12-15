@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "ae2:drive",
+		"count": 1
+	},
+	"pattern": [
+		"ABA",
+		"C C",
+		"ABA"
+	],
+	"key": {
+		"A": {
+			"item": "gtceu:platinum_ingot"
+		},
+		"B": {
+			"tag": "gtceu:circuits/hv"
+		},
+		"C": {
+			"item": "enderio:me_conduit"
+		}
+	}
+}

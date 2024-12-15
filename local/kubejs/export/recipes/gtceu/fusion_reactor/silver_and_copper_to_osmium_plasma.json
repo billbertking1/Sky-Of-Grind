@@ -1,0 +1,69 @@
+{
+	"type": "gtceu:fusion_reactor",
+	"duration": 64,
+	"data": {
+		"eu_to_start": 150000000
+	},
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 16,
+					"value": [
+						{
+							"tag": "forge:silver"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"amount": 16,
+					"value": [
+						{
+							"tag": "forge:copper"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 16,
+					"value": [
+						{
+							"fluid": "gtceu:osmium"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 24578,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

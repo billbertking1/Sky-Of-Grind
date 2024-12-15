@@ -1,0 +1,9 @@
+{
+	"type": "almostunified:client_recipe_tracker",
+	"namespace": "angelring",
+	"recipes": [
+		"1$angel_ring",
+		"1$diamond_ring",
+		"1$energetic_angel_ring"
+	]
+}

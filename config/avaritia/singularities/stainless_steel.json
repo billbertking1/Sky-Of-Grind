@@ -1,0 +1,22 @@
+{
+  "name": "Stainless Steel",
+  "colors": [
+    "b8b8b8",
+    "ffffff"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/stainless_steel",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/stainless_steel"
+  },
+  "enabled": true,
+  "recipeDisabled": true
+}

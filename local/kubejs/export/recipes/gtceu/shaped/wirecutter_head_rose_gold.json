@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XfX",
+		"X X",
+		"SRS"
+	],
+	"key": {
+		"X": {
+			"tag": "forge:plates/rose_gold"
+		},
+		"R": {
+			"tag": "forge:rings/steel"
+		},
+		"S": {
+			"tag": "forge:screws/steel"
+		},
+		"f": {
+			"tag": "forge:tools/files"
+		}
+	},
+	"result": {
+		"item": "gtceu:rose_gold_wire_cutter_head"
+	}
+}

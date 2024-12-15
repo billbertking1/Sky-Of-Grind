@@ -1,0 +1,14 @@
+enderio:chemical	x=0	y=0	w=24	h=24
+enderio:dense_me	x=32	y=0	w=24	h=24
+enderio:ender_chemical	x=0	y=32	w=24	h=24
+enderio:ender_fluid_conduit	x=24	y=32	w=24	h=24
+enderio:energy_conduit	x=64	y=0	w=24	h=24
+enderio:fluid_conduit	x=64	y=24	w=24	h=24
+enderio:heat	x=88	y=0	w=24	h=24
+enderio:item_conduit	x=88	y=24	w=24	h=24
+enderio:me	x=0	y=64	w=24	h=24
+minecraft:missingno	x=48	y=32	w=16	h=16
+enderio:pressurized_chemical	x=24	y=64	w=24	h=24
+enderio:pressurized_fluid_conduit	x=48	y=64	w=24	h=24
+enderio:redstone_conduit	x=72	y=64	w=24	h=24
+enderio:refined_storage	x=96	y=64	w=24	h=24

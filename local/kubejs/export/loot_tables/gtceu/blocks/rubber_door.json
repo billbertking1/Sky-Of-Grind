@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "gtceu:blocks/rubber_door",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "gtceu:rubber_door",
+							"properties": {
+								"half": "lower"
+							}
+						}
+					],
+					"name": "gtceu:rubber_door"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

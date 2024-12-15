@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"CCE",
+		"XMP",
+		"CCE"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uiv_machine_hull"
+		},
+		"X": {
+			"item": "gtceu:uiv_electric_piston"
+		},
+		"E": {
+			"tag": "gtceu:circuits/uiv"
+		},
+		"P": {
+			"item": "gtceu:naquadah_normal_fluid_pipe"
+		},
+		"C": {
+			"item": "gtceu:trinium_quadruple_wire"
+		}
+	},
+	"result": {
+		"item": "gtceu:uiv_extruder"
+	}
+}

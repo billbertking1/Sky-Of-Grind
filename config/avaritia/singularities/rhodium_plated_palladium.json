@@ -1,0 +1,22 @@
+{
+  "name": "Rhodium Plated Palladium",
+  "colors": [
+    "ffffff",
+    "ff00fb"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/rhodium_plated_palladium",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/rhodium_plated_palladium"
+  },
+  "enabled": true,
+  "recipeDisabled": true
+}

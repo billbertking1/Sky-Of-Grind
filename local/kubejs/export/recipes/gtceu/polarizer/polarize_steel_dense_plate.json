@@ -1,0 +1,51 @@
+{
+	"type": "gtceu:polarizer",
+	"duration": 504,
+	"inputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"tag": "forge:dense_plates/steel"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:dense_magnetic_steel_plate"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 16,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

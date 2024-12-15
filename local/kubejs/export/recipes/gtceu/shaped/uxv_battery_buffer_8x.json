@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WTW",
+		"WMW"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uxv_machine_hull"
+		},
+		"W": {
+			"item": "gtceu:europium_octal_wire"
+		},
+		"T": {
+			"tag": "forge:chests/wooden"
+		}
+	},
+	"result": {
+		"item": "gtceu:uxv_battery_buffer_8x"
+	}
+}

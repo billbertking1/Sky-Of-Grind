@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "gtceu:uiv_quantum_chest"
+		}
+	],
+	"result": {
+		"item": "gtceu:uiv_quantum_chest"
+	}
+}

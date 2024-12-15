@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "gtceu:silver_credit"
+		},
+		{
+			"item": "gtceu:silver_credit"
+		},
+		{
+			"item": "gtceu:silver_credit"
+		},
+		{
+			"item": "gtceu:silver_credit"
+		},
+		{
+			"item": "gtceu:silver_credit"
+		},
+		{
+			"item": "gtceu:silver_credit"
+		},
+		{
+			"item": "gtceu:silver_credit"
+		},
+		{
+			"item": "gtceu:silver_credit"
+		}
+	],
+	"result": {
+		"item": "gtceu:gold_credit"
+	}
+}

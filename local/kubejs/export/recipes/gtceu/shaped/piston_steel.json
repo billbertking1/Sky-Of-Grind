@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WWW",
+		"CBC",
+		"CRC"
+	],
+	"key": {
+		"W": {
+			"tag": "minecraft:planks"
+		},
+		"C": {
+			"tag": "minecraft:stone_crafting_materials"
+		},
+		"R": {
+			"tag": "forge:dusts/redstone"
+		},
+		"B": {
+			"tag": "forge:ingots/steel"
+		}
+	},
+	"result": {
+		"item": "minecraft:piston",
+		"count": 2
+	}
+}

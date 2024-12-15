@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"tag": "forge:storage_blocks/iron"
+		},
+		"G": {
+			"item": "minecraft:glass"
+		},
+		"H": {
+			"item": "minecraft:hopper"
+		},
+		"I": {
+			"item": "minecraft:iron_bars"
+		}
+	},
+	"pattern": [
+		"#G#",
+		"IHI",
+		"I I"
+	],
+	"result": {
+		"item": "exdeorum:mechanical_sieve"
+	},
+	"show_notification": true
+}

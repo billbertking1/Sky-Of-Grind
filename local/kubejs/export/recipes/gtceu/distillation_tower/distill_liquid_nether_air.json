@@ -1,0 +1,135 @@
+{
+	"type": "gtceu:distillation_tower",
+	"duration": 2000,
+	"data": {
+		"disable_distillery": 1
+	},
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 100000,
+					"value": [
+						{
+							"tag": "forge:liquid_nether_air"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 72000,
+					"value": [
+						{
+							"fluid": "gtceu:carbon_monoxide"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"amount": 10000,
+					"value": [
+						{
+							"fluid": "gtceu:coal_gas"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"amount": 7500,
+					"value": [
+						{
+							"fluid": "gtceu:hydrogen_sulfide"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"amount": 7500,
+					"value": [
+						{
+							"fluid": "gtceu:sulfur_dioxide"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"amount": 2500,
+					"value": [
+						{
+							"fluid": "gtceu:helium_3"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"amount": 500,
+					"value": [
+						{
+							"fluid": "gtceu:neon"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		],
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:ash_dust"
+					}
+				},
+				"chance": 2250,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 1920,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

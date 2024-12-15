@@ -1,0 +1,81 @@
+{
+	"type": "gtceu:electric_blast_furnace",
+	"duration": 900,
+	"data": {
+		"ebf_temp": 5000
+	},
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 1000,
+					"value": [
+						{
+							"tag": "forge:helium"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		],
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"tag": "forge:plates/emerald"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:raw_crystal_chip"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:engraved_crystal_chip"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 480,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

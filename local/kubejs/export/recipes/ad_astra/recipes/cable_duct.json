@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "cable_duct",
+	"key": {
+		"I": {
+			"tag": "forge:ingots/copper"
+		},
+		"P": {
+			"tag": "forge:plates/steel"
+		}
+	},
+	"pattern": [
+		"PIP",
+		"III",
+		"PIP"
+	],
+	"result": {
+		"item": "ad_astra:cable_duct"
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Neutronium",
+  "colors": [
+    "ffffff",
+    "b3b3b3"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/neutronium",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/neutronium"
+  },
+  "enabled": true,
+  "recipeDisabled": true
+}

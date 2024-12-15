@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ACA",
+		"VMV",
+		"WCW"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uxv_machine_hull"
+		},
+		"V": {
+			"item": "gtceu:uxv_conveyor_module"
+		},
+		"A": {
+			"item": "gtceu:uxv_robot_arm"
+		},
+		"C": {
+			"tag": "gtceu:circuits/uxv"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		}
+	},
+	"result": {
+		"item": "gtceu:uxv_assembler"
+	}
+}

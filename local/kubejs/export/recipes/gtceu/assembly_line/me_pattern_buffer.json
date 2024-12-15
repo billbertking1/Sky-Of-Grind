@@ -1,0 +1,199 @@
+{
+	"type": "gtceu:assembly_line",
+	"duration": 600,
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 576,
+					"value": [
+						{
+							"tag": "forge:soldering_alloy"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"amount": 500,
+					"value": [
+						{
+							"tag": "forge:lubricant"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		],
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:luv_dual_input_hatch"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:luv_dual_output_hatch"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:luv_emitter"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 4,
+					"ingredient": {
+						"tag": "gtceu:circuits/luv"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 3,
+					"ingredient": {
+						"item": "ae2:pattern_provider"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 3,
+					"ingredient": {
+						"item": "ae2:interface"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 4,
+					"ingredient": {
+						"item": "ae2:speed_card"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 2,
+					"ingredient": {
+						"item": "ae2:capacity_card"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 32,
+					"ingredient": {
+						"tag": "forge:fine_wires/europium"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 32,
+					"ingredient": {
+						"tag": "forge:fine_wires/europium"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 32,
+					"ingredient": {
+						"tag": "forge:fine_wires/europium"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:me_pattern_buffer"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 6,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

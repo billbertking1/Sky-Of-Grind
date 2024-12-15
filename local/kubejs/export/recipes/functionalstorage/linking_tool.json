@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"D": {
+			"tag": "functionalstorage:drawer"
+		},
+		"E": {
+			"tag": "forge:gems/diamond"
+		},
+		"G": {
+			"tag": "forge:ingots/gold"
+		},
+		"P": {
+			"item": "minecraft:paper"
+		}
+	},
+	"pattern": [
+		"PPG",
+		"PDG",
+		"PEP"
+	],
+	"result": {
+		"item": "functionalstorage:linking_tool"
+	},
+	"show_notification": true
+}

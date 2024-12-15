@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"BCB",
+		"RMV",
+		"WCW"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uev_machine_hull"
+		},
+		"R": {
+			"item": "gtceu:uev_robot_arm"
+		},
+		"V": {
+			"item": "gtceu:uev_conveyor_module"
+		},
+		"C": {
+			"tag": "gtceu:circuits/uev"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		},
+		"B": {
+			"tag": "forge:chests/wooden"
+		}
+	},
+	"result": {
+		"item": "gtceu:uev_packer"
+	}
+}

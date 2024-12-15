@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"a": {
+			"tag": "forge:stone"
+		},
+		"b": {
+			"tag": "forge:dusts/glowstone"
+		}
+	},
+	"pattern": [
+		"bab",
+		"bab",
+		"bab"
+	],
+	"result": {
+		"count": 8,
+		"item": "simplylight:rodlamp"
+	},
+	"show_notification": false
+}

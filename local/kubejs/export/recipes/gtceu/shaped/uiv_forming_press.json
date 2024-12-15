@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WPW",
+		"CMC",
+		"WPW"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uiv_machine_hull"
+		},
+		"P": {
+			"item": "gtceu:uiv_electric_piston"
+		},
+		"C": {
+			"tag": "gtceu:circuits/uiv"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		}
+	},
+	"result": {
+		"item": "gtceu:uiv_forming_press"
+	}
+}

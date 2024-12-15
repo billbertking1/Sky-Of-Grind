@@ -1,0 +1,26 @@
+{
+	"type": "enderchests:crafting",
+	"group": "enderchests:chest",
+	"pattern": [
+		"#W#",
+		"OBO",
+		"#O#"
+	],
+	"key": {
+		"#": {
+			"tag": "forge:rods/blaze"
+		},
+		"W": {
+			"tag": "minecraft:wool"
+		},
+		"O": {
+			"item": "minecraft:obsidian"
+		},
+		"B": {
+			"item": "enderchests:ender_pouch"
+		}
+	},
+	"result": {
+		"item": "enderchests:ender_chest"
+	}
+}

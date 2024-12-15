@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "antiblocksrechiseled:blocks/pressure_plate_bright_black",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "antiblocksrechiseled:pressure_plate_bright_black"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

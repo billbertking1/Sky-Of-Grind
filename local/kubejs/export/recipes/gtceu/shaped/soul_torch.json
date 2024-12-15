@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WB"
+	],
+	"key": {
+		"W": {
+			"tag": "minecraft:soul_fire_base_blocks"
+		},
+		"B": {
+			"item": "minecraft:torch"
+		}
+	},
+	"result": {
+		"item": "minecraft:soul_torch"
+	}
+}

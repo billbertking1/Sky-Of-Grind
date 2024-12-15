@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PII",
+		"hSf",
+		" S "
+	],
+	"key": {
+		"P": {
+			"tag": "forge:plates/diamond"
+		},
+		"I": {
+			"tag": "forge:gems/diamond"
+		},
+		"S": {
+			"tag": "forge:rods/wood"
+		},
+		"f": {
+			"tag": "forge:tools/files"
+		},
+		"h": {
+			"tag": "forge:tools/hammers"
+		}
+	},
+	"result": {
+		"item": "minecraft:diamond_pickaxe",
+		"nbt": {
+			"Damage": 0
+		}
+	}
+}

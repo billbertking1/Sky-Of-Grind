@@ -1,0 +1,88 @@
+{
+	"type": "gtceu:alloy_blast_smelter",
+	"duration": 675,
+	"data": {
+		"ebf_temp": 1202
+	},
+	"inputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 7,
+					"ingredient": {
+						"tag": "forge:dusts/brass"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"tag": "forge:dusts/aluminium"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"tag": "forge:dusts/cobalt"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:circuit",
+					"configuration": 9
+				},
+				"chance": 0,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 1296,
+					"value": [
+						{
+							"fluid": "gtceu:cobalt_brass"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 16,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

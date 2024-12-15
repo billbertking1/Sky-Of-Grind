@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" C ",
+		"PMP",
+		"WCW"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uev_machine_hull"
+		},
+		"P": {
+			"item": "gtceu:uev_electric_piston"
+		},
+		"C": {
+			"tag": "gtceu:circuits/uev"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		}
+	},
+	"result": {
+		"item": "gtceu:uev_compressor"
+	}
+}

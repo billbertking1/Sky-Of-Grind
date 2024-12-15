@@ -1,0 +1,53 @@
+{
+	"type": "gtceu:plasma_generator",
+	"duration": 96,
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 1,
+					"value": [
+						{
+							"tag": "forge:iron_plasma"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 1,
+					"value": [
+						{
+							"fluid": "gtceu:iron"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {},
+	"tickOutputs": {
+		"eu": [
+			{
+				"content": 2048,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

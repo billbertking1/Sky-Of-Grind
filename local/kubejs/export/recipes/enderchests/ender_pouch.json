@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" L ",
+		"LEL",
+		" L "
+	],
+	"key": {
+		"E": {
+			"item": "minecraft:ender_eye"
+		},
+		"L": {
+			"tag": "forge:leather"
+		}
+	},
+	"result": {
+		"item": "enderchests:ender_pouch"
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Aluminium",
+  "colors": [
+    "caccda",
+    "9a9ca6"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/aluminium",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/aluminium"
+  },
+  "enabled": true,
+  "recipeDisabled": true
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "forge:ingots/titanium_carbide"
+		}
+	],
+	"result": {
+		"item": "gtceu:titanium_carbide_nugget",
+		"count": 9
+	}
+}

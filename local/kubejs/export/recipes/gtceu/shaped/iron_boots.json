@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"P P",
+		"PhP"
+	],
+	"key": {
+		"P": {
+			"tag": "forge:plates/iron"
+		},
+		"h": {
+			"tag": "forge:tools/hammers"
+		}
+	},
+	"result": {
+		"item": "minecraft:iron_boots",
+		"nbt": {
+			"Damage": 0
+		}
+	}
+}

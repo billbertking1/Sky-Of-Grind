@@ -1,0 +1,22 @@
+{
+  "name": "Darmstadtium",
+  "colors": [
+    "061f01",
+    "020d00"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/darmstadtium",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/darmstadtium"
+  },
+  "enabled": true,
+  "recipeDisabled": true
+}

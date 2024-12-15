@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "antiblocksrechiseled:blocks/wool_gray_border",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "antiblocksrechiseled:wool_gray_border"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

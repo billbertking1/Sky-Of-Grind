@@ -1,0 +1,38 @@
+{
+	"type": "extractinator:extractinating",
+	"input": {
+		"item": "minecraft:cobblestone"
+	},
+	"drops": [
+		{
+			"drop": "minecraft:raw_iron",
+			"drop_chance": 0.8,
+			"min_drop_count": 1,
+			"max_drop_count": 3
+		},
+		{
+			"drop": "minecraft:raw_gold",
+			"drop_chance": 0.5
+		},
+		{
+			"drop": "minecraft:raw_copper",
+			"drop_chance": 0.75,
+			"min_drop_count": 1,
+			"max_drop_count": 3
+		},
+		{
+			"drop": "gtceu:raw_tin",
+			"drop_chance": 0.7
+		},
+		{
+			"drop": "gtceu:raw_coal",
+			"drop_chance": 0.8,
+			"min_drop_count": 1,
+			"max_drop_count": 5
+		},
+		{
+			"drop": "minecraft:flint",
+			"drop_chance": 0.5
+		}
+	]
+}

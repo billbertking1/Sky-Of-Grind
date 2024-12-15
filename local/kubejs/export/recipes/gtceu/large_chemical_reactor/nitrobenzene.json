@@ -1,0 +1,92 @@
+{
+	"type": "gtceu:large_chemical_reactor",
+	"duration": 160,
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 5000,
+					"value": [
+						{
+							"tag": "forge:benzene"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"amount": 2000,
+					"value": [
+						{
+							"tag": "forge:nitration_mixture"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"amount": 2000,
+					"value": [
+						{
+							"tag": "forge:distilled_water"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 8000,
+					"value": [
+						{
+							"fluid": "gtceu:nitrobenzene"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"amount": 1000,
+					"value": [
+						{
+							"fluid": "gtceu:diluted_sulfuric_acid"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 480,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

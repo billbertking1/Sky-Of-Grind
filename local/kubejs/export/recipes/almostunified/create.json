@@ -1,0 +1,17 @@
+{
+	"type": "almostunified:client_recipe_tracker",
+	"namespace": "create",
+	"recipes": [
+		"1$crushing/glacio_coal_ore",
+		"1$crushing/glacio_copper_ore",
+		"1$crushing/glacio_iron_ore",
+		"1$crushing/glacio_lapis_ore",
+		"1$crushing/mars_diamond_ore",
+		"1$crushing/mars_iron_ore",
+		"1$crushing/mercury_iron_ore",
+		"1$crushing/moon_iron_ore",
+		"1$crushing/venus_coal_ore",
+		"1$crushing/venus_diamond_ore",
+		"1$crushing/venus_gold_ore"
+	]
+}

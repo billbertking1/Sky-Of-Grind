@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "gtceu:copper_credit"
+		},
+		{
+			"item": "gtceu:copper_credit"
+		},
+		{
+			"item": "gtceu:copper_credit"
+		},
+		{
+			"item": "gtceu:copper_credit"
+		},
+		{
+			"item": "gtceu:copper_credit"
+		},
+		{
+			"item": "gtceu:copper_credit"
+		},
+		{
+			"item": "gtceu:copper_credit"
+		},
+		{
+			"item": "gtceu:copper_credit"
+		}
+	],
+	"result": {
+		"item": "gtceu:cupronickel_credit"
+	}
+}

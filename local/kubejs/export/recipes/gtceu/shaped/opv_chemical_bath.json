@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"VGW",
+		"PGV",
+		"CMC"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:opv_machine_hull"
+		},
+		"P": {
+			"item": "gtceu:opv_electric_pump"
+		},
+		"V": {
+			"item": "gtceu:opv_conveyor_module"
+		},
+		"C": {
+			"tag": "gtceu:circuits/opv"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		},
+		"G": {
+			"tag": "forge:glass"
+		}
+	},
+	"result": {
+		"item": "gtceu:opv_chemical_bath"
+	}
+}

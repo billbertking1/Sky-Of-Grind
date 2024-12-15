@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "exdeorum:blocks/red_archwood_crucible",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "exdeorum:red_archwood_crucible"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

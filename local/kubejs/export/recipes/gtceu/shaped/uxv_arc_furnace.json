@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WGW",
+		"CMC",
+		"PPP"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uxv_machine_hull"
+		},
+		"P": {
+			"tag": "forge:plates/neutronium"
+		},
+		"C": {
+			"tag": "gtceu:circuits/uxv"
+		},
+		"W": {
+			"item": "gtceu:europium_quadruple_cable"
+		},
+		"G": {
+			"tag": "forge:dusts/graphite"
+		}
+	},
+	"result": {
+		"item": "gtceu:uxv_arc_furnace"
+	}
+}

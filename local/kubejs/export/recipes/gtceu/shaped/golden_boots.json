@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"P P",
+		"PhP"
+	],
+	"key": {
+		"P": {
+			"tag": "forge:plates/gold"
+		},
+		"h": {
+			"tag": "forge:tools/hammers"
+		}
+	},
+	"result": {
+		"item": "minecraft:golden_boots",
+		"nbt": {
+			"Damage": 0
+		}
+	}
+}

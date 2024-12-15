@@ -1,0 +1,364 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rich"
+	group: "2EEB0DA0474AC3B2"
+	icon: "gtceu:neutronium_credit"
+	id: "465D387578354039"
+	images: [{
+		height: 10.0d
+		image: "gtceu:block/lamps/green"
+		rotation: 0.0d
+		width: 10.0d
+		x: 3.5d
+		y: -5.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["792CA960CA776F9B"]
+			id: "4119D33BDAF6DC1F"
+			tasks: [{
+				id: "7BFC919F16E043C9"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"This is rich part of the shop."
+				"Only used for building things like dyes and saplings."
+				""
+				"There is the Richer part which uses the dog coins that you get only from quests to buy more \"useful\" items."
+			]
+			id: "792CA960CA776F9B"
+			tasks: [{
+				id: "1515EEB099CFAA6D"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			title: "Credit system!"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4119D33BDAF6DC1F"]
+			id: "1CA316B993A3A462"
+			tasks: [{
+				id: "1BD6CF65E983DACA"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CA316B993A3A462"]
+			id: "68E325B1B6636BBF"
+			tasks: [{
+				id: "3B0D56FC6833E90C"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68E325B1B6636BBF"]
+			id: "6F8EE1F6815E131A"
+			tasks: [{
+				id: "45621B2C3EB9BE10"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F8EE1F6815E131A"]
+			id: "32D8ADA235EBA4DF"
+			tasks: [{
+				id: "1CD05B9245137071"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32D8ADA235EBA4DF"]
+			id: "53A4CD46869067F7"
+			tasks: [{
+				id: "08FF5484B01F613D"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53A4CD46869067F7"]
+			id: "5FD2556C5F529202"
+			tasks: [{
+				id: "24AF48EC701E45C4"
+				item: "gtceu:neutronium_credit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CA316B993A3A462"]
+			icon: "minecraft:white_dye"
+			id: "6E08CAB857D81352"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "6D11936A53F642A8"
+					item: "minecraft:white_dye"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "48532B022673A6B0"
+					item: "minecraft:light_gray_dye"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "53D037D1487210F6"
+					item: "minecraft:gray_dye"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5938FA71E374CC95"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "41EB3456C62B1404"
+					item: "minecraft:brown_dye"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "66D8D5D7592C1561"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "77EBC7292E8AF155"
+					item: "minecraft:orange_dye"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4C43F4DB73720343"
+					item: "minecraft:yellow_dye"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4097DFB6AB34380D"
+					item: "minecraft:lime_dye"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "04D75687884802AC"
+					item: "minecraft:green_dye"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1E6350C32F85DC7B"
+					item: "minecraft:cyan_dye"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2956407D5D986E22"
+					item: "minecraft:light_blue_dye"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5BF70B4AF8DEEE4F"
+					item: "minecraft:blue_dye"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "747E1FF68B7F2AC7"
+					item: "minecraft:purple_dye"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4DC836FB2C748BA2"
+					item: "minecraft:magenta_dye"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3C975DAA8A7AA444"
+					item: "minecraft:pink_dye"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				consume_items: true
+				id: "75AD24C305100500"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			title: "Dyes!"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["68E325B1B6636BBF"]
+			icon: "minecraft:oak_sapling"
+			id: "059DD8B5FEF17E6C"
+			optional: true
+			rewards: [
+				{
+					id: "4F5E29F40C903D53"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "005FE5CEB49E7EE2"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "4E432E00E934A69B"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "10B8C231C635F93C"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "64D79C73610A8653"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					id: "58DD2D2A73D2842F"
+					item: "minecraft:acacia_sapling"
+					type: "item"
+				}
+				{
+					id: "41665E16D6CC5A24"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "4636342D28F68502"
+					item: "minecraft:cherry_sapling"
+					type: "item"
+				}
+				{
+					id: "5953C21323AD49A2"
+					item: "gtceu:rubber_sapling"
+					type: "item"
+				}
+				{
+					id: "4DE2EEB65DF46888"
+					item: "minecraft:crimson_fungus"
+					type: "item"
+				}
+				{
+					id: "2E0469D8651EB8EB"
+					item: "minecraft:warped_fungus"
+					type: "item"
+				}
+				{
+					id: "66E9B40A16994270"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "678A82769849174E"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				consume_items: true
+				id: "72AEC336DA652482"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "Saplings!"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6F8EE1F6815E131A"]
+			icon: "xtonesreworked:xtone_tile"
+			id: "38159CD186F495D2"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34E7497F08272A93"
+				table_id: 3990232307135112963L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [{
+				consume_items: true
+				id: "12F2614A0379CFE5"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			title: "Building"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"You are probably confused on why the shop uses credits and not doge coins."
+				""
+				"This is the Part 1 of the shops, this is for cosmetic stuff like dyes, building blocks and saplings."
+				" "
+				"The part 2 if under heavy wip and will probably be released at uhv or later."
+				"that one is gonna use doge coins for useful items like basic circuits and/or alloys."
+			]
+			icon: {
+				Count: 1
+				id: "extendedcrafting:singularity"
+				tag: {
+					Id: "extendedcrafting:redstone"
+				}
+			}
+			id: "7D056284BBA958B1"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "24685F49735A3C59"
+				title: "READ THIS!"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+	]
+	title: "Rich!"
+}

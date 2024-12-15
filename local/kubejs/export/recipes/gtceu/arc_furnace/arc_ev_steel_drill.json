@@ -1,0 +1,69 @@
+{
+	"type": "gtceu:arc_furnace",
+	"duration": 448,
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 448,
+					"value": [
+						{
+							"tag": "forge:oxygen"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		],
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"type": "forge:nbt",
+						"item": "gtceu:ev_steel_drill",
+						"count": 1,
+						"nbt": "{GT.Tool:{Damage:0}}"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 8,
+					"ingredient": {
+						"item": "gtceu:steel_ingot"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 30,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

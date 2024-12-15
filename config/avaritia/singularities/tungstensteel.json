@@ -1,0 +1,22 @@
+{
+  "name": "Tungstensteel",
+  "colors": [
+    "0f3196",
+    "082066"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/tungsten_steel",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/tungstensteel"
+  },
+  "enabled": true,
+  "recipeDisabled": true
+}

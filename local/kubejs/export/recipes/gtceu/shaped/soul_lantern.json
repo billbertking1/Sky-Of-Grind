@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"hRf",
+		"RFR",
+		" R "
+	],
+	"key": {
+		"F": {
+			"item": "minecraft:soul_torch"
+		},
+		"R": {
+			"tag": "forge:rounds/iron"
+		},
+		"f": {
+			"tag": "forge:tools/files"
+		},
+		"h": {
+			"tag": "forge:tools/hammers"
+		}
+	},
+	"result": {
+		"item": "minecraft:soul_lantern"
+	}
+}

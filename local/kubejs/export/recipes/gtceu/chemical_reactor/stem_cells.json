@@ -1,0 +1,102 @@
+{
+	"type": "gtceu:chemical_reactor",
+	"duration": 300,
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 500,
+					"value": [
+						{
+							"tag": "forge:bacteria"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"amount": 500,
+					"value": [
+						{
+							"tag": "forge:sterilized_growth_medium"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		],
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"tag": "forge:dusts/osmiridium"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 500,
+					"value": [
+						{
+							"fluid": "gtceu:bacterial_sludge"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		],
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 32,
+					"ingredient": {
+						"item": "gtceu:stem_cells"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 30720,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {},
+	"recipeConditions": [
+		{
+			"type": "cleanroom",
+			"data": {
+				"cleanroom": "sterile_cleanroom"
+			}
+		}
+	]
+}

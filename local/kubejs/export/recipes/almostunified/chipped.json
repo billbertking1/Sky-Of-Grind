@@ -1,0 +1,9 @@
+{
+	"type": "almostunified:client_recipe_tracker",
+	"namespace": "chipped",
+	"recipes": [
+		"1$benches/carpenters_table",
+		"1$benches/glassblower",
+		"1$benches/mason_table"
+	]
+}

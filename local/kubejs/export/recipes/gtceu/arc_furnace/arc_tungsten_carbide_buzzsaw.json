@@ -1,0 +1,69 @@
+{
+	"type": "gtceu:arc_furnace",
+	"duration": 388,
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 388,
+					"value": [
+						{
+							"tag": "forge:oxygen"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		],
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"type": "forge:nbt",
+						"item": "gtceu:tungsten_carbide_buzzsaw",
+						"count": 1,
+						"nbt": "{GT.Tool:{Damage:0}}"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 4,
+					"ingredient": {
+						"item": "gtceu:tungsten_carbide_ingot"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 30,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

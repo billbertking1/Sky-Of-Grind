@@ -1,0 +1,48 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "bloodmagic:blocks/creeping_doubt",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "bloodmagic:growing_doubt"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:apply_bonus",
+							"enchantment": "minecraft:fortune",
+							"formula": "minecraft:binomial_with_bonus_count",
+							"parameters": {
+								"extra": 3,
+								"probability": 0.5714286
+							}
+						}
+					],
+					"name": "bloodmagic:growing_doubt"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "bloodmagic:creeping_doubt",
+					"properties": {
+						"age": "7"
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,79 @@
+{
+	"type": "gtceu:chemical_reactor",
+	"duration": 100,
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 1000,
+					"value": [
+						{
+							"tag": "forge:diaminobenzidine"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"amount": 1000,
+					"value": [
+						{
+							"tag": "forge:diphenyl_isophthalate"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 1000,
+					"value": [
+						{
+							"fluid": "gtceu:phenol"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"amount": 1008,
+					"value": [
+						{
+							"fluid": "gtceu:polybenzimidazole"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 7680,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

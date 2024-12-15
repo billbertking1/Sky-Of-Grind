@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WCG",
+		"VMB",
+		"CWE"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uiv_machine_hull"
+		},
+		"E": {
+			"item": "gtceu:uiv_electric_motor"
+		},
+		"V": {
+			"item": "gtceu:uiv_conveyor_module"
+		},
+		"C": {
+			"tag": "gtceu:circuits/uiv"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		},
+		"G": {
+			"tag": "forge:glass"
+		},
+		"B": {
+			"item": "gtceu:duranium_buzz_saw_blade"
+		}
+	},
+	"result": {
+		"item": "gtceu:uiv_cutter"
+	}
+}

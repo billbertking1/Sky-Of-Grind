@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aa"
+	],
+	"key": {
+		"a": {
+			"item": "gtceu:treated_wood_planks"
+		}
+	},
+	"result": {
+		"item": "gtceu:treated_wood_pressure_plate"
+	}
+}

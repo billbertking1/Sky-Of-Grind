@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PG",
+		"CM"
+	],
+	"key": {
+		"P": {
+			"item": "gtceu:neutronium_nonuple_fluid_pipe"
+		},
+		"M": {
+			"item": "gtceu:uiv_machine_hull"
+		},
+		"G": {
+			"tag": "forge:glass"
+		},
+		"C": {
+			"tag": "forge:chests/wooden"
+		}
+	},
+	"result": {
+		"item": "gtceu:uiv_dual_input_hatch"
+	}
+}

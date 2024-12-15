@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"BRB",
+		"LPL",
+		"BRB"
+	],
+	"key": {
+		"B": {
+			"tag": "forge:bolts/iron"
+		},
+		"R": {
+			"tag": "forge:rods/iron"
+		},
+		"L": {
+			"tag": "forge:rods/long/iron"
+		},
+		"P": {
+			"tag": "forge:plates/wood"
+		}
+	},
+	"result": {
+		"item": "minecraft:shield",
+		"nbt": {
+			"Damage": 0
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "forge:ingots/tritanium"
+		}
+	],
+	"result": {
+		"item": "gtceu:tritanium_nugget",
+		"count": 9
+	}
+}

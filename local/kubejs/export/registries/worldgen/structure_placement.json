@@ -1,0 +1,5 @@
+{
+	"minecraft:random_spread": "net.minecraft.world.level.levelgen.structure.placement.StructurePlacementType$$Lambda$3585/0x0000000800c0c4c0",
+	"yungsapi:enhanced_random_spread": "com.yungnickyoung.minecraft.yungsapi.module.StructurePlacementTypeModule$$Lambda$5205/0x0000000800eba428",
+	"minecraft:concentric_rings": "net.minecraft.world.level.levelgen.structure.placement.StructurePlacementType$$Lambda$3585/0x0000000800c0c4c0"
+}

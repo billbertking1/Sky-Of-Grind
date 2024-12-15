@@ -1,0 +1,62 @@
+{
+	"type": "gtceu:mixer",
+	"duration": 60,
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 1000,
+					"value": [
+						{
+							"fluid": "minecraft:water"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		],
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 64,
+					"ingredient": {
+						"item": "gtceu:sulfur_dust"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 32,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 6000,
+					"value": [
+						{
+							"fluid": "gtceu:fluorine"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	}
+}

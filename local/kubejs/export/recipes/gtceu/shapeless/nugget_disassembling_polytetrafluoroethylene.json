@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "forge:ingots/polytetrafluoroethylene"
+		}
+	],
+	"result": {
+		"item": "gtceu:polytetrafluoroethylene_nugget",
+		"count": 9
+	}
+}

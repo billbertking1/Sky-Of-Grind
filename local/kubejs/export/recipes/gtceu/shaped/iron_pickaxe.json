@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PII",
+		"hSf",
+		" S "
+	],
+	"key": {
+		"P": {
+			"tag": "forge:plates/iron"
+		},
+		"I": {
+			"tag": "forge:ingots/iron"
+		},
+		"S": {
+			"tag": "forge:rods/wood"
+		},
+		"f": {
+			"tag": "forge:tools/files"
+		},
+		"h": {
+			"tag": "forge:tools/hammers"
+		}
+	},
+	"result": {
+		"item": "minecraft:iron_pickaxe",
+		"nbt": {
+			"Damage": 0
+		}
+	}
+}

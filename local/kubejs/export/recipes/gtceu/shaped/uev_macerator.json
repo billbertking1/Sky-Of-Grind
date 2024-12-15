@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PEG",
+		"WWM",
+		"CCW"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uev_machine_hull"
+		},
+		"E": {
+			"item": "gtceu:uev_electric_motor"
+		},
+		"P": {
+			"item": "gtceu:uev_electric_piston"
+		},
+		"C": {
+			"tag": "gtceu:circuits/uev"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		},
+		"G": {
+			"item": "gtceu:tungsten_grinding_head"
+		}
+	},
+	"result": {
+		"item": "gtceu:uev_macerator"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "simplylight:illuminant_green_block"
+		}
+	],
+	"result": {
+		"item": "simplylight:illuminant_green_block_on"
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"type": "gtceu:chemical_reactor",
+	"duration": 160,
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 2000,
+					"value": [
+						{
+							"tag": "forge:chlorine"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"amount": 1000,
+					"value": [
+						{
+							"tag": "forge:ethylene"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		],
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:circuit",
+					"configuration": 1
+				},
+				"chance": 0,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 1000,
+					"value": [
+						{
+							"fluid": "gtceu:vinyl_chloride"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"amount": 1000,
+					"value": [
+						{
+							"fluid": "gtceu:hydrochloric_acid"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 30,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "forge:storage_blocks/polybenzimidazole"
+		}
+	],
+	"result": {
+		"item": "gtceu:polybenzimidazole_ingot",
+		"count": 9
+	}
+}

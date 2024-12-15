@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PhP",
+		"PPP",
+		"PPP"
+	],
+	"key": {
+		"P": {
+			"tag": "forge:plates/diamond"
+		},
+		"h": {
+			"tag": "forge:tools/hammers"
+		}
+	},
+	"result": {
+		"item": "minecraft:diamond_chestplate",
+		"nbt": {
+			"Damage": 0
+		}
+	}
+}

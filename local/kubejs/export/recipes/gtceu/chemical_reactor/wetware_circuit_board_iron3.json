@@ -1,0 +1,86 @@
+{
+	"type": "gtceu:chemical_reactor",
+	"duration": 1800,
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 5000,
+					"value": [
+						{
+							"tag": "forge:iron_iii_chloride"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		],
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:wetware_circuit_board"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 32,
+					"ingredient": {
+						"tag": "forge:foils/niobium_titanium"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:wetware_printed_circuit_board"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 480,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {},
+	"recipeConditions": [
+		{
+			"type": "cleanroom",
+			"data": {
+				"cleanroom": "cleanroom"
+			}
+		}
+	]
+}

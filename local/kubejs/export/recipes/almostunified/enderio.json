@@ -1,0 +1,14 @@
+{
+	"type": "almostunified:client_recipe_tracker",
+	"namespace": "enderio",
+	"recipes": [
+		"1$dark_bimetal_gear",
+		"1$energized_gear",
+		"3$copper_ingot_from_blasting",
+		"3$gold_ingot_from_blasting",
+		"3$iron_ingot_from_blasting",
+		"3$copper_ingot_from_smelting",
+		"3$gold_ingot_from_smelting",
+		"3$iron_ingot_from_smelting"
+	]
+}

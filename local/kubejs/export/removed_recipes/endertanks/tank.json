@@ -1,0 +1,29 @@
+{
+	"type": "endertanks:crafting",
+	"group": "endertanks:tank",
+	"pattern": [
+		"#W#",
+		"OBO",
+		"#E#"
+	],
+	"key": {
+		"#": {
+			"tag": "forge:rods/blaze"
+		},
+		"W": {
+			"tag": "minecraft:wool"
+		},
+		"B": {
+			"item": "minecraft:bucket"
+		},
+		"O": {
+			"item": "minecraft:obsidian"
+		},
+		"E": {
+			"item": "minecraft:ender_pearl"
+		}
+	},
+	"result": {
+		"item": "endertanks:ender_tank"
+	}
+}

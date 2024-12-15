@@ -1,0 +1,22 @@
+{
+  "name": "Naquadah Alloy",
+  "colors": [
+    "565656",
+    "000000"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/naquadah_alloy",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/naquadah_alloy"
+  },
+  "enabled": true,
+  "recipeDisabled": true
+}

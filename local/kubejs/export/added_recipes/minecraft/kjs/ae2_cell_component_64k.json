@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "ae2:cell_component_64k",
+		"count": 1
+	},
+	"pattern": [
+		"ABA",
+		"BCB",
+		"ABA"
+	],
+	"key": {
+		"A": {
+			"item": "minecraft:redstone"
+		},
+		"B": {
+			"item": "gtceu:certus_quartz_gem"
+		},
+		"C": {
+			"tag": "gtceu:circuits/ev"
+		}
+	}
+}

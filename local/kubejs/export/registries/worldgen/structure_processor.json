@@ -1,0 +1,17 @@
+{
+	"betterendisland:obsidian_processor": "com.yungnickyoung.minecraft.betterendisland.module.StructureProcessorTypeModule$$Lambda$5221/0x0000000800ec06a0",
+	"minecraft:capped": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda$3280/0x0000000800bcad48",
+	"minecraft:lava_submerged_block": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda$3280/0x0000000800bcad48",
+	"minecraft:block_rot": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda$3280/0x0000000800bcad48",
+	"ad_astra:structure_void_processor": "earth.terrarium.ad_astra.common.registry.ModStructures$$Lambda$17184/0x0000000802103ef0",
+	"minecraft:blackstone_replace": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda$3280/0x0000000800bcad48",
+	"minecraft:block_age": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda$3280/0x0000000800bcad48",
+	"minecraft:block_ignore": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda$3280/0x0000000800bcad48",
+	"betterendisland:block_replace_processor": "com.yungnickyoung.minecraft.betterendisland.module.StructureProcessorTypeModule$$Lambda$5219/0x0000000800ec0270",
+	"minecraft:jigsaw_replacement": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda$3280/0x0000000800bcad48",
+	"minecraft:nop": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda$3280/0x0000000800bcad48",
+	"minecraft:rule": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda$3280/0x0000000800bcad48",
+	"betterendisland:dragon_egg_processor": "com.yungnickyoung.minecraft.betterendisland.module.StructureProcessorTypeModule$$Lambda$5223/0x0000000800ec0fb8",
+	"minecraft:protected_blocks": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda$3280/0x0000000800bcad48",
+	"minecraft:gravity": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda$3280/0x0000000800bcad48"
+}

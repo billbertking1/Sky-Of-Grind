@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 8,
+	"ingredient": {
+		"tag": "forge:storage_blocks/copper"
+	},
+	"result": "minecraft:cut_copper_slab"
+}

@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"RPR",
+		"BCB",
+		"dSw"
+	],
+	"key": {
+		"R": {
+			"tag": "forge:rings/gold"
+		},
+		"P": {
+			"tag": "forge:plates/gold"
+		},
+		"B": {
+			"tag": "forge:bolts/gold"
+		},
+		"C": {
+			"item": "minecraft:comparator"
+		},
+		"S": {
+			"tag": "forge:screws/gold"
+		},
+		"w": {
+			"tag": "forge:tools/wrenches"
+		},
+		"d": {
+			"tag": "forge:tools/screwdrivers"
+		}
+	},
+	"result": {
+		"item": "minecraft:clock"
+	}
+}

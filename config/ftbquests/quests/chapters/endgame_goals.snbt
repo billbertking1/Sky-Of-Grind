@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "endgame_goals"
+	group: "6B3EFCC5BFD49997"
+	icon: "avaritia:eternal_singularity"
+	id: "06A3F0C9492DFB15"
+	order_index: 17
+	quest_links: [ ]
+	quests: [ ]
+	title: "&fEndgame Goals"
+}

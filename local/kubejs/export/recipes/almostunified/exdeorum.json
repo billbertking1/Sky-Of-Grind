@@ -1,0 +1,8 @@
+{
+	"type": "almostunified:client_recipe_tracker",
+	"namespace": "exdeorum",
+	"recipes": [
+		"1$mechanical_hammer",
+		"1$mechanical_sieve"
+	]
+}

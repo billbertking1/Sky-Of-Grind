@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "antiblocksrechiseled:blocks/stair_orange_bright",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "antiblocksrechiseled:stair_orange_bright"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

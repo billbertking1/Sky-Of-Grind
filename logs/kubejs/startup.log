@@ -1,0 +1,44 @@
+[12:04:29] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[12:04:29] [INIT] Loaded plugins:
+[12:04:29] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[12:04:29] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[12:04:29] [INIT] - thedarkcolour.exdeorum.compat.kubejs.ExDeorumKubeJsPlugin
+[12:04:29] [INIT] - com.almostreliable.kubeio.kube.KubePlugin
+[12:04:29] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[12:04:29] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[12:04:29] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[12:04:29] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[12:04:29] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[12:04:29] [INIT] - com.probejs.ProbeJSPlugin
+[12:04:29] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[12:04:29] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[12:04:29] [INIT] - net.cathienova.kubejsbloodmagic.KubeJSBloodMagicPlugin
+[12:04:29] [INIT] - dev.sorin.kubejsextendedcrafting.KubejsExtendedCraftingPlugin
+[12:04:30] [INFO] Loaded script startup_scripts:itemregistry.js in 0.107 s
+[12:04:30] [INFO] Loaded script startup_scripts:materials.js in 0.011 s
+[12:04:30] [INFO] Loaded script startup_scripts:modification.js in 0.002 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/assline.js/circuit_assline.js in 0.002 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/assline.js/conponent_assline.js in 0.001 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/atomiccompressor.js in 0.001 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/atomic_forge.js in 0.002 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/bacterial/bio-lab.js in 0.002 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/bacterial/large_bacterial_vat.js in 0.001 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/bloodaltar.js in 0.004 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/dimensional_matter.js in 0.002 s
+[12:04:30] [INFO] multiblocks/fusion.js/fusion_reactor_mk4.js#1: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine'
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/fusion.js/fusion_reactor_mk4.js in 0.05 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/greenhouse.js in 0.001 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/moonminer.js in 0.002 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/naquadahreactor.js in 0.001 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/quantumresearch.js/quantum_station.js in 0.001 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/quantum_space_projector.js in 0.002 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/solar.js/large_solar_panel.js in 0.001 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/starextractor.js in 0.001 s
+[12:04:30] [INFO] Loaded script startup_scripts:multiblocks/svs.js in 0.001 s
+[12:04:30] [INFO] singleblock.js#20: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.part.ParallelHatchPartMachine'
+[12:04:30] [INFO] Loaded script startup_scripts:singleblock.js in 0.004 s
+[12:04:30] [INFO] worldgen/ore_types.js#3: Loaded Java class 'dev.latvian.mods.kubejs.util.UtilsJS'
+[12:04:30] [INFO] Loaded script startup_scripts:worldgen/ore_types.js in 0.005 s
+[12:04:30] [INFO] Loaded script startup_scripts:worldgen/world_gen_layers.js in 0.001 s
+[12:04:30] [INFO] Loaded 23/23 KubeJS startup scripts in 1.395 s with 0 errors and 0 warnings
+[12:04:31] [INFO] materials.js#18: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty'

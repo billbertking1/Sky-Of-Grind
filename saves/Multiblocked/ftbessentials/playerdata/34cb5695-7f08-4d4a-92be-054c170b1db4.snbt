@@ -1,0 +1,16 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	last_seen: { dim: "ad_astra:glacio", x: 4463, y: 125, z: -1965, time: 1734204767344L, xRot: -34.050552f, yRot: -2.0353699f }
+	recording: "none"
+	teleport_history: [
+		{ dim: "ad_astra:mercury", x: -6, y: 120, z: 11, time: 1730145370827L }
+		{ dim: "ad_astra:venus", x: -112, y: 118, z: 271, time: 1732504571094L }
+		{ dim: "ad_extendra:ceres", x: -837, y: 275, z: -328, time: 1733513856247L }
+		{ dim: "ad_extendra:jupiter", x: -216, y: 33, z: -642, time: 1733514523866L }
+	]
+	homes: { }
+	kit_use_times: { }
+}

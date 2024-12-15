@@ -1,0 +1,40 @@
+{
+	"type": "gtceu:shaped_energy_transfer_recipe_serializer",
+	"pattern": [
+		"wHd",
+		" U "
+	],
+	"key": {
+		"H": {
+			"item": "gtceu:diamond_wire_cutter_head"
+		},
+		"U": {
+			"item": "gtceu:lv_power_unit"
+		},
+		"w": {
+			"tag": "forge:tools/wrenches"
+		},
+		"d": {
+			"tag": "forge:tools/screwdrivers"
+		}
+	},
+	"overrideCharge": true,
+	"transferMaxCharge": true,
+	"chargeIngredient": {
+		"item": "gtceu:lv_power_unit"
+	},
+	"result": {
+		"item": "gtceu:lv_diamond_wirecutter",
+		"nbt": {
+			"DisallowContainerItem": 0,
+			"GT.Behaviours": {},
+			"HideFlags": 2,
+			"MaxCharge": 100000,
+			"GT.Tool": {
+				"Damage": 0,
+				"MaxDamage": 767
+			},
+			"Charge": 0
+		}
+	}
+}

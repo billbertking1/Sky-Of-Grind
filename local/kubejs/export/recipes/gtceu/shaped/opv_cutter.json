@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WCG",
+		"VMB",
+		"CWE"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:opv_machine_hull"
+		},
+		"E": {
+			"item": "gtceu:opv_electric_motor"
+		},
+		"V": {
+			"item": "gtceu:opv_conveyor_module"
+		},
+		"C": {
+			"tag": "gtceu:circuits/opv"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		},
+		"G": {
+			"tag": "forge:glass"
+		},
+		"B": {
+			"item": "gtceu:duranium_buzz_saw_blade"
+		}
+	},
+	"result": {
+		"item": "gtceu:opv_cutter"
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"hGd",
+		"LRS",
+		"fP "
+	],
+	"key": {
+		"L": {
+			"item": "minecraft:leather"
+		},
+		"G": {
+			"tag": "forge:lenses/glass"
+		},
+		"R": {
+			"tag": "forge:rings/gold"
+		},
+		"S": {
+			"tag": "forge:screws/iron"
+		},
+		"P": {
+			"tag": "forge:plates/copper"
+		},
+		"d": {
+			"tag": "forge:tools/screwdrivers"
+		},
+		"f": {
+			"tag": "forge:tools/files"
+		},
+		"h": {
+			"tag": "forge:tools/hammers"
+		}
+	},
+	"result": {
+		"item": "minecraft:spyglass"
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PsP",
+		"WXW",
+		"PdP"
+	],
+	"key": {
+		"P": {
+			"tag": "minecraft:planks"
+		},
+		"W": {
+			"tag": "forge:plates/wood"
+		},
+		"X": {
+			"tag": "forge:bolts/wood"
+		},
+		"s": {
+			"tag": "forge:tools/saws"
+		},
+		"d": {
+			"tag": "forge:tools/screwdrivers"
+		}
+	},
+	"result": {
+		"item": "minecraft:beehive"
+	}
+}

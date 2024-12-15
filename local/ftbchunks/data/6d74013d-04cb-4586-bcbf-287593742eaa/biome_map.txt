@@ -1,0 +1,3 @@
+#7F2 ad_astra:mercury_deltas
+#3DC minecraft:plains
+#400 minecraft:the_end

@@ -1,0 +1,65 @@
+{
+	max_claim_chunks: 500
+	max_force_load_chunks: 25
+	last_login_time: 1725576606078L
+	chunks: {
+		"minecraft:overworld": [
+			{ x: 4, z: -2, time: 1725569000544L, force_loaded: 1725569006301L }
+			{ x: 3, z: 1, time: 1725569000544L, force_loaded: 1725569006304L }
+			{ x: 1, z: 0, time: 1725483200882L, force_loaded: 1725483202470L }
+			{ x: 2, z: -3, time: 1725569000544L, force_loaded: 1725569006304L }
+			{ x: -2, z: -1, time: 1725569000544L, force_loaded: 1725569006301L }
+			{ x: 4, z: 2, time: 1725569000544L, force_loaded: 1725569006303L }
+			{ x: 2, z: 1, time: 1725568990205L, force_loaded: 1725568993971L }
+			{ x: 2, z: 2, time: 1725569000544L, force_loaded: 1725569006301L }
+			{ x: 4, z: -3, time: 1725569000544L, force_loaded: 1725569006300L }
+			{ x: -2, z: 3, time: 1725569000544L }
+			{ x: 3, z: -3, time: 1725569000544L }
+			{ x: -1, z: 1, time: 1725569000544L }
+			{ x: 0, z: 3, time: 1725569000544L }
+			{ x: 2, z: 3, time: 1725569000544L }
+			{ x: 3, z: 2, time: 1725569000544L }
+			{ x: 2, z: 0, time: 1725568990203L, force_loaded: 1725568993548L }
+			{ x: 4, z: 1, time: 1725569000544L }
+			{ x: 4, z: -1, time: 1725569000544L }
+			{ x: -2, z: -2, time: 1725569000544L }
+			{ x: 0, z: 1, time: 1725483200882L, force_loaded: 1725483201654L }
+			{ x: 0, z: 0, time: 1725480865348L, force_loaded: 1725480866023L }
+			{ x: 1, z: -2, time: 1725569000544L }
+			{ x: 2, z: -1, time: 1725568990205L, force_loaded: 1725568993549L }
+			{ x: 1, z: 3, time: 1725569000544L }
+			{ x: 4, z: 0, time: 1725569000544L }
+			{ x: -1, z: 3, time: 1725569000544L, force_loaded: 1725569006298L }
+			{ x: 3, z: 0, time: 1725569000544L, force_loaded: 1725569006302L }
+			{ x: 3, z: -1, time: 1725569000544L, force_loaded: 1725569006301L }
+			{ x: 0, z: -2, time: 1725569000544L }
+			{ x: -2, z: 1, time: 1725569000544L }
+			{ x: -2, z: -3, time: 1725569000544L }
+			{ x: 0, z: -1, time: 1725480865348L, force_loaded: 1725480866024L }
+			{ x: -1, z: 2, time: 1725569000544L, force_loaded: 1725569006302L }
+			{ x: 3, z: 3, time: 1725569000544L }
+			{ x: 0, z: -3, time: 1725569000544L }
+			{ x: 1, z: 1, time: 1725483200882L, force_loaded: 1725483201653L }
+			{ x: -1, z: -3, time: 1725569000544L, force_loaded: 1725569006300L }
+			{ x: 1, z: 2, time: 1725569000544L }
+			{ x: -2, z: 2, time: 1725569000544L }
+			{ x: -2, z: 0, time: 1725569000544L, force_loaded: 1725569006301L }
+			{ x: 3, z: -2, time: 1725569000544L }
+			{ x: 1, z: -3, time: 1725569000544L }
+			{ x: -1, z: -1, time: 1725569000544L }
+			{ x: 0, z: 2, time: 1725569000544L }
+			{ x: -1, z: 0, time: 1725569000544L }
+			{ x: 2, z: -2, time: 1725569000544L, force_loaded: 1725569006303L }
+			{ x: 1, z: -1, time: 1725483200882L, force_loaded: 1725483201653L }
+			{ x: 4, z: 3, time: 1725569000544L, force_loaded: 1725569006298L }
+			{ x: -1, z: -2, time: 1725569000544L, force_loaded: 1725569006301L }
+		]
+	}
+	member_data: {
+		34cb5695-7f08-4d4a-92be-054c170b1db4: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+	}
+}

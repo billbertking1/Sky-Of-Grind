@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"L": {
+			"tag": "simplylight:any_lamp_on"
+		},
+		"S": {
+			"tag": "forge:stone"
+		},
+		"W": {
+			"tag": "minecraft:walls"
+		}
+	},
+	"pattern": [
+		" L ",
+		" W ",
+		"SSS"
+	],
+	"result": {
+		"count": 2,
+		"item": "simplylight:lamp_post"
+	},
+	"show_notification": false
+}

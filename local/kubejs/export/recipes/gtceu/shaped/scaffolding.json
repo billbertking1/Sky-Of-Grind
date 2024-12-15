@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"BSB",
+		"BWB",
+		"BrB"
+	],
+	"key": {
+		"B": {
+			"item": "minecraft:bamboo"
+		},
+		"S": {
+			"item": "minecraft:string"
+		},
+		"W": {
+			"tag": "forge:bolts/wood"
+		},
+		"r": {
+			"tag": "forge:tools/mallets"
+		}
+	},
+	"result": {
+		"item": "minecraft:scaffolding",
+		"count": 3
+	}
+}

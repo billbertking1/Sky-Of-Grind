@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "bloodmagic:blocks/dungeon_regular_cracked_brick1",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "bloodmagic:dungeon_regular_cracked_brick1"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

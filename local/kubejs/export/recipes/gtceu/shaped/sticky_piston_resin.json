@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"h",
+		"R",
+		"P"
+	],
+	"key": {
+		"R": {
+			"item": "gtceu:sticky_resin"
+		},
+		"P": {
+			"item": "minecraft:piston"
+		},
+		"h": {
+			"tag": "forge:tools/hammers"
+		}
+	},
+	"result": {
+		"item": "minecraft:sticky_piston"
+	}
+}

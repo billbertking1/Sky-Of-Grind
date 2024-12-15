@@ -1,0 +1,24 @@
+{
+	"type": "extractinator:extractinating",
+	"input": {
+		"item": "minecraft:dirt"
+	},
+	"drops": [
+		{
+			"drop": "gtceu:rubber_sapling",
+			"drop_chance": 0.8,
+			"min_drop_count": 1,
+			"max_drop_count": 3
+		},
+		{
+			"drop": "minecraft:grass",
+			"drop_chance": 0.5
+		},
+		{
+			"drop": "minecraft:oak_sapling",
+			"drop_chance": 0.75,
+			"min_drop_count": 1,
+			"max_drop_count": 3
+		}
+	]
+}

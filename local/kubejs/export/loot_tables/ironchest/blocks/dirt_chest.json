@@ -1,0 +1,39 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "ironchest:blocks/dirt_chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:copy_name",
+							"source": "block_entity"
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": "block_entity",
+							"ops": [
+								{
+									"source": "ChestPlacedAlready",
+									"target": "ChestPlacedAlready",
+									"op": "replace"
+								}
+							]
+						}
+					],
+					"name": "ironchest:dirt_chest"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

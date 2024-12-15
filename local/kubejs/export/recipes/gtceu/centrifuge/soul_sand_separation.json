@@ -1,0 +1,90 @@
+{
+	"type": "gtceu:centrifuge",
+	"duration": 200,
+	"inputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "minecraft:soul_sand"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 80,
+					"value": [
+						{
+							"fluid": "gtceu:oil"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		],
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "minecraft:sand"
+					}
+				},
+				"chance": 9000,
+				"maxChance": 10000,
+				"tierChanceBoost": 130
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:saltpeter_dust"
+					}
+				},
+				"chance": 2000,
+				"maxChance": 10000,
+				"tierChanceBoost": 160
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:coal_dust"
+					}
+				},
+				"chance": 225,
+				"maxChance": 10000,
+				"tierChanceBoost": 40
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 80,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

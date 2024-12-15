@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SSS",
+		"WBW",
+		"dSs"
+	],
+	"key": {
+		"S": {
+			"tag": "minecraft:wooden_slabs"
+		},
+		"W": {
+			"tag": "forge:screws/wood"
+		},
+		"B": {
+			"item": "minecraft:bookshelf"
+		},
+		"s": {
+			"tag": "forge:tools/saws"
+		},
+		"d": {
+			"tag": "forge:tools/screwdrivers"
+		}
+	},
+	"result": {
+		"item": "minecraft:lectern"
+	}
+}

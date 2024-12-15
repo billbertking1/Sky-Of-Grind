@@ -1,0 +1,7 @@
+{
+	"type": "almostunified:client_recipe_tracker",
+	"namespace": "hammerlib",
+	"recipes": [
+		"1$test_recipe"
+	]
+}

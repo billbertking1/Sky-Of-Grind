@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "gtceu:mv_mixer",
+		"count": 1
+	},
+	"pattern": [
+		"ABA",
+		"ACA",
+		"DED"
+	],
+	"key": {
+		"A": {
+			"item": "enderio:soularium_ingot"
+		},
+		"C": {
+			"item": "gtceu:mv_electric_motor"
+		},
+		"B": {
+			"item": "gtceu:cobalt_brass_gear"
+		},
+		"D": {
+			"item": "gtceu:good_electronic_circuit"
+		},
+		"E": {
+			"item": "gtceu:mv_machine_hull"
+		}
+	}
+}

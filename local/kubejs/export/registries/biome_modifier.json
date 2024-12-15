@@ -1,0 +1,9 @@
+{
+	"extractinator:add_silt": "net.minecraftforge.common.world.ForgeBiomeModifiers$AddFeaturesBiomeModifier",
+	"gtceu:stone_blob": "net.minecraftforge.common.world.ForgeBiomeModifiers$AddFeaturesBiomeModifier",
+	"gtceu:rubber_tree": "net.minecraftforge.common.world.ForgeBiomeModifiers$AddFeaturesBiomeModifier",
+	"gtceu:raw_oil_sprout": "net.minecraftforge.common.world.ForgeBiomeModifiers$AddFeaturesBiomeModifier",
+	"balm:balm": "net.blay09.mods.balm.forge.world.BalmBiomeModifier",
+	"extractinator:add_slush": "net.minecraftforge.common.world.ForgeBiomeModifiers$AddFeaturesBiomeModifier",
+	"architectury:impl": "dev.architectury.registry.level.biome.forge.BiomeModificationsImpl$BiomeModifierImpl"
+}

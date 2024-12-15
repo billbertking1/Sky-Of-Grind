@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "forge:ingots/polyvinyl_butyral"
+		}
+	],
+	"result": {
+		"item": "gtceu:polyvinyl_butyral_nugget",
+		"count": 9
+	}
+}

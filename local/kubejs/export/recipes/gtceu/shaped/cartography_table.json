@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"sPd",
+		"WWW",
+		"SLS"
+	],
+	"key": {
+		"P": {
+			"item": "minecraft:paper"
+		},
+		"S": {
+			"tag": "forge:screws/iron"
+		},
+		"W": {
+			"tag": "forge:plates/treated_wood"
+		},
+		"L": {
+			"tag": "minecraft:logs"
+		},
+		"s": {
+			"tag": "forge:tools/saws"
+		},
+		"d": {
+			"tag": "forge:tools/screwdrivers"
+		}
+	},
+	"result": {
+		"item": "minecraft:cartography_table"
+	}
+}

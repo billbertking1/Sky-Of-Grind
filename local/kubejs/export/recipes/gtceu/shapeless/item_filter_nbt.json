@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "gtceu:item_filter"
+		}
+	],
+	"result": {
+		"item": "gtceu:item_filter"
+	}
+}

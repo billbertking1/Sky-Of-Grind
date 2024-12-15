@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "gtceu:titanium_drum"
+		}
+	],
+	"result": {
+		"item": "gtceu:titanium_drum"
+	}
+}

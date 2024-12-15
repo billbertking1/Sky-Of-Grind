@@ -1,0 +1,53 @@
+{
+	"type": "gtceu:fermenter",
+	"duration": 150,
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 100,
+					"value": [
+						{
+							"tag": "forge:biomass"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 100,
+					"value": [
+						{
+							"fluid": "gtceu:fermented_biomass"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 2,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

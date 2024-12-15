@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"wfd",
+		"PFP",
+		"XPX"
+	],
+	"key": {
+		"P": {
+			"tag": "forge:plates/iron"
+		},
+		"X": {
+			"tag": "forge:screws/iron"
+		},
+		"F": {
+			"item": "minecraft:furnace"
+		},
+		"w": {
+			"tag": "forge:tools/wrenches"
+		},
+		"d": {
+			"tag": "forge:tools/screwdrivers"
+		},
+		"f": {
+			"tag": "forge:tools/files"
+		}
+	},
+	"result": {
+		"item": "minecraft:blast_furnace"
+	}
+}

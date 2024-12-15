@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PEP",
+		"CMC",
+		"WCW"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:opv_machine_hull"
+		},
+		"E": {
+			"item": "gtceu:opv_emitter"
+		},
+		"P": {
+			"item": "gtceu:opv_electric_piston"
+		},
+		"C": {
+			"tag": "gtceu:circuits/opv"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		}
+	},
+	"result": {
+		"item": "gtceu:opv_laser_engraver"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "exdeorum:crucible_heat_source",
+	"block_predicate": {
+		"block": "minecraft:lightning_rod",
+		"state": {
+			"facing": "up",
+			"powered": "false",
+			"waterlogged": "false"
+		}
+	},
+	"heat_value": 80
+}

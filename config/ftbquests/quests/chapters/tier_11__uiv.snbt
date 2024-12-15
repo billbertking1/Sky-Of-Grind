@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_11__uiv"
+	group: "6B3EFCC5BFD49997"
+	icon: "kubejs:dragon_processor_mainframe"
+	id: "29411A93BF152DAF"
+	order_index: 13
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Ultra Immense Voltage"]
+	title: "&#4c00ffTier 11 - UIV"
+}

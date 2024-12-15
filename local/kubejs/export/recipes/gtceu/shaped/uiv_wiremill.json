@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"EWE",
+		"CMC",
+		"EWE"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uiv_machine_hull"
+		},
+		"E": {
+			"item": "gtceu:uiv_electric_motor"
+		},
+		"C": {
+			"tag": "gtceu:circuits/uiv"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		}
+	},
+	"result": {
+		"item": "gtceu:uiv_wiremill"
+	}
+}

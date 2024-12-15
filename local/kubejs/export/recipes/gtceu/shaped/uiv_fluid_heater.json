@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"OGO",
+		"PMP",
+		"WCW"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uiv_machine_hull"
+		},
+		"P": {
+			"item": "gtceu:uiv_electric_pump"
+		},
+		"O": {
+			"item": "gtceu:trinium_quadruple_wire"
+		},
+		"C": {
+			"tag": "gtceu:circuits/uiv"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		},
+		"G": {
+			"tag": "forge:glass"
+		}
+	},
+	"result": {
+		"item": "gtceu:uiv_fluid_heater"
+	}
+}

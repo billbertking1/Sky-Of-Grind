@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#  ",
+		"yxy",
+		"aca"
+	],
+	"key": {
+		"x": {
+			"item": "minecraft:crafting_table"
+		},
+		"y": {
+			"tag": "forge:ingots/iron"
+		},
+		"a": {
+			"tag": "minecraft:logs"
+		},
+		"c": {
+			"item": "minecraft:clay_ball"
+		},
+		"#": {
+			"item": "minecraft:brick"
+		}
+	},
+	"result": {
+		"item": "chipped:mason_table",
+		"count": 1
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"type": "almostunified:client_recipe_tracker",
+	"namespace": "hostilenetworks",
+	"recipes": [
+		"1$living_matter/extraterrestrial/ender_pearl",
+		"1$living_matter/hellish/gold_ingot",
+		"1$living_matter/overworldian/gunpowder"
+	]
+}

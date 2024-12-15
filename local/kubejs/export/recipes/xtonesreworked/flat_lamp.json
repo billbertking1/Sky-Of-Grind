@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"S": {
+			"item": "minecraft:stone_slab"
+		},
+		"D": {
+			"item": "minecraft:glowstone_dust"
+		},
+		"I": {
+			"tag": "forge:ingots/iron"
+		}
+	},
+	"pattern": [
+		"   ",
+		"IDI",
+		"SSS"
+	],
+	"result": {
+		"item": "xtonesreworked:flat_lamp",
+		"count": 2
+	}
+}

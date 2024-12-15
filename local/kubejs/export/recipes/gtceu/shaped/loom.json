@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SSS",
+		"PdP",
+		"XYX"
+	],
+	"key": {
+		"S": {
+			"item": "minecraft:string"
+		},
+		"P": {
+			"tag": "forge:plates/wood"
+		},
+		"X": {
+			"tag": "forge:screws/wood"
+		},
+		"Y": {
+			"tag": "minecraft:planks"
+		},
+		"d": {
+			"tag": "forge:tools/screwdrivers"
+		}
+	},
+	"result": {
+		"item": "minecraft:loom"
+	}
+}

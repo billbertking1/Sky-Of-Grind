@@ -1,0 +1,21 @@
+{
+	"minecraft:end_city": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"minecraft:stronghold": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"minecraft:ocean_monument": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"minecraft:woodland_mansion": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"minecraft:jungle_temple": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"minecraft:desert_pyramid": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"yungsapi:yung_jigsaw": "com.yungnickyoung.minecraft.yungsapi.module.StructureTypeModule$$Lambda$5166/0x0000000800eaa2e0",
+	"minecraft:fortress": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"minecraft:jigsaw": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"ad_astra:large_jigsaw_structure": "earth.terrarium.ad_astra.common.registry.ModStructures$$Lambda$17187/0x0000000802104580",
+	"minecraft:ocean_ruin": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"minecraft:igloo": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"minecraft:nether_fossil": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"minecraft:ruined_portal": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"minecraft:ae2mtrt": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"minecraft:swamp_hut": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"minecraft:mineshaft": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"minecraft:shipwreck": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558",
+	"minecraft:buried_treasure": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda$3673/0x0000000800c27558"
+}

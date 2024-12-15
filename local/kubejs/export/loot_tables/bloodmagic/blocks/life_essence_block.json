@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "bloodmagic:blocks/life_essence_block",
+	"pools": [
+		{
+			"name": "bloodmagic:life_essence_block",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": []
+		}
+	]
+}

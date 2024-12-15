@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ACA",
+		"VMV",
+		"WCW"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:opv_machine_hull"
+		},
+		"V": {
+			"item": "gtceu:opv_conveyor_module"
+		},
+		"A": {
+			"item": "gtceu:opv_robot_arm"
+		},
+		"C": {
+			"tag": "gtceu:circuits/opv"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		}
+	},
+	"result": {
+		"item": "gtceu:opv_assembler"
+	}
+}

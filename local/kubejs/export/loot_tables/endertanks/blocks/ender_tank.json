@@ -1,0 +1,72 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"predicate": {
+										"flags": {
+											"is_sneaking": true
+										}
+									},
+									"entity": "this"
+								}
+							],
+							"name": "endertanks:ender_tank"
+						},
+						{
+							"type": "minecraft:item",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": "block_entity",
+									"ops": [
+										{
+											"source": "owner_id",
+											"target": "owner",
+											"op": "replace"
+										},
+										{
+											"source": "personal",
+											"target": "personal",
+											"op": "replace"
+										}
+									]
+								}
+							],
+							"name": "endertanks:ender_tank"
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:copy_nbt",
+					"source": "block_entity",
+					"ops": [
+						{
+							"source": "code",
+							"target": "code",
+							"op": "replace"
+						}
+					]
+				}
+			]
+		}
+	]
+}

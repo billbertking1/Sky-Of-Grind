@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"IGI",
+		"IMI",
+		"CPC"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uxv_machine_hull"
+		},
+		"P": {
+			"item": "gtceu:uxv_electric_pump"
+		},
+		"C": {
+			"tag": "gtceu:circuits/uxv"
+		},
+		"I": {
+			"tag": "forge:plates/neutronium"
+		},
+		"G": {
+			"tag": "forge:glass"
+		}
+	},
+	"result": {
+		"item": "gtceu:uxv_autoclave"
+	}
+}

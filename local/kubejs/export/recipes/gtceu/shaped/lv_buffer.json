@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"HP",
+		"CV"
+	],
+	"key": {
+		"H": {
+			"item": "gtceu:lv_machine_hull"
+		},
+		"P": {
+			"item": "gtceu:lv_electric_pump"
+		},
+		"V": {
+			"item": "gtceu:lv_conveyor_module"
+		},
+		"C": {
+			"tag": "gtceu:circuits/lv"
+		}
+	},
+	"result": {
+		"item": "gtceu:lv_buffer"
+	}
+}

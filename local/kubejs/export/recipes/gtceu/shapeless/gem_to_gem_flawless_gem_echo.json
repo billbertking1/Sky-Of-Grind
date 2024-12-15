@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "forge:exquisite_gems/echo"
+		}
+	],
+	"result": {
+		"item": "gtceu:flawless_echo_gem",
+		"count": 2
+	}
+}

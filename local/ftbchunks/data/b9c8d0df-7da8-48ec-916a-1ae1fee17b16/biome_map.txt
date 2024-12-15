@@ -1,0 +1,6 @@
+#6F6 minecraft:badlands
+#2DC minecraft:deep_dark
+#008 minecraft:desert
+#614 minecraft:eroded_badlands
+#1D5 ad_astra:orbit
+#5FF minecraft:river

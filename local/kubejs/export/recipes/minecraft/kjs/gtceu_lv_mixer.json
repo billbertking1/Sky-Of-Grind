@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "gtceu:lv_mixer",
+		"count": 1
+	},
+	"pattern": [
+		"ABA",
+		"ACA",
+		"DED"
+	],
+	"key": {
+		"A": {
+			"item": "enderio:soularium_ingot"
+		},
+		"C": {
+			"item": "gtceu:lv_electric_motor"
+		},
+		"B": {
+			"item": "gtceu:tin_rotor"
+		},
+		"D": {
+			"item": "gtceu:basic_electronic_circuit"
+		},
+		"E": {
+			"item": "gtceu:lv_machine_hull"
+		}
+	}
+}

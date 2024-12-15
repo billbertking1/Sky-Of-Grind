@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "gtceu:lv_super_chest"
+		}
+	],
+	"result": {
+		"item": "gtceu:lv_super_chest"
+	}
+}

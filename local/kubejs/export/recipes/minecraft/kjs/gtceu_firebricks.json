@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "gtceu:firebricks",
+		"count": 1
+	},
+	"pattern": [
+		"ABA",
+		"BCB",
+		"ABA"
+	],
+	"key": {
+		"A": {
+			"item": "gtceu:firebrick"
+		},
+		"B": {
+			"item": "gtceu:gypsum_dust"
+		},
+		"C": {
+			"item": "gtceu:concrete_bucket"
+		}
+	}
+}

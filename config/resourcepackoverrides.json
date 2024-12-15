@@ -1,0 +1,12 @@
+{
+  // Make sure to remove any comments when using this example as a template as the basic .json format does not support any comments
+  "schema_version": 2,
+  "failed_reloads_per_session": 5,
+  // These two packs will be enabled by default when "options.txt" is first created or when resource reloading fails and is reset to a bare-bones state
+  // Packs included here can still be manually disabled by the user, this can be prevented with overrides below though
+  "default_packs": [
+    "file/grimsky.zip",
+    "file/ccgreg.zip",
+    "file/glacialtext.zip"
+  ],
+}

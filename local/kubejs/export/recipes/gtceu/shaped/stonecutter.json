@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"f d",
+		"SBS",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "minecraft:stone_slab"
+		},
+		"S": {
+			"tag": "forge:screws/wood"
+		},
+		"B": {
+			"item": "gtceu:iron_buzz_saw_blade"
+		},
+		"d": {
+			"tag": "forge:tools/screwdrivers"
+		},
+		"f": {
+			"tag": "forge:tools/files"
+		}
+	},
+	"result": {
+		"item": "minecraft:stonecutter"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_14__max"
+	group: "6B3EFCC5BFD49997"
+	icon: "avaritia:infinity_ingot"
+	id: "004423CBAE120A16"
+	order_index: 16
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Maximum Voltage"]
+	title: "&#ff0000&l  Tier 14 - MAX"
+}

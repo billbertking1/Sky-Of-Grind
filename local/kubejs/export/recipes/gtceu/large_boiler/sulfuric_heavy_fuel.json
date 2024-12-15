@@ -1,0 +1,28 @@
+{
+	"type": "gtceu:large_boiler",
+	"duration": 10,
+	"inputs": {
+		"fluid": [
+			{
+				"content": {
+					"amount": 32,
+					"value": [
+						{
+							"tag": "forge:sulfuric_heavy_fuel"
+						}
+					]
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {},
+	"tickInputs": {},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

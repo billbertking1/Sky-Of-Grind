@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "gtceu:lp_steam_alloy_smelter",
+		"count": 1
+	},
+	"pattern": [
+		"ABA",
+		"CDC",
+		"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "gtceu:bronze_small_fluid_pipe"
+		},
+		"B": {
+			"item": "minecraft:diamond"
+		},
+		"C": {
+			"item": "minecraft:furnace"
+		},
+		"D": {
+			"item": "gtceu:bronze_brick_casing"
+		}
+	}
+}

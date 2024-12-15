@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WPW",
+		"CMC",
+		"GGG"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uiv_machine_hull"
+		},
+		"P": {
+			"item": "gtceu:uiv_electric_pump"
+		},
+		"C": {
+			"tag": "gtceu:circuits/uiv"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		},
+		"G": {
+			"tag": "forge:glass"
+		}
+	},
+	"result": {
+		"item": "gtceu:uiv_canner"
+	}
+}

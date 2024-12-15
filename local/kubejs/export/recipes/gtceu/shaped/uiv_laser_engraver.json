@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PEP",
+		"CMC",
+		"WCW"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uiv_machine_hull"
+		},
+		"E": {
+			"item": "gtceu:uiv_emitter"
+		},
+		"P": {
+			"item": "gtceu:uiv_electric_piston"
+		},
+		"C": {
+			"tag": "gtceu:circuits/uiv"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		}
+	},
+	"result": {
+		"item": "gtceu:uiv_laser_engraver"
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"GRG",
+		"WEW",
+		"CMC"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uxv_machine_hull"
+		},
+		"R": {
+			"tag": "forge:rotors/darmstadtium"
+		},
+		"E": {
+			"item": "gtceu:uxv_electric_motor"
+		},
+		"C": {
+			"tag": "gtceu:circuits/uxv"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		},
+		"G": {
+			"item": "gtceu:polyethylene_normal_fluid_pipe"
+		}
+	},
+	"result": {
+		"item": "gtceu:uxv_chemical_reactor"
+	}
+}

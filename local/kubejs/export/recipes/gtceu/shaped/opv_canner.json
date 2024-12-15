@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WPW",
+		"CMC",
+		"GGG"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:opv_machine_hull"
+		},
+		"P": {
+			"item": "gtceu:opv_electric_pump"
+		},
+		"C": {
+			"tag": "gtceu:circuits/opv"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		},
+		"G": {
+			"tag": "forge:glass"
+		}
+	},
+	"result": {
+		"item": "gtceu:opv_canner"
+	}
+}

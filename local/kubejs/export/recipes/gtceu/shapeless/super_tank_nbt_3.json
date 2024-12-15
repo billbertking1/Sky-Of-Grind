@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "gtceu:hv_super_tank"
+		}
+	],
+	"result": {
+		"item": "gtceu:hv_super_tank"
+	}
+}

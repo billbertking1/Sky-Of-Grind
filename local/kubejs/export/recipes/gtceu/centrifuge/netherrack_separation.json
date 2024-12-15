@@ -1,0 +1,87 @@
+{
+	"type": "gtceu:centrifuge",
+	"duration": 160,
+	"inputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"tag": "forge:dusts/netherrack"
+					}
+				},
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"outputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "minecraft:redstone"
+					}
+				},
+				"chance": 625,
+				"maxChance": 10000,
+				"tierChanceBoost": 95
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:gold_dust"
+					}
+				},
+				"chance": 70,
+				"maxChance": 10000,
+				"tierChanceBoost": 15
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:sulfur_dust"
+					}
+				},
+				"chance": 2475,
+				"maxChance": 10000,
+				"tierChanceBoost": 25
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:coal_dust"
+					}
+				},
+				"chance": 625,
+				"maxChance": 10000,
+				"tierChanceBoost": 95
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 20,
+				"chance": 10000,
+				"maxChance": 10000,
+				"tierChanceBoost": 0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"inputChanceLogics": {},
+	"outputChanceLogics": {},
+	"tickInputChanceLogics": {},
+	"tickOutputChanceLogics": {}
+}

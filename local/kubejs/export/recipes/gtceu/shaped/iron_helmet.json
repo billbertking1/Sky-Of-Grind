@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PPP",
+		"PhP"
+	],
+	"key": {
+		"P": {
+			"tag": "forge:plates/iron"
+		},
+		"h": {
+			"tag": "forge:tools/hammers"
+		}
+	},
+	"result": {
+		"item": "minecraft:iron_helmet",
+		"nbt": {
+			"Damage": 0
+		}
+	}
+}

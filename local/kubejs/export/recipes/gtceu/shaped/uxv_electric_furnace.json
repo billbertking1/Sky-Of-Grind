@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ECE",
+		"CMC",
+		"WCW"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uxv_machine_hull"
+		},
+		"E": {
+			"tag": "gtceu:circuits/uxv"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		},
+		"C": {
+			"item": "gtceu:trinium_double_wire"
+		}
+	},
+	"result": {
+		"item": "gtceu:uxv_electric_furnace"
+	}
+}

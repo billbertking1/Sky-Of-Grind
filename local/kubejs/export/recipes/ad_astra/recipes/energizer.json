@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"#": {
+			"tag": "ad_astra_platform:ostrum_plates"
+		},
+		"B": {
+			"item": "ad_astra:ostrum_block"
+		},
+		"D": {
+			"tag": "forge:storage_blocks/diamond"
+		},
+		"I": {
+			"tag": "forge:gems/diamond"
+		}
+	},
+	"pattern": [
+		"#I#",
+		"#D#",
+		"B#B"
+	],
+	"result": {
+		"item": "ad_astra:energizer"
+	}
+}

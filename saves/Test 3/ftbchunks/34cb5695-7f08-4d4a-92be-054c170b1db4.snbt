@@ -1,0 +1,52 @@
+{
+	max_claim_chunks: 500
+	max_force_load_chunks: 25
+	last_login_time: 1728318596921L
+	chunks: {
+		"minecraft:overworld": [
+			{ x: 3, z: 1, time: 1725650126191L }
+			{ x: 1, z: 0, time: 1725650126191L, force_loaded: 1725730085791L }
+			{ x: 3, z: -1, time: 1725650126191L }
+			{ x: 0, z: -2, time: 1725650126192L }
+			{ x: -2, z: -1, time: 1725650126191L }
+			{ x: -2, z: 1, time: 1725650126191L }
+			{ x: 0, z: -1, time: 1725650126191L, force_loaded: 1725730085790L }
+			{ x: -1, z: 2, time: 1725650126191L, force_loaded: 1725730085792L }
+			{ x: 2, z: 2, time: 1725650126191L, force_loaded: 1725730085790L }
+			{ x: 3, z: 3, time: 1725650126191L }
+			{ x: 2, z: 1, time: 1725650126192L, force_loaded: 1725730085792L }
+			{ x: -2, z: 3, time: 1725650126192L }
+			{ x: -1, z: 1, time: 1725650126191L, force_loaded: 1725730085785L }
+			{ x: 1, z: 1, time: 1725650126191L, force_loaded: 1725730085790L }
+			{ x: 0, z: 3, time: 1725650126191L }
+			{ x: 1, z: 2, time: 1725650126191L, force_loaded: 1725730085792L }
+			{ x: -2, z: 2, time: 1725650126191L }
+			{ x: 2, z: 3, time: 1725650126191L }
+			{ x: 3, z: 2, time: 1725650126191L }
+			{ x: -2, z: 0, time: 1725650126191L }
+			{ x: 2, z: 0, time: 1725650126191L, force_loaded: 1725730085791L }
+			{ x: 3, z: -2, time: 1725650126191L }
+			{ x: -1, z: -1, time: 1725650126191L, force_loaded: 1725730085791L }
+			{ x: -2, z: -2, time: 1725650126191L }
+			{ x: 0, z: 1, time: 1725650126191L, force_loaded: 1725730085792L }
+			{ x: 0, z: 0, time: 1725650126191L, force_loaded: 1725730085792L }
+			{ x: 1, z: -2, time: 1725650126191L }
+			{ x: 2, z: -1, time: 1725650126191L, force_loaded: 1725730085791L }
+			{ x: 1, z: 3, time: 1725650126191L }
+			{ x: 0, z: 2, time: 1725650126191L, force_loaded: 1725730085789L }
+			{ x: -1, z: 0, time: 1725650126191L, force_loaded: 1725730085791L }
+			{ x: 2, z: -2, time: 1725650126191L }
+			{ x: -1, z: 3, time: 1725650126189L }
+			{ x: 1, z: -1, time: 1725650126191L, force_loaded: 1725730085791L }
+			{ x: 3, z: 0, time: 1725650126191L }
+			{ x: -1, z: -2, time: 1725650126191L }
+		]
+	}
+	member_data: {
+		34cb5695-7f08-4d4a-92be-054c170b1db4: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+	}
+}

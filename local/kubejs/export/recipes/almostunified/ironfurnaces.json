@@ -1,0 +1,9 @@
+{
+	"type": "almostunified:client_recipe_tracker",
+	"namespace": "ironfurnaces",
+	"recipes": [
+		"1$augments/augment_fuel",
+		"1$furnaces/netherite_furnace",
+		"1$upgrades/upgrade_netherite"
+	]
+}

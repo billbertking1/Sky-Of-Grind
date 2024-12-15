@@ -1,0 +1,22 @@
+{
+  "name": "Titanium",
+  "colors": [
+    "ff63fd",
+    "960f95"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/titanium",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/titanium"
+  },
+  "enabled": true,
+  "recipeDisabled": true
+}

@@ -1,0 +1,13 @@
+{
+	"type": "bloodmagic:array",
+	"addedinput": {
+		"tag": "forge:gems/coal"
+	},
+	"baseinput": {
+		"tag": "forge:gems/coal"
+	},
+	"output": {
+		"item": "minecraft:bedrock"
+	},
+	"texture": "bloodmagic:textures/models/alchemyarrays/sunarray.png"
+}

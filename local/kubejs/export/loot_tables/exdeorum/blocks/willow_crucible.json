@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "exdeorum:blocks/willow_crucible",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "exdeorum:willow_crucible"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

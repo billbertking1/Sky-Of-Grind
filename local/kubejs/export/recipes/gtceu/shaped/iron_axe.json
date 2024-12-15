@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PIf",
+		"PS ",
+		"hS "
+	],
+	"key": {
+		"P": {
+			"tag": "forge:plates/iron"
+		},
+		"I": {
+			"tag": "forge:ingots/iron"
+		},
+		"S": {
+			"tag": "forge:rods/wood"
+		},
+		"f": {
+			"tag": "forge:tools/files"
+		},
+		"h": {
+			"tag": "forge:tools/hammers"
+		}
+	},
+	"result": {
+		"item": "minecraft:iron_axe",
+		"nbt": {
+			"Damage": 0
+		}
+	}
+}

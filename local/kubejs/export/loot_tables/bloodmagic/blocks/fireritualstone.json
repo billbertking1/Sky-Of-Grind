@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "bloodmagic:blocks/fireritualstone",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "bloodmagic:ritualstone"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

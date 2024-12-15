@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"result": {
+		"item": "minecraft:leather",
+		"count": 1
+	},
+	"ingredients": [
+		{
+			"item": "minecraft:rotten_flesh"
+		}
+	]
+}

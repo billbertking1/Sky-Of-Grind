@@ -1,0 +1,16 @@
+[
+	"#extractinator_platform:dusts/bauxite?",
+	"#extractinator_platform:dusts/zinc?",
+	"#extractinator_platform:gems/ruby?",
+	"#extractinator_platform:gems/sapphire?",
+	"#extractinator_platform:raw_materials/antimony?",
+	"#extractinator_platform:raw_materials/lead?",
+	"#extractinator_platform:raw_materials/nickel?",
+	"#extractinator_platform:raw_materials/silver?",
+	"create:raw_zinc?",
+	"minecraft:lapis_lazuli",
+	"minecraft:quartz",
+	"minecraft:redstone",
+	"numismatic-overhaul:bronze_coin?",
+	"techreborn:galena_dust?"
+]

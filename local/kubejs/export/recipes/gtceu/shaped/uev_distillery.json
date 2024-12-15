@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"GBG",
+		"CMC",
+		"WPW"
+	],
+	"key": {
+		"M": {
+			"item": "gtceu:uev_machine_hull"
+		},
+		"P": {
+			"item": "gtceu:uev_electric_pump"
+		},
+		"B": {
+			"tag": "forge:rods/blaze"
+		},
+		"C": {
+			"tag": "gtceu:circuits/uev"
+		},
+		"W": {
+			"item": "gtceu:europium_single_cable"
+		},
+		"G": {
+			"tag": "forge:glass"
+		}
+	},
+	"result": {
+		"item": "gtceu:uev_distillery"
+	}
+}

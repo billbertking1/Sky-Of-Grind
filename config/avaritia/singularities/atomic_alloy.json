@@ -1,0 +1,22 @@
+{
+  "name": "Atomic Alloy",
+  "colors": [
+    "6929ff",
+    "8e5eff"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/atomic_alloy",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/atomic_alloy"
+  },
+  "enabled": true,
+  "recipeDisabled": true
+}

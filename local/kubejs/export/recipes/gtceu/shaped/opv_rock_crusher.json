@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PMW",
+		"CHC",
+		"GGG"
+	],
+	"key": {
+		"P": {
+			"item": "gtceu:opv_electric_piston"
+		},
+		"M": {
+			"item": "gtceu:opv_electric_motor"
+		},
+		"W": {
+			"item": "gtceu:tungsten_grinding_head"
+		},
+		"C": {
+			"item": "gtceu:europium_single_cable"
+		},
+		"H": {
+			"item": "gtceu:opv_machine_hull"
+		},
+		"G": {
+			"tag": "forge:glass"
+		}
+	},
+	"result": {
+		"item": "gtceu:opv_rock_crusher"
+	}
+}
