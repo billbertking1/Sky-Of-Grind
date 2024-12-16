@@ -18,7 +18,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .aisle('#C###CC##C###C#', 'C#CCCB###BCCC#C', '#C###C##CC###C#')
             .aisle('##C###CCC###C##', '#B#B##BBB##B#B#', '##C###CCC###C##')
             .aisle('##C#########C##', '#B#E##C#C##E#B#', '##C#########C##')
-            .aisle('###C#######C###', '##EAEBC#CBEAE##', '###C#######C###')
+            .aisle('###C#######C###', '##EAEBCACBEAE##', '###C#######C###')
             .aisle('####CC###CC####', '###E##CBC##E###', '####CC###CC####')
             .aisle('######CCC######', '####BB###BB####', '######CCC######')
             .aisle('###############', '######CKC######', '###############')

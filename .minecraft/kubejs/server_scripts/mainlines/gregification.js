@@ -1151,7 +1151,7 @@ sog.recipes.gtceu.autoclave('gtceu:ac/acidic_resonant_residue')
 .duration(100)
 .EUt(GTValues.VA[GTValues.UEV]);
 sog.recipes.gtceu.extractor('creative_data2')
-.itemInputs('64x gtceu:creative_computation_provider')
+.itemInputs('64x #gtceu:circuits/uv')
 .itemOutputs('gtceu:creative_data_access_hatch')
 .duration(100)
 .EUt(GTValues.VA[GTValues.UV]);

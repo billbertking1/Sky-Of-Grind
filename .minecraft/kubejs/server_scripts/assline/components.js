@@ -90,7 +90,7 @@ event.recipes.gtceu.assembly_line('uhvenergydyanmohatch')
 .duration(600)
 .EUt(GTValues.VA[GTValues.UHV])
 event.recipes.gtceu.assembly_line('uhv_emitter')
-.itemInputs('gtceu:resonant_essence_frame', 'gtceu:uhv_electric_motor', '4x gtceu:long_neutronium_rod', 'gtceu:gravi_star', '2x gtceu:wetware_processor_mainframe', '64x gtceu:cosmic_neutronium_foil', '32x gtceu:cosmic_neutronium_foil', '4x gtceu:crystal_matrix_single_wire', 'avaritia:eternal_singularity')
+.itemInputs('gtceu:resonant_essence_frame', 'gtceu:uhv_electric_motor', '4x gtceu:long_neutronium_rod', 'gtceu:gravi_star', '2x #gtceu:circuits/uhv', '64x gtceu:cosmic_neutronium_foil', '32x gtceu:cosmic_neutronium_foil', '4x gtceu:crystal_matrix_single_wire', 'avaritia:eternal_singularity')
 .itemOutputs('gtceu:uhv_emitter')
 .inputFluids(
   Fluid.of('gtceu:lubricant', 1000),
@@ -101,7 +101,7 @@ event.recipes.gtceu.assembly_line('uhv_emitter')
 .duration(600)
 .EUt(GTValues.VA[GTValues.UV])
 event.recipes.gtceu.assembly_line('uhv_sensor')
-.itemInputs('gtceu:resonant_essence_frame', 'gtceu:uhv_electric_motor', '4x gtceu:neutronium_plate', 'gtceu:gravi_star', '2x gtceu:wetware_processor_mainframe', '64x gtceu:cosmic_neutronium_foil', '32x gtceu:cosmic_neutronium_foil', '4x gtceu:crystal_matrix_single_wire', 'avaritia:eternal_singularity')
+.itemInputs('gtceu:resonant_essence_frame', 'gtceu:uhv_electric_motor', '4x gtceu:neutronium_plate', 'gtceu:gravi_star', '2x #gtceu:circuits/uhv', '64x gtceu:cosmic_neutronium_foil', '32x gtceu:cosmic_neutronium_foil', '4x gtceu:crystal_matrix_single_wire', 'avaritia:eternal_singularity')
 
 .itemOutputs('gtceu:uhv_sensor')
 .inputFluids(

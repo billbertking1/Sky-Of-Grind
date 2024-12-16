@@ -57,16 +57,14 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('F', Predicates.blocks('gtceu:fusion_glass'))
             .where('I', Predicates.blocks('minecraft:netherite_block'))
             .where('P', Predicates.blocks('minecraft:beacon'))
-            .where(
-                "B",
-                Predicates.blocks('kubejs:kaemite_casing')
-                  .or(Predicates.autoAbilities(definition.getRecipeTypes()))
-                  .or(Predicates.abilities(PartAbility.MAINTENANCE))
-                  .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setMaxGlobalLimited(1))
+            .where("B", Predicates.blocks('kubejs:kaemite_casing')
+            .or(Predicates.abilities(PartAbility.MAINTENANCE))
+            .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+
             )
             .where('#', Predicates.any())
             .build()
         )
-        .workableCasingRenderer("kubejs:block/casings/quantum_casing", 'gtceu:block/multiblock/fusion_reactor', true)
+        .workableCasingRenderer("kubejs:block/casings/kaemite_casing", 'gtceu:block/multiblock/fusion_reactor', true)
 })
 
