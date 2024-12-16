@@ -41,7 +41,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2560C53365DBDA7D"]
 			description: ["Unlike &cUHV&r tier, here you dont need a crazy line to get components. Don't worry."]
 			hide_details_until_startable: false
 			id: "071D143BE842866F"
@@ -73,8 +72,8 @@
 				}
 			]
 			title: "UEV Parts #1"
-			x: 5.0d
-			y: 0.0d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["071D143BE842866F"]
@@ -363,6 +362,42 @@
 				type: "item"
 			}]
 			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2560C53365DBDA7D"]
+			description: [
+				"Congrats. New Donut."
+				""
+				"This is a great achievement, and will set  up all your UEv Progression."
+				""
+				"Now, since the fusion GUI is made by vanilla GT and we are using new inputs JEI doesnt like it."
+				""
+				""
+				"So for every new material made on the MK 4 you will need to input Computation. And instead of having a speed duration it will complete once you get enough CWU ([cwu  input*500]   Ex: 256*500 CWU)"
+				""
+				""
+				"Jei doesnt like this, so this is the cost for every new material:"
+				" (next page)"
+				"{@pagebreak}"
+				""
+				"Crystal Matrix = 64 CWU/t (64*500 duration)"
+				"Cosmic Titanium =  64 CWU/t (64*500 duration)"
+				"Cosmic Tungsten =  64 CWU/t (64*500 duration)"
+				"Cosmic Iridium =  96 CWU/t (96*500 duration)"
+				"Cosmic Osmium =  64 CWU/t (64*500 duration)"
+				"Nihonium =  256 CWU/t (256*500 duration)"
+				"Oganesson =  256 CWU/t (256*500 duration)"
+			]
+			id: "1AAD55E80A86E225"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "409DE0DBF1AB2A5A"
+				item: "gtceu:uev_fusion_reactor"
+				type: "item"
+			}]
+			x: 6.5d
 			y: 1.5d
 		}
 	]

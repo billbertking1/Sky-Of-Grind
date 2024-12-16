@@ -21,9 +21,6 @@ ItemEvents.tooltip(event => {
     event.addAdvanced('gtceu:atomicompressor', (item, adv, text) => {
         text.add(1, Text.translatable('gtceu.multiblock.parallelizable.tooltip'))
     })
-    event.addAdvanced('gtceu:quantum_space_projector', (item, adv, text) => {
-        text.add(1, Text.translatable('gtceu.multiblock.parallelizable.tooltip'))
-    })
     event.addAdvanced('gtceu:bio_lab', (item, adv, text) => {
         text.add(1, Text.translatable('gtceu.multiblock.parallelizable.tooltip'))
     })

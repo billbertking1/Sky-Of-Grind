@@ -1026,6 +1026,12 @@ sog.recipes.gtceu.assembler('uhv_voltage_coil')
 .itemOutputs('kubejs:uhv_voltage_coil')
 .duration(200)
 .EUt(GTValues.VA[GTValues.UHV]);
+sog.recipes.gtceu.assembler('uev_voltage_coil')
+.itemInputs('gtceu:magnetic_samarium_rod', '16x gtceu:fine_draconium_wire')
+.circuit(1)
+.itemOutputs('kubejs:uev_voltage_coil')
+.duration(400)
+.EUt(GTValues.VA[GTValues.UHV]);
 sog.shaped(
     'minecraft:netherite_upgrade_smithing_template',
     ['ABA', 'AZA', 'AAA'],
@@ -1363,21 +1369,21 @@ sog.shaped(
     'kubejs:component_tile_casing',
     ['AAA', 'ABA', 'AAA'],
     {
-        A: 'gtceu:draconium_plate',
+        A: 'gtceu:cosmic_titanium_plate',
         B: 'gtceu:tritanium_frame'
 })
 sog.shaped(
     'kubejs:large_precision_casing',
     ['AAA', 'ABA', 'AAA'],
     {
-        A: 'gtceu:draconium_plate',
+        A: 'gtceu:cosmic_tungsten_plate',
         B: 'gtceu:hypoxylon_frame'
 })
 sog.shaped(
     'kubejs:reinforced_computation_casing',
     ['AAA', 'ABA', 'AAA'],
     {
-        A: 'gtceu:draconium_plate',
+        A: 'gtceu:cosmic_iridium_plate',
         B: 'gtceu:computer_casing'
 })
 

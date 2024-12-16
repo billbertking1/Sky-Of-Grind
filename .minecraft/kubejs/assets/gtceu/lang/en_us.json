@@ -138,6 +138,9 @@
     "gtceu.opv_parallel_hatch.desc": "§rAllows to run up to 262144 recipes in parallel",
     "gtceu.multiblock.uev_fusion_reactor.description": "§7The Fusion Reactor MK 4 is a large multiblock structure used for fusing elements into heavier ones. It can only use UEV Energy Hatches. For every Hatch it has, its buffer increases by 160M EU, and has a maximum of 2560M.",
     
+    "gtceu.jei.ore_vein.glacio_chaos": "Chaos Vein Glacio",
+    "gtceu.jei.ore_vein.glacio_pitchblend": "Pitchblend Vein Glacio",
+    "gtceu.jei.ore_vein.glacio_rutile": "Rutile Vein Glacio",
     "tagprefix.venus_stone": "Venus %s Ore",
     "tagprefix.mercury_stone": "Mercury %s Ore",
     "tagprefix.glacio_stone": "Glacio %s Ore"

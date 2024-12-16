@@ -37,6 +37,17 @@ sog.recipes.gtceu.assembly_line('fusion_reactor_mk4')
 .duration(1000)
 .EUt(GTValues.VA[GTValues.UEV])
 
+
+
+
+
+sog.recipes.gtceu.fusion_reactor('crystal_matrix')
+.inputFluids('gtceu:diamond 288', 'gtceu:radon 144')
+.outputFluids('gtceu:crystal_matrix 144')
+.fusionStartEU(640000000)
+.EUt((GTValues.VA[GTValues.UEV]))
+.totalCWU(64*500)
+.CWUt(64)
     sog.recipes.gtceu.fusion_reactor('cosmic_titanium')
             .inputFluids('gtceu:titanium 350', 'gtceu:resonant_essence 16')
             .outputFluids('gtceu:cosmic_titanium 32')

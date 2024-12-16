@@ -75,7 +75,7 @@ Fluid.of('gtceu:condensed_star_matter', 8124)
 // A S S   L I N E S
 
 event.recipes.gtceu.assembly_line('component_assembly_line')
-.itemInputs('gtceu:assembly_line', '8x #gtceu:circuits/uev', '4x avaritia:eternal_singularity', 'gtceu:uhv_ultimate_battery', '64x gtceu:fine_resonant_essence_wire', 'ae2:creative_energy_cell', '64x gtceu:fine_hypoxylon_wire', '64x gtceu:fine_hypoxylon_wire', '64x gtceu:fine_hypoxylon_wire', '64x gtceu:fine_hypoxylon_wire', '64x gtceu:fine_hypoxylon_wire')
+.itemInputs('gtceu:assembly_line', '8x #gtceu:circuits/uev', '4x avaritia:eternal_singularity', 'gtceu:uhv_ultimate_battery', '64x gtceu:fine_cosmic_neutronium_wire', 'ae2:creative_energy_cell', '64x gtceu:fine_cosmic_titanium_wire', '64x gtceu:fine_cosmic_titanium_wire', '64x gtceu:fine_cosmic_titanium_wire', '64x gtceu:fine_cosmic_titanium_wire', '64x gtceu:fine_cosmic_titanium_wire')
 .itemOutputs('gtceu:component_assembly_line')
 .inputFluids(
 Fluid.of('gtceu:soldering_alloy', 1152),
@@ -85,7 +85,7 @@ Fluid.of('gtceu:condensed_star_matter', 8124)
 .duration(500)
 .EUt(GTValues.VA[GTValues.UEV])     
 event.recipes.gtceu.assembly_line('circuit_assembly_line')
-.itemInputs('gtceu:assembly_line', '8x #gtceu:circuits/uev', '4x avaritia:eternal_singularity', 'gtceu:uhv_ultimate_battery', '64x gtceu:fine_resonant_essence_wire', 'ae2:creative_energy_cell', '64x gtceu:fine_draconium_wire', '64x gtceu:fine_draconium_wire', '64x gtceu:fine_draconium_wire', '64x gtceu:fine_draconium_wire', '64x gtceu:fine_draconium_wire')
+.itemInputs('gtceu:assembly_line', '8x #gtceu:circuits/uev', '4x avaritia:eternal_singularity', 'gtceu:uhv_ultimate_battery', '64x gtceu:fine_cosmic_neutronium_wire', 'ae2:creative_energy_cell', '64x gtceu:fine_cosmic_tungsten_wire', '64x gtceu:fine_cosmic_tungsten_wire', '64x gtceu:fine_cosmic_tungsten_wire', '64x gtceu:fine_cosmic_tungsten_wire', '64x gtceu:fine_cosmic_tungsten_wire')
 .itemOutputs('gtceu:circuit_assembly_line')
 .inputFluids(
 Fluid.of('gtceu:soldering_alloy', 1152),
@@ -95,7 +95,7 @@ Fluid.of('gtceu:condensed_star_matter', 8124)
 .duration(500)
 .EUt(GTValues.VA[GTValues.UEV])     
 event.recipes.gtceu.assembly_line('quantum_station')
-.itemInputs('gtceu:research_station', '8x #gtceu:circuits/uev', '4x avaritia:eternal_singularity', 'gtceu:uhv_ultimate_battery', '64x gtceu:fine_resonant_essence_wire', 'ae2:creative_energy_cell', '64x gtceu:fine_draconium_wire', '64x gtceu:fine_draconium_wire', '64x gtceu:fine_draconium_wire', '64x gtceu:fine_draconium_wire', '64x gtceu:fine_draconium_wire')
+.itemInputs('gtceu:research_station', '8x #gtceu:circuits/uev', '4x avaritia:eternal_singularity', 'gtceu:uhv_ultimate_battery', '64x gtceu:fine_cosmic_neutronium_wire', 'ae2:creative_energy_cell', '64x gtceu:fine_cosmic_iridium_wire', '64x gtceu:fine_cosmic_iridium_wire', '64x gtceu:fine_cosmic_iridium_wire', '64x gtceu:fine_cosmic_iridium_wire', '64x gtceu:fine_cosmic_iridium_wire', '4x gtceu:uhv_field_generator')
 .itemOutputs('gtceu:quantum_station')
 .inputFluids(
 Fluid.of('gtceu:soldering_alloy', 1152),
