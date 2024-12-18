@@ -400,6 +400,86 @@
 			x: 6.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["1AAD55E80A86E225"]
+			description: [
+				"A new research."
+				""
+				"Yes, I know you probably already have creative data access hatch, but this is different."
+				""
+				"You will need it for all the next machines."
+			]
+			id: "2BB9590EEA5BFEF4"
+			tasks: [{
+				id: "67ECF415F6D49D89"
+				item: "gtceu:quantum_station"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1AAD55E80A86E225"]
+			id: "4D423618B3A7A7CB"
+			tasks: [{
+				id: "215E02194FF1541F"
+				item: "gtceu:circuit_assembly_line"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1AAD55E80A86E225"]
+			id: "132CEAF670E7CC3B"
+			tasks: [{
+				id: "6627781FCD10E93D"
+				item: "gtceu:component_assembly_line"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			id: "254253339D49031B"
+			tasks: [{
+				id: "5FC7D7457857851D"
+				item: "kubejs:dragon_processor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			id: "62D073FF4549E639"
+			tasks: [{
+				id: "4E66BB57546CACC0"
+				item: "kubejs:dragon_processor_computer"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			id: "0F2A82E307211849"
+			tasks: [{
+				id: "43DEFB919707F87E"
+				item: "kubejs:dragon_processor_assembly"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			id: "6BE3B123AC90C909"
+			tasks: [{
+				id: "19E357B5A906F191"
+				item: "kubejs:dragon_processor_mainframe"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.5d
+		}
 	]
 	subtitle: ["Ultra Excessive Voltage"]
 	title: "&#00c900Tier 10 - UEV"

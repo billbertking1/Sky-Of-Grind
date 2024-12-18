@@ -78,9 +78,11 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				count: 10L
 				id: "4121240A77A18379"
-				item: { Count: 10, id: "gtceu:doge_coin" }
+				item: "gtceu:doge_coin"
+				only_from_crafting: true
 				type: "item"
 			}]
 			title: "Data Orb"
