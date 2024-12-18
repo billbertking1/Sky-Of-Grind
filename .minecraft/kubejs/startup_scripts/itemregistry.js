@@ -1,8 +1,17 @@
 Platform.mods.kubejs.name = 'GregTech';
-Platform.mods.bloodmagic.name = 'Gregified Blood Magic';
+Platform.mods.bloodmagic.name = 'GregTechBM';
 
 StartupEvents.registry('item', sog => {
-
+    //Universal circuits
+        const tiers = ["ulv", "lv", "mv", "hv", "ev", "iv", "luv", "zpm", "uv", "uhv", "uev", "uiv"]
+        tiers.forEach((universal_circuit) => {
+            event.create(universal_circuit + "_universal_circuit")
+                .tag("gtceu:circuits/" + universal_circuit)
+                .tag("gtceu:circuits/universal")
+                .displayName(universal_circuit.toUpperCase() + " Universal Circuit")
+                .tooltip("§7A Universal Circuit")
+                .textureJson({ layer0: `kubejs:item/universal_circuit/${universal_circuit}_universal_circuit` })
+        })
 
     // Circuit stuff
 sog.create('star_extruder_mold').maxStackSize(64).glow(true).displayName('Extruder Mold (Star)')
@@ -28,10 +37,7 @@ sog.create('dimensional_processor').maxStackSize(64).displayName('Dimensional Pr
 sog.create('dimensional_processor_assembly').maxStackSize(64).displayName('Dimensional Processor Assembly').tooltip('§f§lUXV-Tier Circuit')
 sog.create('dimensional_processor_computer').maxStackSize(64).displayName('Dimensional Processor Computer').tooltip('§f§lOPV-Tier Circuit')
 sog.create('dimensional_processor_mainframe').maxStackSize(64).displayName('Dimensional Processor Mainframe').tooltip('§f§lMAX-Tier Circuit')
-sog.create('fallen_singularity').maxStackSize(64).displayName('Fallen Singularity').tooltip('§cNot-Stabilized Collapsed Singularity')
-sog.create('atomically_compressed_black_hole').maxStackSize(64).displayName('Atomically-Compressed Black Hole').tooltip('§0Hold with caution. Maintains an Event Horizon')
-sog.create('stabilized_collapsed_singularity').maxStackSize(64).displayName('Stabilized Collapsed Singularity')
-sog.create('quantum_resonant_core').maxStackSize(64).displayName('Quantum Resonant Core')
+
     // Condensed / Atomic Stuff
 sog.create('condensed_star_matter').maxStackSize(64).displayName('Condensed Star Matter').tooltip('Matter of gods')
 sog.create('quantum_energy_capsule').maxStackSize(64).displayName('Quantum Energy Capsule').tooltip('Not safe for work')
@@ -39,25 +45,19 @@ sog.create('gravitational_containment_cell').maxStackSize(64).displayName('Gravi
 sog.create('gravitational_fluctuation_module').maxStackSize(64).displayName('Gravitational Fluctuation Module')
 sog.create('exotic_matter').maxStackSize(64).displayName('§5Exotic Matter')
 sog.create('stable_matter').maxStackSize(64).displayName('Stable Matter')
-    //Singularities Stuff
-sog.create('singsteel').maxStackSize(64).displayName('Steel Singularity')
-sog.create('singaluminium').maxStackSize(64).displayName('Aluminium Singularity')
-sog.create('singstainsteel').maxStackSize(64).displayName('Stainless Steel Singularity')
-sog.create('singtitanium').maxStackSize(64).displayName('Titanium Singularity')
-sog.create('singtungstensteel').maxStackSize(64).displayName('Tungstensteel Singularity')
-sog.create('singsrhodiumpalladium').maxStackSize(64).displayName('Rhodium Plated Palladium Singularity')
-sog.create('singnaqalloy').maxStackSize(64).displayName('Naquadah Alloy Singularity')
-sog.create('singdarmstad').maxStackSize(64).displayName('Darmstadtium Singularity')
-sog.create('singatomicalloy').maxStackSize(64).displayName('Atomic Alloy Singularity')
-sog.create('singneutronium').maxStackSize(64).displayName('Neutronium Singularity')
+sog.create('atomically_compressed_black_hole').maxStackSize(64).displayName('Atomically-Compressed Black Hole').tooltip('§0Hold with caution. Maintains an Event Horizon')
+sog.create('quantum_resonant_core').maxStackSize(64).displayName('Quantum Resonant Core')
+    //Singularities Stuff 
 sog.create('antimattersingularity').maxStackSize(64).displayName('Antimatter Catalyst Singularity').glow(true).tooltip('Not safe for work')
-    //voltage coils
-sog.create('uhv_voltage_coil').maxStackSize(64).displayName('UHV Voltage Coil')
-sog.create('uev_voltage_coil').maxStackSize(64).displayName('UEV Voltage Coil')
-sog.create('uiv_voltage_coil').maxStackSize(64).displayName('UIV Voltage Coil')
-sog.create('uxv_voltage_coil').maxStackSize(64).displayName('UXV Voltage Coil')
-sog.create('opv_voltage_coil').maxStackSize(64).displayName('OPV Voltage Coil')
-sog.create('max_voltage_coil').maxStackSize(64).displayName('MAX Voltage Coil')
+sog.create('stabilized_collapsed_singularity').maxStackSize(64).displayName('Stabilized Collapsed Singularity')    
+sog.create('fallen_singularity').maxStackSize(64).displayName('Fallen Singularity').tooltip('§cNot-Stabilized Collapsed Singularity')
+//voltage coils
+sog.create('uhv_voltage_coil').maxStackSize(64).displayName('Ultra High Voltage Coil')
+sog.create('uev_voltage_coil').maxStackSize(64).displayName('Ultra Excessive Voltage Coil')
+sog.create('uiv_voltage_coil').maxStackSize(64).displayName('Ultra Immense Voltage Coil')
+sog.create('uxv_voltage_coil').maxStackSize(64).displayName('Ultra Extreme Voltage Coil')
+sog.create('opv_voltage_coil').maxStackSize(64).displayName('Overpowered Voltage Coil')
+sog.create('max_voltage_coil').maxStackSize(64).displayName('Max Voltage Coil')
     //uevstuff
 sog.create('rad_primary_resonant_particles').maxStackSize(16).displayName('Rad-Primary Resonant Particles')
 sog.create('primal_resonant_core').maxStackSize(64).displayName('Primal Resonant Core')
@@ -76,6 +76,7 @@ sog.create('mycena_hypsizyga_dna').maxStackSize(1).displayName('Mycena Hypsizyga
 
 StartupEvents.registry('block', sog => {
 
+    // C A S I N G S
 
     sog.create('neutronate_enriched_atomic_casing')
         .displayName('Neutronate Enriched Atomic Casing')
@@ -159,6 +160,8 @@ StartupEvents.registry('block', sog => {
         .defaultCutout()
         .tagBlock('mineable:pickaxe')
 
+    // P R O J E C T O R   M O D U L E S
+    
     sog.create('drilling_projector_module')
         .displayName('Space Drill Projector Module')
         .textureAll('kubejs:block/projector/drilling_projector_module')
@@ -188,6 +191,8 @@ StartupEvents.registry('block', sog => {
         .lightLevel(0)
         .tagBlock('mineable:pickaxe')
 
+
+        // C O I L S
     sog.create('atomic_alloy_coil_block', 'gtceu:coil')
         .temperature(12500)
         .level(9)
