@@ -12,6 +12,7 @@
 # Credits:
 
  - Thanks to Diatonius1 for helping us as an artist for the pack.
- - Thanks to WithersChat for helping us with texturing and other help.
+ - Thanks to WithersChat for helping us with texturing and other help.  (All the Infinity Material Set Items.)
+ - Thanks to Jamiscus for the heavy plating textures.
 
  

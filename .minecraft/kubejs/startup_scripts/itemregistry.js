@@ -5,7 +5,7 @@ StartupEvents.registry('item', sog => {
     //Universal circuits
         const tiers = ["ulv", "lv", "mv", "hv", "ev", "iv", "luv", "zpm", "uv", "uhv", "uev", "uiv"]
         tiers.forEach((universal_circuit) => {
-            event.create(universal_circuit + "_universal_circuit")
+            sog.create(universal_circuit + "_universal_circuit")
                 .tag("gtceu:circuits/" + universal_circuit)
                 .tag("gtceu:circuits/universal")
                 .displayName(universal_circuit.toUpperCase() + " Universal Circuit")
@@ -71,6 +71,13 @@ sog.create('quantum_data_module').maxStackSize(1).displayName('Quantum Data Modu
     //tube
 sog.create('chlorine_tube').maxStackSize(1).displayName('Chlorine Tube').texture('kubejs:item/tubes/chlorine_tube')
 sog.create('mycena_hypsizyga_dna').maxStackSize(1).displayName('Mycena Hypsizyga DNA Sample').texture('kubejs:item/tubes/dna_sample_mychyps')
+        //heavy plating
+sog.create('cosmic_neutronium_heavy_plating').displayName('Cosmic Neutronium Heavy Plating').texture('kubejs:item/heavy_plating/cosmic_neutronium_heavy_plating')
+sog.create('awakened_draconium_heavy_plating').displayName('Awakened Draconium Heavy Plating').texture('kubejs:item/heavy_plating/awakened_draconium_heavy_plating')
+sog.create('draconium_heavy_plating').displayName('Draconium Heavy Plating').texture('kubejs:item/heavy_plating/draconium_heavy_plating')
+sog.create('neutronium_heavy_plating').displayName('Neutronium Draconium Heavy Plating').texture('kubejs:item/heavy_plating/neutronium_heavy_plating')
+sog.create('infinity_heavy_plating').displayName('Infinity Heavy Plating').texture('kubejs:item/heavy_plating/infinity_heavy_plating')
+sog.create('chaotic_heavy_plating').displayName('Chaotic Heavy Plating').texture('kubejs:item/heavy_plating/chaotic_heavy_plating')
 
 })
 

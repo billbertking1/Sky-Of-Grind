@@ -1352,6 +1352,16 @@ sog.recipes.gtceu.mixer('draconium')
 
 //
 
+
+    // Universal Circuits
+    const tiers = ["ulv", "lv", "mv", "hv", "ev", "iv", "luv", "zpm", "uv", "uhv", "uev", "uiv"]
+        tiers.forEach((level) => {
+        sog.recipes.gtceu.forming_press("kubejs:" + level + "_universal_circuit")
+            .itemInputs("#gtceu:circuits/" + level)
+            .itemOutputs("kubejs:" + level + "_universal_circuit")
+            .EUt(32)
+            .duration(5)
+    })
 sog.recipes.gtceu.macerator('shattered')
 .itemInputs('advanced_ae:shattered_singularity')
 .itemOutputs('advanced_ae:quantum_infused_dust')
