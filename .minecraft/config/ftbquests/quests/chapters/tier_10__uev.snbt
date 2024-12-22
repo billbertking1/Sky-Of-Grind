@@ -41,6 +41,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["132CEAF670E7CC3B"]
 			description: ["Unlike &cUHV&r tier, here you dont need a crazy line to get components. Don't worry."]
 			hide_details_until_startable: false
 			id: "071D143BE842866F"
@@ -72,12 +73,16 @@
 				}
 			]
 			title: "UEV Parts #1"
-			x: 3.5d
-			y: -1.5d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["071D143BE842866F"]
+			dependencies: [
+				"071D143BE842866F"
+				"132CEAF670E7CC3B"
+			]
 			id: "38B15640E2E9E90E"
+			subtitle: "Needs UIV."
 			tasks: [
 				{
 					id: "7E6B245325184EF3"
@@ -91,8 +96,8 @@
 				}
 			]
 			title: "UEV parts  #2"
-			x: 3.5d
-			y: 0.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7F4DECD829D05C2B"]

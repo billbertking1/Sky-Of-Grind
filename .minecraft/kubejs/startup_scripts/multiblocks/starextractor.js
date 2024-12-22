@@ -76,7 +76,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                   .or(Predicates.autoAbilities(definition.getRecipeTypes()))
                   .or(Predicates.abilities(PartAbility.MAINTENANCE))
             )
-            .where('#', Predicates.air())
+            .where('#', Predicates.any())
             .build()
         )
         .workableCasingRenderer("gtceu:block/casings/gcym/atomic_casing", 'gtceu:block/multiblock/fusion_reactor', true)

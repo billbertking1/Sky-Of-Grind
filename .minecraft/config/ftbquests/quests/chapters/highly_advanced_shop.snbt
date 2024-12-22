@@ -588,11 +588,7 @@
 		}
 		{
 			can_repeat: true
-			description: [
-				"You might wanna use this data model to create new blocks with the mod blocks you will need"
-				""
-				"(the simulation of the warden model uses 1 hv amp.)"
-			]
+			description: ["I dont know why do you want this."]
 			icon: {
 				Count: 1
 				id: "hostilenetworks:data_model"

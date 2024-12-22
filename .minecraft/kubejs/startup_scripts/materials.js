@@ -150,6 +150,7 @@ GTMaterials.Nihonium.setProperty(PropertyKey.INGOT, new $IngotProperty());
     event.create("antimatter")
         .liquid().ingot()
         .color(0x8f34eb)
+        .element('antimatter')
         .iconSet('metallic')
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_ROTOR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.NO_SMELTING);
     event.create('reactable_fissioned_matter')
@@ -162,7 +163,19 @@ GTMaterials.Nihonium.setProperty(PropertyKey.INGOT, new $IngotProperty());
         .iconSet('radioactive')
         .blastTemp(13000, 'highest', 2097152, 2400)
         .cableProperties(GTValues.V[GTValues.OpV], 999, 0, true)
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FINE_WIRE)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE, 
+            GTMaterialFlags.GENERATE_ROD, 
+            GTMaterialFlags.GENERATE_GEAR, 
+            GTMaterialFlags.GENERATE_FINE_WIRE,
+            GTMaterialFlags.GENERATE_FRAME, 
+            GTMaterialFlags.GENERATE_DENSE, 
+            GTMaterialFlags.GENERATE_ROTOR, 
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_SMALL_GEAR,
+            GTMaterialFlags.GENERATE_ROUND,
+            GTMaterialFlags.GENERATE_SPRING
+        )
     event.create('heavy_duty_alloy_t1')
         .ingot().dust()
         .color(0x333e47)
@@ -206,6 +219,7 @@ GTMaterials.Nihonium.setProperty(PropertyKey.INGOT, new $IngotProperty());
         .ingot().dust().fluid()
         .color(0x8ceb34)
         .blastTemp(12000)
+        .element('resonant_essence')
         .iconSet('bright')
         .cableProperties(GTValues.V[GTValues.UEV], 256, 0, true)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_ROTOR, GTMaterialFlags.GENERATE_BOLT_SCREW)
@@ -284,7 +298,19 @@ GTMaterials.Nihonium.setProperty(PropertyKey.INGOT, new $IngotProperty());
         .color(0x7A42AE)
         .element('draconium')
         .iconSet('metallic')
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_ROTOR, GTMaterialFlags.GENERATE_BOLT_SCREW)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE, 
+            GTMaterialFlags.GENERATE_ROD, 
+            GTMaterialFlags.GENERATE_GEAR, 
+            GTMaterialFlags.GENERATE_FINE_WIRE,
+            GTMaterialFlags.GENERATE_FRAME, 
+            GTMaterialFlags.GENERATE_DENSE, 
+            GTMaterialFlags.GENERATE_ROTOR, 
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_SMALL_GEAR,
+            GTMaterialFlags.GENERATE_LONG_ROD,
+            GTMaterialFlags.GENERATE_ROUND,
+        )
         .blastTemp(13000, 'highest', 2097152, 2400)
         .cableProperties(GTValues.V[GTValues.UEV], 8, 4, false)
     
@@ -293,8 +319,21 @@ GTMaterials.Nihonium.setProperty(PropertyKey.INGOT, new $IngotProperty());
         .color(0xFF6A00)
         .element('awakened_draconium')
         .iconSet('shiny')
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_ROTOR, GTMaterialFlags.GENERATE_BOLT_SCREW)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE, 
+            GTMaterialFlags.GENERATE_ROD, 
+            GTMaterialFlags.GENERATE_GEAR, 
+            GTMaterialFlags.GENERATE_FINE_WIRE,
+            GTMaterialFlags.GENERATE_FRAME, 
+            GTMaterialFlags.GENERATE_DENSE, 
+            GTMaterialFlags.GENERATE_ROTOR, 
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_SMALL_GEAR,
+            GTMaterialFlags.GENERATE_LONG_ROD,
+            GTMaterialFlags.GENERATE_ROUND
+        )
         .blastTemp(15000, 'highest', 134217728, 3400)
+        .cableProperties(GTValues.V[GTValues.UIV], 32, 4, false)
     
     event.create('californite')
         .ingot().fluid()
@@ -326,6 +365,7 @@ GTMaterials.Nihonium.setProperty(PropertyKey.INGOT, new $IngotProperty());
         .gem()
         .ore(1, 1,)
         .element('chaos')
+        .cableProperties(GTValues.V[GTValues.UIV], 512, 0, true)
         .color(0x010005)
         .iconSet('dull')
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_LENS, GTMaterialFlags.GENERATE_DENSE)
@@ -346,7 +386,10 @@ event.create('cosmic_tungsten')
     GTMaterialFlags.GENERATE_FRAME, 
     GTMaterialFlags.GENERATE_DENSE, 
     GTMaterialFlags.GENERATE_ROTOR, 
-    GTMaterialFlags.GENERATE_BOLT_SCREW
+    GTMaterialFlags.GENERATE_BOLT_SCREW,
+    GTMaterialFlags.GENERATE_SMALL_GEAR,
+    GTMaterialFlags.GENERATE_LONG_ROD,
+    GTMaterialFlags.GENERATE_ROUND
 )
 event.create('cosmic_titanium')
 .ingot().fluid()
@@ -362,7 +405,10 @@ event.create('cosmic_titanium')
     GTMaterialFlags.GENERATE_FRAME, 
     GTMaterialFlags.GENERATE_DENSE, 
     GTMaterialFlags.GENERATE_ROTOR, 
-    GTMaterialFlags.GENERATE_BOLT_SCREW
+    GTMaterialFlags.GENERATE_BOLT_SCREW,
+    GTMaterialFlags.GENERATE_SMALL_GEAR,
+    GTMaterialFlags.GENERATE_ROUND,
+    GTMaterialFlags.GENERATE_LONG_ROD
 )
 event.create('cosmic_iridium')
 .ingot().fluid()
@@ -378,7 +424,10 @@ event.create('cosmic_iridium')
     GTMaterialFlags.GENERATE_FRAME, 
     GTMaterialFlags.GENERATE_DENSE, 
     GTMaterialFlags.GENERATE_ROTOR, 
-    GTMaterialFlags.GENERATE_BOLT_SCREW
+    GTMaterialFlags.GENERATE_BOLT_SCREW,
+    GTMaterialFlags.GENERATE_SMALL_GEAR,
+    GTMaterialFlags.GENERATE_ROUND,
+    GTMaterialFlags.GENERATE_LONG_ROD
 )
 event.create('cosmic_osmium')
 .ingot().fluid()
@@ -394,7 +443,10 @@ event.create('cosmic_osmium')
     GTMaterialFlags.GENERATE_FRAME, 
     GTMaterialFlags.GENERATE_DENSE, 
     GTMaterialFlags.GENERATE_ROTOR, 
-    GTMaterialFlags.GENERATE_BOLT_SCREW
+    GTMaterialFlags.GENERATE_BOLT_SCREW,
+    GTMaterialFlags.GENERATE_LONG_ROD,
+    GTMaterialFlags.GENERATE_SMALL_GEAR,
+    GTMaterialFlags.GENERATE_ROUND
 )
 
 

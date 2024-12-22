@@ -582,66 +582,6 @@
 			x: -3.5d
 			y: 17.5d
 		}
-		{
-			dependencies: ["7854117334570661"]
-			id: "27E26DFAC96AA80B"
-			subtitle: "1 UV Amp"
-			tasks: [{
-				id: "533CE4797A7B4C66"
-				item: "solarflux:sp_avaritia.neutronium"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 14.0d
-		}
-		{
-			dependencies: ["7854117334570661"]
-			id: "554589041671DA78"
-			subtitle: "1 UV Amp"
-			tasks: [{
-				id: "590E9C06CDB13D68"
-				item: "solarflux:sp_de.wyvern"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 14.0d
-		}
-		{
-			dependencies: ["554589041671DA78"]
-			id: "366AE76AAB9E3B9F"
-			subtitle: "1 UHV Amp"
-			tasks: [{
-				id: "5DF0007BB567E5F9"
-				item: "solarflux:sp_de.draconic"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 12.5d
-		}
-		{
-			dependencies: ["366AE76AAB9E3B9F"]
-			id: "25A718122A41569C"
-			subtitle: "1 UEV Amp"
-			tasks: [{
-				id: "03E4A0FB257C0301"
-				item: "solarflux:sp_de.chaotic"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["27E26DFAC96AA80B"]
-			id: "6102EBF220F7489C"
-			subtitle: "1.. IDK, a lot."
-			tasks: [{
-				id: "6F8AD0AD6664D02D"
-				item: "solarflux:sp_avaritia.infinity"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 12.5d
-		}
 	]
 	title: "Power Generation"
 }

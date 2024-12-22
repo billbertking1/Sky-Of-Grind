@@ -94,6 +94,8 @@ Fluid.of('gtceu:condensed_star_matter', 8124)
 )
 .duration(500)
 .EUt(GTValues.VA[GTValues.UEV])     
+
+
 event.recipes.gtceu.assembly_line('quantum_station')
 .itemInputs('gtceu:research_station', '8x #gtceu:circuits/uev', '4x avaritia:eternal_singularity', 'gtceu:uhv_ultimate_battery', '64x gtceu:fine_cosmic_neutronium_wire', 'ae2:creative_energy_cell', '64x gtceu:fine_cosmic_iridium_wire', '64x gtceu:fine_cosmic_iridium_wire', '64x gtceu:fine_cosmic_iridium_wire', '64x gtceu:fine_cosmic_iridium_wire', '64x gtceu:fine_cosmic_iridium_wire', '4x gtceu:uhv_field_generator')
 .itemOutputs('gtceu:quantum_station')

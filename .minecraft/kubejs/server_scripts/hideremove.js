@@ -14,9 +14,13 @@ ServerEvents.tags('item', event => {
   event.add('gtceu:circuits/uiv', 'kubejs:dragon_processor_mainframe')
   event.add('gtceu:circuits/uiv', 'kubejs:cosmic_processor_computer')
   event.add('gtceu:circuits/uiv', 'kubejs:space_time_processor_assembly')
+  event.add('gtceu:circuits/uiv', 'kubejs:dimensional_processor')
   event.add('gtceu:circuits/uxv', 'kubejs:cosmic_processor_mainframe')
   event.add('gtceu:circuits/uxv', 'kubejs:space_time_processor_computer')
+  event.add('gtceu:circuits/uxv', 'kubejs:dimensional_processor_assembly')
   event.add('gtceu:circuits/opv', 'kubejs:space_time_processor_mainframe')
+  event.add('gtceu:circuits/opv', 'kubejs:dimensional_processor_computer')
+  event.add('gtceu:circuits/max', 'kubejs:dimensional_processor_mainframe')
 
 
 

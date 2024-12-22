@@ -962,6 +962,116 @@
 			x: 13.5d
 			y: 0.0d
 		}
+		{
+			id: "32A37E78FDEC2716"
+			tasks: [{
+				id: "038F4E5CEF14A99A"
+				item: "kubejs:lv_universal_circuit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "7CFDC0B5081CF2F3"
+			tasks: [{
+				id: "0AE9762AA605574A"
+				item: "kubejs:mv_universal_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "08CA5521E24E62C3"
+			tasks: [{
+				id: "4ABA1FEEB7A7972D"
+				item: "kubejs:hv_universal_circuit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "66156B7E47CF4483"
+			tasks: [{
+				id: "0A9D7AB2F866D5F4"
+				item: "kubejs:ev_universal_circuit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "6010332A288C1BCA"
+			tasks: [{
+				id: "3DE78DDF634B6A50"
+				item: "kubejs:iv_universal_circuit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			id: "7BC6FF4CFF63765B"
+			tasks: [{
+				id: "4A20C78B446BB837"
+				item: "kubejs:luv_universal_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			id: "40A6CB22389825F4"
+			tasks: [{
+				id: "5DEECF191BE36351"
+				item: "kubejs:zpm_universal_circuit"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			id: "2493956A7F0D27F5"
+			tasks: [{
+				id: "721A09AF752D26CE"
+				item: "kubejs:uv_universal_circuit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			id: "1D6C629FB7886AA7"
+			tasks: [{
+				id: "5A0F50E516D9DA37"
+				item: "kubejs:uhv_universal_circuit"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 13.5d
+		}
+		{
+			id: "210ABC1309C623CB"
+			tasks: [{
+				id: "401ACB725D49BAA9"
+				item: "kubejs:uev_universal_circuit"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 15.0d
+		}
+		{
+			id: "285574409F5D1B65"
+			tasks: [{
+				id: "3DFF271AB5789B53"
+				item: "kubejs:uiv_universal_circuit"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 16.5d
+		}
 	]
 	subtitle: ["Dont lose your motivation!"]
 	title: "   Milestones"
