@@ -54,7 +54,7 @@
 			id: "14B5C08AE165BBC7"
 			linked_quest: "7D3E81F74BB9E774"
 			x: 10.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			id: "3F9FE3FC8938A89B"
@@ -65,13 +65,13 @@
 		{
 			id: "7BED2D528C92AA82"
 			linked_quest: "14DA1644C84FC058"
-			x: 10.5d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
 			id: "32D6A08193E4F28E"
 			linked_quest: "79325F05275A6041"
-			x: 12.0d
+			x: 13.5d
 			y: 0.0d
 		}
 	]
@@ -654,7 +654,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4AABD05884758892"]
@@ -665,7 +665,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4AABD05884758892"]
@@ -679,14 +679,14 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["05A2AD0C2CB88E16"]
+			dependencies: ["6062F37BB208F232"]
 			id: "375F8A8F7CF58F99"
 			tasks: [{
 				id: "051A274F755C032F"
 				item: "avaritia:neutron_ingot"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.5d
 			y: -3.0d
 		}
 		{
@@ -915,7 +915,7 @@
 				item: "gtceu:resonant_essence_ingot"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.5d
 			y: -4.5d
 		}
 		{
@@ -937,8 +937,8 @@
 				item: "draconicevolution:awakened_draconium_ingot"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -3.0d
+			x: 15.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7323EB3DBA1D74D8"]
@@ -948,8 +948,8 @@
 				item: "draconicevolution:chaos_shard"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -4.5d
+			x: 15.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["79325F05275A6041"]
@@ -959,7 +959,7 @@
 				item: "kubejs:awakened_draconium_coil_block"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -1071,6 +1071,37 @@
 			}]
 			x: 13.5d
 			y: 16.5d
+		}
+		{
+			dependencies: ["05A2AD0C2CB88E16"]
+			id: "2278040396A0BE34"
+			tasks: [{
+				id: "6C6471492FB1C904"
+				item: "gtceu:antimatter_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			id: "4D968848815FA9AD"
+			tasks: [{
+				id: "31073D4E1C922E53"
+				item: "gtceu:space_time_ingot"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			id: "306E4DCF47AFECFE"
+			tasks: [{
+				id: "45EDB2C6BBBCB140"
+				item: "gtceu:universium_bucket"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Dont lose your motivation!"]

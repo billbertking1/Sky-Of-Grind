@@ -443,16 +443,15 @@
 				}
 				{
 					consume_items: true
-					count: 4L
-					id: "1CF2CD2F19566C03"
-					item: { Count: 4, id: "gtceu:blue_steel_gear" }
-					type: "item"
-				}
-				{
-					consume_items: true
 					count: 8L
 					id: "6B81F72CD6436532"
 					item: "hostilenetworks:loot_fabricator"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7CF50EE1C5D46023"
+					item: { Count: 4, id: "gtceu:red_steel_gear" }
 					type: "item"
 				}
 			]

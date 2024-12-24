@@ -56,7 +56,12 @@
 		}
 	]
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "5EDD42B61F6E8685"
+		linked_quest: "0D7E4F804F054A37"
+		x: 1.0d
+		y: 7.5d
+	}]
 	quests: [
 		{
 			description: ["Kinda. But here you can learn some pathways to get energy and our personal take on it."]
@@ -509,7 +514,7 @@
 				item: "solarflux:sp_3"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 7.5d
 		}
 		{
@@ -581,6 +586,24 @@
 			}]
 			x: -3.5d
 			y: 17.5d
+		}
+		{
+			description: [
+				"This is the Large Solar Panel."
+				""
+				"A large solar panel that holds stacks of panels in it's interior to gather energy from the sun."
+				""
+				"Definitely the best choice if u have high voltage dynamos, as it can overclock and produce more energy from lower tier panels."
+			]
+			id: "17169E18FCB4C6CF"
+			shape: "octagon"
+			tasks: [{
+				id: "003A2BC24E48A8D2"
+				item: "gtceu:large_solar_panel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
 		}
 	]
 	title: "Power Generation"

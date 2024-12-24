@@ -41,7 +41,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["132CEAF670E7CC3B"]
+			dependencies: [
+				"132CEAF670E7CC3B"
+				"4E98924C1CC114E8"
+			]
 			description: ["Unlike &cUHV&r tier, here you dont need a crazy line to get components. Don't worry."]
 			hide_details_until_startable: false
 			id: "071D143BE842866F"
@@ -74,7 +77,7 @@
 			]
 			title: "UEV Parts #1"
 			x: 10.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -96,8 +99,8 @@
 				}
 			]
 			title: "UEV parts  #2"
-			x: 10.0d
-			y: 4.0d
+			x: 8.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7F4DECD829D05C2B"]
@@ -421,7 +424,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1AAD55E80A86E225"]
@@ -446,36 +449,50 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["4D423618B3A7A7CB"]
 			id: "254253339D49031B"
 			tasks: [{
 				id: "5FC7D7457857851D"
 				item: "kubejs:dragon_processor"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -1.5d
+			x: 11.0d
+			y: 0.5d
 		}
 		{
+			dependencies: [
+				"0F2A82E307211849"
+				"050822922B932C7D"
+				"39C2EBB2239D8974"
+			]
 			id: "62D073FF4549E639"
 			tasks: [{
 				id: "4E66BB57546CACC0"
 				item: "kubejs:dragon_processor_computer"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -1.5d
+			x: 15.5d
+			y: 5.5d
 		}
 		{
+			dependencies: ["254253339D49031B"]
 			id: "0F2A82E307211849"
 			tasks: [{
 				id: "43DEFB919707F87E"
 				item: "kubejs:dragon_processor_assembly"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -1.5d
+			x: 11.0d
+			y: 5.5d
 		}
 		{
+			dependencies: [
+				"62D073FF4549E639"
+				"050822922B932C7D"
+				"254253339D49031B"
+				"3BB46B9C1CA22E6B"
+			]
+			hide_dependent_lines: true
 			id: "6BE3B123AC90C909"
 			tasks: [{
 				id: "19E357B5A906F191"
@@ -483,7 +500,160 @@
 				type: "item"
 			}]
 			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2BB9590EEA5BFEF4"]
+			id: "4E98924C1CC114E8"
+			tasks: [{
+				id: "31F6D3849B9FC2C6"
+				item: "kubejs:quantum_data_module"
+				type: "item"
+			}]
+			x: 10.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["071D143BE842866F"]
+			id: "050822922B932C7D"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "6ABC8CB7A8F9E09E"
+				item: "gtceu:gravitational_implosion_machine"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["050822922B932C7D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "40A4A88569EABD3F"
+			tasks: [{
+				id: "5D378E0BECC21D4B"
+				item: "kubejs:draconium_heavy_plating"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["050822922B932C7D"]
+			hide_dependency_lines: true
+			id: "50817A960D7B4E2D"
+			tasks: [{
+				id: "58DA73680C8513AD"
+				item: "kubejs:neutronium_heavy_plating"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["050822922B932C7D"]
+			hide_dependency_lines: true
+			id: "13BAA4E97739B8ED"
+			tasks: [{
+				id: "1127E233F49D1E59"
+				item: "kubejs:californite_heavy_plating"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["050822922B932C7D"]
+			hide_dependency_lines: true
+			id: "799B889E9A3F2B5D"
+			tasks: [{
+				id: "69AF7E14CA82E415"
+				item: "kubejs:cosmic_neutronium_heavy_plating"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"40A4A88569EABD3F"
+				"6BE3B123AC90C909"
+				"050822922B932C7D"
+			]
+			description: [
+				"Congratulations on reaching &5UIV&r."
+				""
+				"Do you have the required infrastructure though?"
+			]
+			id: "5E851266CCD8E325"
+			shape: "octagon"
+			size: 2.5d
+			tasks: [{
+				id: "1F86A9325D9943F2"
+				item: "gtceu:uiv_machine_casing"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2560C53365DBDA7D"]
+			id: "437A51AFBCC5F1D8"
+			tasks: [{
+				id: "086FEE883FD2707A"
+				item: "kubejs:highly_draconized_engraved_lapotron_crystal_chip"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C9078D5C2C5C36B"]
+			id: "303AD54B75D4EE3C"
+			tasks: [{
+				id: "61FBCAE76A9CE576"
+				item: "kubejs:draconic_circuit_board"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["071D143BE842866F"]
+			id: "2C9078D5C2C5C36B"
+			tasks: [{
+				id: "00307C7542BA8F71"
+				item: "kubejs:extremely_advanced_soc_wafer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["303AD54B75D4EE3C"]
+			id: "39C2EBB2239D8974"
+			tasks: [{
+				id: "12CB4BDB5FD89BB7"
+				item: "kubejs:draconic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"437A51AFBCC5F1D8"
+				"39C2EBB2239D8974"
+			]
+			id: "3BB46B9C1CA22E6B"
+			tasks: [{
+				id: "1DD45261C0C7191C"
+				item: "kubejs:dragon_infused_neuro_processing_unit"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
 		}
 	]
 	subtitle: ["Ultra Excessive Voltage"]
