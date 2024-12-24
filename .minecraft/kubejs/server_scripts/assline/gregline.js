@@ -107,4 +107,15 @@ Fluid.of('gtceu:condensed_star_matter', 8124)
 .duration(500)
 .EUt(GTValues.VA[GTValues.UEV])     
 
+event.recipes.gtceu.assembly_line('h_gim')
+.itemInputs('64x kubejs:quantum_casing', '16x gtceu:gravi_star', 'gtceu:uev_machine_hull', '32x gtceu:double_cosmic_tungsten_plate', '4x #gtceu:circuits/uev', '16x gtceu:uev_robot_arm', '16x gtceu:uev_electric_piston', 'kubejs:highly_resonative_soc', 'kubejs:gravitational_fluctuation_module', 'kubejs:quantum_resonant_core', 'gtceu:uev_compressor', '4x gtceu:uhv_field_generator')
+.itemOutputs('gtceu:gravitational_implosion_machine')
+.inputFluids(
+Fluid.of('gtceu:soldering_alloy', 1152),
+Fluid.of('gtceu:polybenzimidazole', 1152),
+Fluid.of('gtceu:condensed_star_matter', 8124),
+Fluid.of('gtceu:neutronium', 8124)
+)
+.duration(1000)
+.EUt(GTValues.VA[GTValues.UIV])   
     })

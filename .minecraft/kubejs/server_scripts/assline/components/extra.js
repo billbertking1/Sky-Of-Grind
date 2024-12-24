@@ -159,3 +159,37 @@ ServerEvents.recipes(event => {
     })
 
 })
+//
+ServerEvents.recipes(sog => {
+
+
+    sog.recipes.gtceu.quantum_station('qdm')
+            .inputFluids('gtceu:oganesson 32', 'gtceu:nihonium 32')
+            .itemInputs('gtceu:data_module')
+            .itemOutputs('kubejs:quantum_data_module')
+            .EUt((GTValues.VA[GTValues.UEV]))
+            .totalCWU(256*500)
+            .CWUt(256)
+
+            const plating = ["neutronium", "chaos", "infinity", "cosmic_neutronium", "draconium", "awakened_draconium", "californite"]
+            plating.forEach((plate) => {
+            sog.recipes.gtceu.hgim("kubejs:" + plate + "_heavy_plating")
+                .notConsumable('kubejs:gravitational_containment_cell')
+                .itemInputs('7x gtceu:dense_hypoxylon_plate', 'kubejs:quantum_energy_capsule')
+                .itemInputs("7x gtceu:dense_" + plate + "_plate")
+                .inputFluids("gtceu:nihonium 144*16", "gtceu:oganesson 144*16")
+                .itemOutputs("kubejs:" + plate + "_heavy_plating")
+                .EUt(GTValues.VA[GTValues.UIV])
+                .duration(20*60)
+        })
+
+
+
+
+
+
+
+
+
+
+})

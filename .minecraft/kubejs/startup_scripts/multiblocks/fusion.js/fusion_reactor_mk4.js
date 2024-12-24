@@ -1,7 +1,7 @@
 const FusionReactorMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine")
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('uev_fusion_reactor', 'multiblock', (holder) => new FusionReactorMachine(holder, GTValues.UEV))
+    event.create('uev_fusion_reactor', 'multiblock').machine((holder) => new FusionReactorMachine(holder, GTValues.UEV))
         .rotationState(RotationState.ALL)
         .recipeTypes(GTRecipeTypes.FUSION_RECIPES)
         .noRecipeModifier()

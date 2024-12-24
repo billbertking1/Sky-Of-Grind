@@ -89,6 +89,9 @@
     "material.gtceu.cosmic_tungsten": "Cosmic Tungsten",
     "material.gtceu.cosmic_iridium": "Cosmic Iridium",
     "material.gtceu.cosmic_osmium": "Cosmic Osmium",
+    "material.gtceu.space_time": "Space Time",
+    "material.gtceu.molten_space_time": "Molten Space Time",
+    "material.gtceu.universium": "Universium",
 
     "block.gtceu.atomicompressor":"§5Sub-Atomical Compressor§f",
     "gtceu.atomiccompressor":"§5Sub-Atomical Compressor§f",

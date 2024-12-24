@@ -226,7 +226,7 @@ ServerEvents.recipes(sog => {
             A: 'enderio:soularium_ingot', 
             C: 'gtceu:lv_electric_motor',  //arg 3: the mapping object
             B: 'gtceu:tin_rotor',
-            D: 'gtceu:basic_electronic_circuit',
+            D: '#gtceu:circuits/lv',
             E: 'gtceu:lv_machine_hull'
           }
         )
@@ -236,12 +236,12 @@ ServerEvents.recipes(sog => {
         .duration(20)
         .EUt(32)
     sog.recipes.gtceu.assembler('master')
-        .itemInputs('ironchest:gold_chest', '4x gtceu:basic_electronic_circuit', 'gtceu:lv_machine_hull')
+        .itemInputs('ironchest:gold_chest', '4x #gtceu:circuits/lv', 'gtceu:lv_machine_hull')
         .itemOutputs('storagenetwork:master')
         .duration(1000)
         .EUt(32) 
     sog.recipes.gtceu.assembler('request')
-        .itemInputs('8x minecraft:glass', 'gtceu:lv_machine_hull', '4x gtceu:basic_electronic_circuit', 'avaritia:double_compressed_crafting_table')
+        .itemInputs('8x minecraft:glass', 'gtceu:lv_machine_hull', '4x #gtceu:circuits/lv', 'avaritia:double_compressed_crafting_table')
         .itemOutputs('storagenetwork:request')
         .duration(1000)
         .EUt(32) 
@@ -1211,7 +1211,6 @@ sog.recipes.gtceu.assembler('uevcasing')
 sog.recipes.gtceu.large_chemical_reactor('hrcb')
 .itemInputs('2x gtceu:wetware_circuit_board', '64x gtceu:antimatter_foil', 'kubejs:antimatter_boule')
 .inputFluids(Fluid.of('gtceu:antimatter', 100))
-.circuit(8)
 .itemOutputs('kubejs:highly_resonative_circuit_board')
 .duration(900)
 .EUt(GTValues.VA[GTValues.UEV]);
@@ -1396,5 +1395,6 @@ sog.shaped(
         A: 'gtceu:cosmic_iridium_plate',
         B: 'gtceu:computer_casing'
 })
+
 
 })

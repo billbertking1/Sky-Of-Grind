@@ -1,7 +1,4 @@
-GTCEuStartupEvents.registry('gtceu:element', event => {
-    event.create('infinity', Infinity, Infinity, -1, null, '∞', false);
-    event.create('infinity_catalyst', Infinity, Infinity, -1, null, '∞', false);
-})
+
 
 GTCEuStartupEvents.registry('gtceu:material_icon_set', event => {
     event.create('infinity').parent(GTMaterialIconSet.SHINY)
@@ -309,6 +306,7 @@ GTMaterials.Nihonium.setProperty(PropertyKey.INGOT, new $IngotProperty());
             GTMaterialFlags.GENERATE_BOLT_SCREW,
             GTMaterialFlags.GENERATE_SMALL_GEAR,
             GTMaterialFlags.GENERATE_LONG_ROD,
+            GTMaterialFlags.GENERATE_LENS,
             GTMaterialFlags.GENERATE_ROUND,
         )
         .blastTemp(13000, 'highest', 2097152, 2400)
@@ -340,6 +338,7 @@ GTMaterials.Nihonium.setProperty(PropertyKey.INGOT, new $IngotProperty());
         .element('californite')
         .color(0xa0b0bd).secondaryColor(0x232020)
         .iconSet('radioactive')
+        .flags(GTMaterialFlags.GENERATE_DENSE)
     event.create('stabilized_iridium')
         .ingot().fluid()
         .element('stabilized_iridium')
@@ -450,6 +449,32 @@ event.create('cosmic_osmium')
 )
 
 
+
+event.create("universium")
+.liquid(new GTFluidBuilder().state(GTFluidState.LIQUID).customStill())
+.element('universium')
+.color(0xffffff)
+event.create("molten_space_time")
+.liquid(new GTFluidBuilder().state(GTFluidState.LIQUID).customStill())
+.color(0xffffff)
+event.create('space_time')
+.ingot()
+.element('space_time')
+.color(0x78fffa)
+.iconSet('metallic')
+.flags(
+    GTMaterialFlags.GENERATE_PLATE, 
+    GTMaterialFlags.GENERATE_ROD, 
+    GTMaterialFlags.GENERATE_GEAR, 
+    GTMaterialFlags.GENERATE_FINE_WIRE,
+    GTMaterialFlags.GENERATE_FRAME, 
+    GTMaterialFlags.GENERATE_DENSE, 
+    GTMaterialFlags.GENERATE_ROTOR, 
+    GTMaterialFlags.GENERATE_BOLT_SCREW,
+    GTMaterialFlags.GENERATE_LONG_ROD,
+    GTMaterialFlags.GENERATE_SMALL_GEAR,
+    GTMaterialFlags.GENERATE_ROUND
+)
     })
 
 

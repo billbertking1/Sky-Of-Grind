@@ -65,6 +65,14 @@ sog.create('antimatter_boule').maxStackSize(64).displayName('Antimatter-Doped Mo
 sog.create('highly_resonative_soc').maxStackSize(64).displayName('Highly-Resonative Soc')
 sog.create('highly_resonative_circuit_board').maxStackSize(64).displayName('Highly-Resonative Circuit Board')
 sog.create('highly_resonative_printed_circuit_board').maxStackSize(64).displayName('Highly-Resonative Printed Circuit Board')
+//uiv stuff
+sog.create('dragon_infused_neuro_processing_unit').maxStackSize(64).displayName('Dragon-infused Neuro Processing Board')
+sog.create('draconic_circuit_board').maxStackSize(64).displayName('Draconic Circuit Board')
+sog.create('draconic_printed_circuit_board').maxStackSize(64).displayName('Draconic Printed Circuit Board')
+sog.create('antimatter_wafer').maxStackSize(64).displayName('Antimatter Wafer')
+sog.create('highly_draconized_engraved_lapotron_crystal_chip').maxStackSize(64).displayName('Highly-Draconized Engraved Lapotron Chip')
+sog.create('extremely_advanced_soc_wafer').maxStackSize(64).displayName('EaSoC Wafer')
+sog.create('extremely_advanced_soc').maxStackSize(64).displayName('EaSoC')
     //extras
 sog.create('end_miner_module').maxStackSize(1).displayName('End Miner Module')
 sog.create('quantum_data_module').maxStackSize(1).displayName('Quantum Data Module').texture('kubejs:item/misc/quantum_data_module')
@@ -75,9 +83,10 @@ sog.create('mycena_hypsizyga_dna').maxStackSize(1).displayName('Mycena Hypsizyga
 sog.create('cosmic_neutronium_heavy_plating').displayName('Cosmic Neutronium Heavy Plating').texture('kubejs:item/heavy_plating/cosmic_neutronium_heavy_plating')
 sog.create('awakened_draconium_heavy_plating').displayName('Awakened Draconium Heavy Plating').texture('kubejs:item/heavy_plating/awakened_draconium_heavy_plating')
 sog.create('draconium_heavy_plating').displayName('Draconium Heavy Plating').texture('kubejs:item/heavy_plating/draconium_heavy_plating')
-sog.create('neutronium_heavy_plating').displayName('Neutronium Draconium Heavy Plating').texture('kubejs:item/heavy_plating/neutronium_heavy_plating')
+sog.create('neutronium_heavy_plating').displayName('Neutronium Heavy Plating').texture('kubejs:item/heavy_plating/neutronium_heavy_plating')
 sog.create('infinity_heavy_plating').displayName('Infinity Heavy Plating').texture('kubejs:item/heavy_plating/infinity_heavy_plating')
-sog.create('chaotic_heavy_plating').displayName('Chaotic Heavy Plating').texture('kubejs:item/heavy_plating/chaotic_heavy_plating')
+sog.create('chaos_heavy_plating').displayName('Chaotic Heavy Plating').texture('kubejs:item/heavy_plating/chaotic_heavy_plating')
+sog.create('californite_heavy_plating').displayName('Radioactive Heavy Plating').texture('kubejs:item/heavy_plating/irradiated_heavy_plating')
 
 })
 
