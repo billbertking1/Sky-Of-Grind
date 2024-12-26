@@ -153,6 +153,7 @@
 		}
 		{
 			dependencies: ["69D2657F779DFFE6"]
+			description: ["This uses a hell ton of radon, so I'd recommend getting the atmospheric collector to gather lots of end air "]
 			id: "0608F68656DC2B06"
 			rewards: [
 				{

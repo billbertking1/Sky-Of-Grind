@@ -460,22 +460,6 @@
 			y: 8.5d
 		}
 		{
-			id: "54EE947A4AEC0C90"
-			rewards: [{
-				id: "7E3D712A0BA62754"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 16L
-				id: "50B457A7828D5EF4"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 10.0d
-		}
-		{
 			dependencies: ["2F889EB9AB0A817D"]
 			id: "20F6B87D2B2AB380"
 			rewards: [{
@@ -488,7 +472,7 @@
 				item: "gtceu:hv_autoclave"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.0d
 			y: 3.5d
 		}
 		{
@@ -504,7 +488,7 @@
 				item: "gtceu:energy_crystal"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 8.0d
 			y: 4.5d
 		}
 		{
@@ -554,10 +538,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"54EE947A4AEC0C90"
-				"4CD20F9C9CE41C04"
-			]
+			dependencies: ["10F5CE8D2BFA4A96"]
 			id: "51EB75969C2A340E"
 			rewards: [
 				{
@@ -1384,7 +1365,6 @@
 		}
 		{
 			dependencies: ["51EB75969C2A340E"]
-			description: ["For solar panels!"]
 			icon: {
 				Count: 1
 				id: "hostilenetworks:data_model"
@@ -1470,7 +1450,7 @@
 				}
 			]
 			title: "Ender Dragon data model"
-			x: 7.0d
+			x: 4.0d
 			y: 10.0d
 		}
 		{
@@ -1517,6 +1497,17 @@
 			}]
 			x: 1.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["2F889EB9AB0A817D"]
+			id: "10F5CE8D2BFA4A96"
+			tasks: [{
+				id: "3B93FB38EB1574C9"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
 		}
 	]
 	subtitle: ["High Voltage"]

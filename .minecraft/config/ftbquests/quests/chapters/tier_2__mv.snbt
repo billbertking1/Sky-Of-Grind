@@ -1017,12 +1017,11 @@
 		{
 			dependencies: ["44DD4446278E8F14"]
 			description: [
-				"Tell me this isnt a cool multiblock."
+				"Tell me this isn't a cool multiblock."
 				""
-				"This is a Fluid drilling rig, it will get fluids out of the void, but each chunk has an specific amount of fluids on it so you will be moving it, atleast till you get a better way of getting oil."
+				"This is a Fluid drilling rig and it will help you get fluids out of the void, atleast till you get a better way of getting oil."
 				""
-				"You can use this for Polyethylene , and it will be the way that the quests do, but if u really dont wanna do this the quests are gonna be opcional so you can go full vegan mode."
-				""
+				"You can use this for Polyethylene , and it will be the way that the quests do, but if you really dont wanna do this the quest is gonna be optional so you can go full vegan mode."
 				"Also, if u see only refinery gas in your prospector, you will need to make a bridge."
 				""
 				"Psss: Second Page"
@@ -1030,9 +1029,9 @@
 				"{@pagebreak}"
 				""
 				"You can also distill de oil into different types of oil and gases to get energy."
-				"Refinery gas might be useful if u wanna make cool gas turbines from LFG."
+				"Refinery gas might be useful if you wanna make cool gas turbines from LFG."
 				""
-				"Also, we understand people dont like making prospectors, so heres one for free."
+				"We understand people may not like making prospectors, so here is one for free."
 				""
 				"If the oil is too far away you can use long distance fluid pipelines to bring the oil into your base."
 			]
@@ -1081,66 +1080,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["1E04F58E81F4F89F"]
 			description: [
-				"Choose your oil, and distill it into Ethylene."
-				"As a said earlier all those quests are optional incase you just dont like making fluid drills, you can do the methane way."
+				"Congrats in getting Polyethylene!"
 				""
-				"Guide on second page"
-				""
-				"{@pagebreak}"
-				""
-				"Your best best is probably distilling oil into something like naptha, crack it, then distill into ethane, crack it and distill into ethylene"
-			]
-			icon: "gtceu:polyethylene_bucket"
-			id: "063DF3B1D35CA951"
-			optional: true
-			rewards: [{
-				id: "63D54F341E114BE6"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			subtitle: "Big milestone go brrr"
-			tasks: [
-				{
-					id: "6A4137A490D402B5"
-					item: "gtceu:mv_distillery"
-					type: "item"
-				}
-				{
-					id: "5C008C2908627F0A"
-					item: "gtceu:ethylene_bucket"
-					type: "item"
-				}
-			]
-			title: "&bEthylene"
-			x: 13.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["063DF3B1D35CA951"]
-			description: [""]
-			id: "7B9C614F8AB1828D"
-			optional: true
-			rewards: [{
-				id: "156F515F6CCE884E"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			subtitle: "Alchemistry"
-			tasks: [{
-				id: "1129CAAA00762A10"
-				item: "gtceu:mv_chemical_reactor"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 13.0d
-		}
-		{
-			description: [
-				"Get Polyethylene by chemical reacting it with oxygen."
-				""
-				"Hold a polyethylene bucket to progress incase you didnt use the oil route"
+				"What route did you use?"
 			]
 			id: "26C62836B41D0095"
 			rewards: [

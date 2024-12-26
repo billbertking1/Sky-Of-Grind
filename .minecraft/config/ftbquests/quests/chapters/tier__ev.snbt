@@ -807,8 +807,8 @@
 				item: "gtceu:ev_mixer"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 8.0d
+			x: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["448F247F9BCD871C"]
@@ -874,7 +874,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["118E1ECFA72C5329"]
@@ -1152,8 +1152,8 @@
 				item: "gtceu:styrene_butadiene_rubber_bucket"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 0.0d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1178,11 +1178,17 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["228D20DB0820F303"]
+			dependencies: [
+				"228D20DB0820F303"
+				"65B415B6FF037504"
+			]
 			description: [
 				"This normally would require Plat-line stuff. But dont worry, it will come soon."
 				""
-				"As for tungsten, you need to process tungstate, you can craft it on a reasonable expensive mixer recipe, or just endstone processing."
+				"As for tungsten, you need to process tungstate or scheelite, this is why you need the end miner module."
+				""
+				"For Molybdenum you will need to do ore proc of scheelite."
+				""
 				"Choose the best for you!"
 			]
 			id: "2461BCC7EDFAD930"
@@ -1218,8 +1224,8 @@
 				type: "item"
 			}]
 			title: "RTM Alloy Coil Block"
-			x: 12.0d
-			y: 5.5d
+			x: 10.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["228D20DB0820F303"]
@@ -1292,7 +1298,7 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
+			x: 11.5d
 			y: 9.5d
 		}
 		{
@@ -1340,11 +1346,10 @@
 				item: "gtceu:mpic_chip"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.5d
 			y: 11.0d
 		}
 		{
-			dependencies: ["33DA634B88A5EEE2"]
 			id: "3F6D45800AF7EF0F"
 			rewards: [{
 				id: "01CCADC90C1E4EAB"
@@ -1356,8 +1361,8 @@
 				item: "gtceu:ev_voltage_coil"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 12.5d
+			x: 10.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -1410,7 +1415,7 @@
 				item: "gtceu:ev_cutter"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: 9.5d
 		}
 		{
@@ -1670,8 +1675,8 @@
 				item: "gtceu:vinyl_chloride_bucket"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 5.0d
+			x: -8.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["77FB89A525267AAA"]
@@ -1691,7 +1696,7 @@
 				item: "gtceu:polyvinyl_chloride_bucket"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -8.5d
 			y: 9.5d
 		}
 		{

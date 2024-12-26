@@ -123,6 +123,7 @@
     "block.gtceu.uev_fusion_reactor": "Fusion Reactor MK IV",
     "block.gtceu.gravitational_implosion_machine": "Hexa-Gravitational Implosion Machine",
     "gtceu.hgim": "Hexa-Implosion Machine",
+    "block.gtceu.atmospheric_collector": "Atmospheric Collector",
 
     "block.gtceu.mv_electric_extractinator":"§bAdvanced Electric Extractinator§f",
     "block.gtceu.hv_electric_extractinator":"§6Advanced Electric Extractinator II§f",

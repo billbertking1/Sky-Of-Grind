@@ -550,11 +550,6 @@ ServerEvents.recipes(sog => {
           .duration(100)
           .EUt(32)
         exdeorum.setCrucibleHeatValueForState('minecraft:lightning_rod', 80);
-      sog.recipes.gtceu.centrifuge('molybdenum')
-          .itemInputs('16x minecraft:ender_eye')
-          .itemOutputs('gtceu:molybdenum_dust')
-          .duration(300)
-          .EUt(32)
       sog.recipes.gtceu.centrifuge('ruthenium')
           .itemInputs("gtceu:diamond_dust")
           .itemOutputs("gtceu:ruthenium_dust")
@@ -946,13 +941,14 @@ sog.shaped(
 )
 sog.recipes.gtceu.fusion_reactor('reactmatter')
         .inputFluids('gtceu:antimatter 1000', 'gtceu:star_matter 10000')
-        .outputFluids('gtceu:reactable_fissioned_matter_plasma 32')
+        .outputFluids('gtceu:reactable_fissioned_matter_plasma 10000')
         .fusionStartEU(640000000)
         .duration(30)
         .EUt((GTValues.VA[GTValues.UHV]))
 sog.recipes.gtceu.plasma_generator('reactmatterplasma')
         .inputFluids(Fluid.of('gtceu:reactable_fissioned_matter_plasma', 1))
-        .duration(160000000000).EUt(-2147483648)
+        .duration(160)
+        .EUt(-(GTValues.V[GTValues.UEV]))
 
 
 sog.shaped(
@@ -1394,6 +1390,15 @@ sog.shaped(
     {
         A: 'gtceu:cosmic_iridium_plate',
         B: 'gtceu:computer_casing'
+})
+sog.shaped(
+    'gtceu:atmospheric_collector',
+    ['ABA', 'YCY', 'ABA'],
+    {
+        A: 'gtceu:luv_electric_pump',
+        B: 'gtceu:laminated_glass',
+        Y: '#gtceu:circuits/luv',
+        C: 'gtceu:luv_machine_hull'
 })
 
 

@@ -30,6 +30,9 @@ ItemEvents.tooltip(event => {
     event.addAdvanced('gtceu:greenhouse', (item, adv, text) => {
         text.add(1, Text.translatable('gtceu.multiblock.parallelizable.tooltip'))
     })
+    event.addAdvanced('gtceu:atmospheric_collector', (item, adv, text) => {
+        text.add(1, Text.translatable('gtceu.multiblock.parallelizable.tooltip'))
+    })
     event.addAdvanced('gtceu:uev_fusion_reactor', (item, adv, text) => {
         text.add(1, Text.translatable('gtceu.machine.fusion_reactor.capacity', Math.trunc(FusionReactorMachine.calculateEnergyStorageFactor(GTValues.UEV, 16) / 1000000)))
         text.add(2, Text.translatable('gtceu.multiblock.uev_fusion_reactor.description'))

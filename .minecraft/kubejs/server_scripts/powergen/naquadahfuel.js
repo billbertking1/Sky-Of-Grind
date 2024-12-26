@@ -34,16 +34,15 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.naquadahmk1('naquadriaplasma')
         .inputFluids('gtceu:pure_naquadria_fuel 5000', 'gtceu:helium_plasma 1500')
         .outputFluids('gtceu:naquadria_plasma_plasma 5000')
-        .duration(600)
+        .duration(4200)
         .EUt((GTValues.VA[GTValues.UV]))
 
     //MK I
-
-    event.recipes.gtceu.plasma_generator('naquadahmk1')
-    .inputFluids(Fluid.of('gtceu:naquadria_plasma_plasma', 1000))
-    .duration(160).EUt(-8388608)
-
-
+    event.recipes.gtceu.plasma_generator("naquadria_plasma")
+    .inputFluids(Fluid.of('gtceu:naquadria_plasma_plasma', 200))
+    .outputFluids(Fluid.of('gtceu:naquadria', 250))
+    .duration(1120)
+    .EUt(-(GTValues.V[GTValues.ZPM]))
 
 
 
