@@ -1400,6 +1400,38 @@ sog.shaped(
         Y: '#gtceu:circuits/luv',
         C: 'gtceu:luv_machine_hull'
 })
-
+sog.shaped(
+    'ae2:energy_acceptor',
+    ['ABA', 'BYB', 'ABA'],
+    {
+        A: 'gtceu:platinum_ingot',
+        B: 'gtceu:lpic_chip',
+        Y: 'gtceu:hv_machine_hull',
+})
+sog.shaped(
+    'ae2:interface',
+    ['ABA', 'BYC', 'ACA'],
+    {
+        A: 'gtceu:stainless_steel_ingot',
+        B: 'ae2:annihilation_core',
+        Y: 'enderio:me_conduit',
+        C: 'ae2:formation_core'
+})
+sog.shaped(
+    'ae2:import_bus',
+    ['ABA', 'BYB', '   '],
+    {
+        A: 'gtceu:stainless_steel_ingot',
+        B: 'ae2:formation_core',
+        Y: 'minecraft:sticky_piston',
+})
+sog.shaped(
+    'ae2:export_bus',
+    ['ABA', 'BYB', '   '],
+    {
+        A: 'gtceu:stainless_steel_ingot',
+        B: 'ae2:annihilation_core',
+        Y: 'minecraft:sticky_piston',
+})
 
 })
