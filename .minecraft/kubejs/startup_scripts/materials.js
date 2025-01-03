@@ -7,7 +7,62 @@ GTCEuStartupEvents.registry('gtceu:material_icon_set', event => {
     event.create('cosmic_neutronium').parent(GTMaterialIconSet.BRIGHT)
 })
 
-
+GTCEuStartupEvents.registry('gtceu:element', event => {
+    event.create('infinity')
+        .protons(168)
+        .neutrons(316)
+        .symbol('∞');
+    event.create('crystal_matrix')
+        .protons(6)
+        .neutrons(6)
+        .symbol('C*');
+    event.create('stabilized_iridium')
+        .protons(77)
+        .neutrons(116)
+        .symbol('Ir₁₉Os₈(Nc(Cr₇Nt₄)₈)(PbR(Pb₆Pt₂Rn₁))₁)');
+    event.create('neutronic_chromite')
+        .protons(24)
+        .neutrons(34)
+        .symbol('Nc(Cr₇Nt₄)');
+    event.create('radium_infused_lead')
+        .protons(82)
+        .neutrons(125)
+        .symbol('PbR(Pb₆Pt₂Rn₁)');
+    event.create('californite')
+        .protons(98)
+        .neutrons(151)
+        .symbol('Cf₁₉(Si(Ir₁₉Os₈(Nc(Cr₇Nt₄)₈)(PbR(Pb₆Pt₂Rn₁))₁)₈)');
+    event.create('hypoxylon')
+        .protons(112)
+        .neutrons(174)
+        .symbol('Xy');
+    event.create('antimatter')
+        .protons(1000)
+        .neutrons(1000)
+        .symbol('A');
+    event.create('draconium')
+        .protons(4043)
+        .neutrons(10750)
+        .symbol('Dn₁₉(Xy₅Ir₈(Si(Ir₁₉Os₈(Nc(Cr₇Nt₄)₈)(PbR(Pb₆Pt₂Rn₁))₁)₈)RuKe₈AmNt₂O₈A₂)');
+    event.create('triplatirium_235')
+        .protons(382)
+        .neutrons(395)
+        .symbol('Tr₂₃₅(U₂₃₅UPt₃Dr)');
+    event.create('atomic_alloy')
+        .protons(705)
+        .neutrons(1784)
+        .symbol('Cf₇(Tr₂₃₅(U₂₃₅UPt₃Dr))₀.₅₀');
+    event.create('star_matter')
+        .protons(10)
+        .neutrons(15)
+        .symbol('Sm₁₀(H₅He₃C₂)');
+    event.create('condensed_star_matter')
+        .protons(1510)
+        .neutrons(2226)
+        .symbol('CsaM₁₅₁₀(SM₁₀(H₅He₃C₂))₁₄₄(NaK₁₂)(C₂H₆OSi)');       
+        
+        //  ₂₃₄₅₆₇₈₉₀
+})
 
 
 GTCEuStartupEvents.registry('gtceu:material', event => {
@@ -28,6 +83,7 @@ GTMaterials.Nihonium.setProperty(PropertyKey.INGOT, new $IngotProperty());
 
     event.create('star_matter')
         .ingot().fluid()
+        .element('star_matter')
         .cableProperties(GTValues.V[GTValues.IV], 2, 0, true)
         .color(0x0059ff)
     event.create('mercury_vapor')
@@ -99,6 +155,7 @@ GTMaterials.Nihonium.setProperty(PropertyKey.INGOT, new $IngotProperty());
 
     event.create("triplatirium_235")
         .ingot().fluid().dust()
+        .element('triplatirium_235')
         .blastTemp(10800)
         .color(0x47ffaf)
         .iconSet('metallic')
@@ -107,6 +164,7 @@ GTMaterials.Nihonium.setProperty(PropertyKey.INGOT, new $IngotProperty());
     event.create("atomic_alloy")
         .ingot().dust()
         .blastTemp(10800)
+        .element('atomic_alloy')
         .color(0x513499)
         .iconSet('bright')
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_ROTOR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.NO_SMELTING);
@@ -143,6 +201,7 @@ GTMaterials.Nihonium.setProperty(PropertyKey.INGOT, new $IngotProperty());
         .color(0xa3b2c9)
     event.create("condensed_star_matter")
         .liquid(new GTFluidBuilder().state(GTFluidState.LIQUID).customStill())
+        .element('condensed_star_matter')
         .color(0xffffff)
     event.create("antimatter")
         .liquid().ingot()
@@ -355,7 +414,7 @@ GTMaterials.Nihonium.setProperty(PropertyKey.INGOT, new $IngotProperty());
         .flags(GTMaterialFlags.GENERATE_PLATE)
     event.create('radium_infused_lead')
         .ingot()
-        .element('radium_lead')
+        .element('radium_infused_lead')
         .color(0x52303e)
         .iconSet('shiny')
         .blastTemp(3500, 'highest', 2048, 900)

@@ -333,15 +333,15 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3BB539619E06A099"]
+			dependencies: ["0A6236EB1EA5A3A1"]
 			id: "5843A15AFD872EE6"
 			tasks: [{
 				id: "2CB8A4D26564F858"
 				item: "ae2:interface"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.0d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5843A15AFD872EE6"]
@@ -351,8 +351,8 @@
 				item: "expatternprovider:ex_interface"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6C545D94F3FCE01A"]

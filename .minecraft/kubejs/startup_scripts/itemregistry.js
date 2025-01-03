@@ -150,6 +150,20 @@ StartupEvents.registry('block', sog => {
         .resistance(1)
         .lightLevel(0)
         .tagBlock('mineable:pickaxe')
+        sog.create('stellar_powered_casing')
+        .displayName('Stellar Powered Casing')
+        .textureAll('kubejs:block/casings/stellar_powered_casing')
+        .soundType('metal')
+        .resistance(1)
+        .lightLevel(0)
+        .tagBlock('mineable:pickaxe')
+        sog.create('highly_reinforced_radioactive_casing')
+        .displayName('Highly Reinforced Radioactive Casing')
+        .textureAll('kubejs:block/casings/highly_reinforced_radioactive_casing')
+        .soundType('metal')
+        .resistance(1)
+        .lightLevel(0)
+        .tagBlock('mineable:pickaxe')
 
         // F U S I O N   M K 4
 

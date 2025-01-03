@@ -960,6 +960,7 @@
 				""
 				"Glass Processing? Works too."
 			]
+			icon: "gtceu:oxygen_bucket"
 			id: "77BBB6EDA8CC4DD3"
 			rewards: [{
 				id: "6B0B1B1A258C8FA2"
@@ -967,10 +968,10 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3EACED6AF72AA69E"
-				item: "gtceu:oxygen_bucket"
-				type: "item"
+				id: "475F13FDC510AE35"
+				type: "checkmark"
 			}]
+			title: "Oxygen"
 			x: -7.0d
 			y: 8.5d
 		}
@@ -1153,7 +1154,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [

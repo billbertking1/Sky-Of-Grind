@@ -502,7 +502,7 @@
 		{
 			can_repeat: true
 			dependencies: ["4F312669D4434DF1"]
-			icon: "enderio:energy_conduit"
+			icon: { Count: 32, id: "enderio:energy_conduit" }
 			id: "6205748309B0174A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -525,7 +525,7 @@
 		{
 			can_repeat: true
 			dependencies: ["26C62836B41D0095"]
-			icon: "gtceu:lv_super_chest"
+			icon: { Count: 2, id: "gtceu:lv_super_chest" }
 			id: "4461180E5E9235C4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -535,9 +535,9 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 10L
+				count: 5L
 				id: "2440520527F8CFF0"
-				item: { Count: 132, id: "gtceu:doge_coin" }
+				item: "gtceu:doge_coin"
 				type: "item"
 			}]
 			title: "Super Chest/Tanks Bundle"
@@ -546,7 +546,7 @@
 		}
 		{
 			can_repeat: true
-			icon: "gtceu:duct_tape"
+			icon: { Count: 8, id: "gtceu:duct_tape" }
 			id: "76D3C82DF0709A8A"
 			rewards: [{
 				count: 8
@@ -567,7 +567,7 @@
 		}
 		{
 			can_repeat: true
-			icon: "gtceu:rubber_plate"
+			icon: { Count: 8, id: "gtceu:rubber_plate" }
 			id: "4BAE859DF3B3CE64"
 			rewards: [{
 				count: 8

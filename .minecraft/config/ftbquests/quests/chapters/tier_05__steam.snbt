@@ -575,51 +575,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["6A5E7ED7DE1593E3"]
-			description: [
-				"The solar boiler is a great option for a better steam production, if u already have the water source t1 you should 100% do this."
-				""
-				"Take into consideration that steam is probably gonna be your only bet for power gen early on."
-			]
-			id: "3C31A7CA0A003697"
-			rewards: [{
-				id: "5387319EFFAA5646"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			subtitle: "Perfect"
-			tasks: [{
-				id: "00D9AECC7458D00F"
-				item: "gtceu:lp_steam_solar_boiler"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["3C31A7CA0A003697"]
-			description: [
-				"An upgraded version of the solar boiler, this one uses steel."
-				""
-				"But you will need Silver, which you currently dont have access to. "
-				"Dont worry tho, you will get access to it on LV."
-			]
-			id: "153EB23F6C6F15A6"
-			rewards: [{
-				id: "2CB0F69D9BB26CD7"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			subtitle: "Even better"
-			tasks: [{
-				id: "53522B0315B58686"
-				item: "gtceu:hp_steam_solar_boiler"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["31E750DDB33FE642"]
 			description: [
 				"An upgraded version of the Low Pressure Alloy Smelter."

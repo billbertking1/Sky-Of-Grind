@@ -591,6 +591,7 @@
 			id: "5E851266CCD8E325"
 			shape: "octagon"
 			size: 2.5d
+			subtitle: "Woah."
 			tasks: [{
 				id: "1F86A9325D9943F2"
 				item: "gtceu:uiv_machine_casing"

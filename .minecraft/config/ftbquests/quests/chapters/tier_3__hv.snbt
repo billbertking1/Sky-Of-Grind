@@ -1131,18 +1131,11 @@
 				}
 			]
 			size: 1.5d
-			tasks: [
-				{
-					id: "5B7483C43F445880"
-					item: "ae2:controller"
-					type: "item"
-				}
-				{
-					id: "3DAA27E3F5E28B3B"
-					item: "ae2:energy_acceptor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "00D7707155874136"
+				item: "ae2:controller"
+				type: "item"
+			}]
 			title: "Applied Energistics"
 			x: -11.0d
 			y: 5.5d

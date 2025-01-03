@@ -10,4 +10,14 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.depletionChance(1)
         vein.depletedYield(50)
     });
+    event.add('gtceu:salt_water_overworld', vein => {
+        vein.dimensions('minecraft:overworld')
+        vein.fluid(() => Fluid.of('gtceu:salt_water').fluid)
+        vein.weight(35)
+        vein.minimumYield(50)
+        vein.maximumYield(150)
+        vein.depletionAmount(1)
+        vein.depletionChance(100)
+        vein.depletedYield(15)
+    });
 })

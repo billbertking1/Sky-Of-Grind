@@ -239,6 +239,37 @@
 					item: "gtceu:doge_coin"
 					type: "item"
 				}
+				{
+					id: "3D7A0554B1AA7D1E"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_scythe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								AoEColumn: 2
+								AoELayer: 2
+								AoERow: 2
+								MaxAoEColumn: 2
+								MaxAoELayer: 2
+								MaxAoERow: 2
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 105.0f
+								AttackSpeed: -2.5f
+								Damage: 0
+								HarvestLevel: 6
+								MaxDamage: 196604
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "7B1ABC1957380766"
@@ -510,40 +541,6 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"695308CFB8D4505C"
-				"56EE14CC857B60B3"
-			]
-			description: [
-				"You can mix antimatter + star matter to make a react-able matter thats gonna implode any second."
-				""
-				"This makes 1 amp of max power per tick. (and it lasts like 50m seconds so dont worry)"
-				""
-				"Now to make this really work you will need to use a bigger  Dynamo, like an 16a IV dynamo."
-			]
-			icon: "gtceu:reactable_fissioned_matter_plasma_bucket"
-			id: "52746AE55360DDBE"
-			rewards: [
-				{
-					id: "2BF6FEE0F973EE3D"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-				{
-					id: "337F86068A131F99"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5D5F0DBDA48153E1"
-				title: "Infinite POWAHH"
-				type: "checkmark"
-			}]
-			x: 10.0d
 			y: 8.0d
 		}
 		{
@@ -1491,18 +1488,6 @@
 				"PD: From here and above you will not get any more doge coins. Sorry!"
 			]
 			id: "571D6E7449ED876B"
-			rewards: [
-				{
-					id: "6DA73BF13B6CEEA5"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-				{
-					id: "32BDBDE43940BF5E"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-			]
 			shape: "octagon"
 			size: 2.0d
 			subtitle: "Woah."

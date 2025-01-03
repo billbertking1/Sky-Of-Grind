@@ -1443,7 +1443,7 @@
 				"Note: you might have been able to obtain them before, but some of them require Invar and Potin."
 			]
 			id: "0DE09F4FDA8E1C86"
-			size: 0.5d
+			size: 0.75d
 			tasks: [
 				{
 					id: "40AA9AA6AA269CAC"
@@ -1467,7 +1467,7 @@
 				}
 			]
 			title: "Steam Multiblocks!"
-			x: 5.5d
+			x: 5.25d
 			y: 5.0d
 		}
 		{
@@ -1505,6 +1505,29 @@
 			title: "ULV Components"
 			x: 5.5d
 			y: 6.5d
+		}
+		{
+			dependencies: ["11F178FE7717ACD2"]
+			description: [
+				"Solar boiler! "
+				""
+				"Just not blow them up."
+			]
+			id: "153EB23F6C6F15A6"
+			rewards: [{
+				id: "2CB0F69D9BB26CD7"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Even better"
+			tasks: [{
+				id: "53522B0315B58686"
+				item: "gtceu:hp_steam_solar_boiler"
+				type: "item"
+			}]
+			x: 4.875d
+			y: 4.125d
 		}
 	]
 	subtitle: ["Low Voltage"]
