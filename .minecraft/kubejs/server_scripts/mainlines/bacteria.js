@@ -72,7 +72,7 @@ event.recipes.gtceu.biolab('rawdna')
     .outputFluids('gtceu:bacterial_sludge 750')
     .itemOutputs('32x gtceu:stem_cells')
     .duration(790)
-    .EUt(GTValues.VA[GTValues.UEV]);
+    .EUt(GTValues.VA[GTValues.LuV]);
 
     event.replaceOutput({ type: 'gtceu:chemical_reactor' }, 'gtceu:stem_cells', '1x gtceu:stem_cells')
     event.replaceOutput({ type: 'gtceu:large_chemical_reactor' }, 'gtceu:stem_cells', '1x gtceu:stem_cells')

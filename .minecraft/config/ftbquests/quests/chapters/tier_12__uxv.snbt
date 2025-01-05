@@ -3,11 +3,11 @@
 	default_quest_shape: ""
 	filename: "tier_12__uxv"
 	group: "6B3EFCC5BFD49997"
-	icon: "kubejs:cosmic_processor_mainframe"
+	icon: "draconicevolution:chaos_shard"
 	id: "1D7194D795A36679"
 	order_index: 14
 	quest_links: [ ]
 	quests: [ ]
 	subtitle: ["Ultra Extreme Voltage"]
-	title: "&#ffff00&lTier 12 - UXV"
+	title: "&#121212&lTier 12 - UXV"
 }

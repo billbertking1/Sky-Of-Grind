@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "tier_13__opv"
 	group: "6B3EFCC5BFD49997"
-	icon: "kubejs:space_time_processor_mainframe"
+	icon: "gtceu:space_time_ingot"
 	id: "2580C12C2188EB02"
 	order_index: 15
 	quest_links: [ ]

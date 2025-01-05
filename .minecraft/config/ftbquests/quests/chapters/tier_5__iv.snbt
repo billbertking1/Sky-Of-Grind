@@ -1469,7 +1469,7 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["700D75AB04659866"]
+			dependencies: ["7243EE3F57F3A31A"]
 			description: [
 				"Now you can make a big multiblock of every machine."
 				"Except the circuit assembler, as u need an IV circuit assembler for that."
@@ -1486,8 +1486,8 @@
 				type: "item"
 			}]
 			title: "Big multiblocks"
-			x: -1.5d
-			y: 2.0d
+			x: 8.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["49CAD094813CC3F6"]

@@ -16,6 +16,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('atomicompressor', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('atomiccompressor')
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT])
         .appearanceBlock(GTBlocks.MACHINE_CASING_UV)
         .pattern(definition => FactoryBlockPattern.start()
         .aisle('###AAAAAAA###', '#############', '#############', '#############', '#############', '#############', '#############', '#############', '#############', '###AAAAAAA###')

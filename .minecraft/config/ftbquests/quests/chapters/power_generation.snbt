@@ -294,7 +294,7 @@
 			description: ["Are u closer to the end?"]
 			id: "01676E3F771FAA67"
 			shape: "octagon"
-			size: 2.5d
+			size: 3.0d
 			subtitle: "\"Now this is not the end.\\nIt is not even the beginning of the end.\\nBut it is, perhaps, the end of the beginning.\" -Monifactory"
 			tasks: [{
 				id: "32B008BCE91098C9"
@@ -302,7 +302,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 21.25d
+			y: 21.0d
 		}
 		{
 			dependencies: ["17DF3F05D95B034F"]
@@ -550,8 +550,8 @@
 				item: "solarflux:sp_7"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 13.5d
+			x: -1.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["4A8BC1D68AA5DD97"]
@@ -574,8 +574,8 @@
 				item: "solarflux:sp_8"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 15.0d
+			x: 1.0d
+			y: 13.0d
 		}
 		{
 			id: "2C2DAC1712784480"
@@ -604,6 +604,16 @@
 			}]
 			x: 0.0d
 			y: 7.5d
+		}
+		{
+			id: "1ED8D284B1F63471"
+			tasks: [{
+				id: "6FBB32D99765C1A6"
+				item: "solarflux:sp_avaritia.infinity"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 21.0d
 		}
 	]
 	title: "Power Generation"

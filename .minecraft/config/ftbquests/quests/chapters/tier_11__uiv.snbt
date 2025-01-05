@@ -3,7 +3,7 @@
 	default_quest_shape: "square"
 	filename: "tier_11__uiv"
 	group: "6B3EFCC5BFD49997"
-	icon: "kubejs:dragon_processor_mainframe"
+	icon: "draconicevolution:awakened_draconium_ingot"
 	id: "29411A93BF152DAF"
 	order_index: 13
 	quest_links: [{

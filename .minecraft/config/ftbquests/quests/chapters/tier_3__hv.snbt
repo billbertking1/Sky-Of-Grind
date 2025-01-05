@@ -6,14 +6,22 @@
 	icon: "gtceu:stainless_steel_ingot"
 	id: "4D043549D1FA613C"
 	order_index: 5
-	quest_links: [{
-		id: "5848A021B296805B"
-		linked_quest: "331055377E5032C8"
-		shape: "octagon"
-		size: 2.0d
-		x: 0.0d
-		y: 0.0d
-	}]
+	quest_links: [
+		{
+			id: "5848A021B296805B"
+			linked_quest: "331055377E5032C8"
+			shape: "octagon"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "25E4C75523025300"
+			linked_quest: "26C62836B41D0095"
+			x: -7.5d
+			y: 17.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["331055377E5032C8"]
@@ -675,7 +683,7 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["3C28D20EAFD74369"]
+			dependencies: ["26C62836B41D0095"]
 			description: ["Better fluid storage"]
 			id: "33CE914BBC9A38C0"
 			rewards: [{
@@ -688,8 +696,8 @@
 				item: "gtceu:lv_super_tank"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 13.5d
+			x: 4.0d
+			y: 17.0d
 		}
 		{
 			dependencies: [
@@ -737,8 +745,8 @@
 				}
 			]
 			title: "Wireless Logistics"
-			x: 2.5d
-			y: 13.5d
+			x: 4.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["4634A17361209347"]
@@ -851,23 +859,6 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["2F889EB9AB0A817D"]
-			id: "73F59292320439DE"
-			rewards: [{
-				id: "7260968D0E18AB7B"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4F57107D710A50AF"
-				item: "gtceu:hv_chemical_reactor"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["73F59292320439DE"]
 			description: ["Chemical react some oxygen with sulfur."]
 			id: "62BAA3135D76424A"
 			rewards: [{
@@ -897,7 +888,7 @@
 				item: "gtceu:sulfur_trioxide_bucket"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 15.5d
 		}
 		{
@@ -914,11 +905,14 @@
 				item: "gtceu:sulfuric_acid_bucket"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -5.5d
 			y: 15.5d
 		}
 		{
-			dependencies: ["146DAC8F4E639BE1"]
+			dependencies: [
+				"146DAC8F4E639BE1"
+				"26C62836B41D0095"
+			]
 			description: ["Polyethylene + copper + sulfuric acid"]
 			id: "2DE4387D5B19D55A"
 			rewards: [{
@@ -932,55 +926,10 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 14.5d
+			y: 15.5d
 		}
 		{
-			dependencies: ["146DAC8F4E639BE1"]
-			description: ["Have u passived this yet?"]
-			id: "2DEE12B54C948630"
-			rewards: [{
-				id: "60EA444B153F473D"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0FC5C5C3EB033FC4"
-				item: "gtceu:sodium_bisulfate_dust"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 17.0d
-		}
-		{
-			dependencies: ["2DEE12B54C948630"]
-			icon: "gtceu:sodium_persulfate_bucket"
-			id: "31C6A28689CE6449"
-			rewards: [{
-				id: "41F82F221FDF18F6"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "2F70FE3662E2ABA3"
-					item: "gtceu:hv_electrolyzer"
-					type: "item"
-				}
-				{
-					id: "44ACAEDE0C8468FD"
-					item: "gtceu:sodium_persulfate_bucket"
-					type: "item"
-				}
-			]
-			title: "&bSodium Bisulfate"
-			x: -7.5d
-			y: 17.0d
-		}
-		{
-			dependencies: [
-				"2DE4387D5B19D55A"
-				"31C6A28689CE6449"
-			]
+			dependencies: ["2DE4387D5B19D55A"]
 			id: "382F3F52D9C42DDC"
 			rewards: [{
 				id: "1B41EEE106E6B2F0"

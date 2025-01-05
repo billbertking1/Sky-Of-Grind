@@ -236,10 +236,13 @@
 			description: [
 				"GG!, you got to the moon. But it isnt the end, not even close."
 				""
-				"Explore the moon to find an unexplored  village with lunar villagers."
-				"Nearly every single village will have a dungeon below it, which will have a  moon globe hidden on it. Its like the old galacticraft blueprints."
+				"Explore the moon to find a village full of lunarian villagers, so much fun!"
+				"On these villages you may find a hidden dungeon below them (or near by) "
+				"Instead of mining everywhere just look for a little entrance, you will need to mine just a few blocks to enter the first stronghold-like staircase."
 				""
-				"You will need atleast 2 to get titanium, dw, theres not that much exploration tho."
+				"The Globe will be placed on world in a room, It may look scary at first glance. But remember, you are playing on peaceful mode, no mob will ever spawn!"
+				""
+				"You will need atleast 2 to get titanium, so get one and duplicate it."
 			]
 			icon: "ad_astra:moon_globe"
 			id: "69620FAFB77E56F2"
@@ -844,18 +847,11 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "31BB0C29821D7386"
-					item: "gtceu:hydrofluoric_acid_bucket"
-					type: "item"
-				}
-				{
-					id: "381272134B5B0DBA"
-					item: "gtceu:ev_chemical_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "31BB0C29821D7386"
+				item: "gtceu:hydrofluoric_acid_bucket"
+				type: "item"
+			}]
 			x: -5.5d
 			y: 3.5d
 		}

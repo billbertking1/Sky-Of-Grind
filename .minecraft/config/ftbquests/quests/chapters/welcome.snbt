@@ -16,7 +16,7 @@
 		}
 		{
 			height: 2.0d
-			image: "gtceu:item/wetware_processor_computer"
+			image: "kubejs:item/dimensional_processor_mainframe"
 			rotation: 0.0d
 			width: 2.0d
 			x: 0.0d

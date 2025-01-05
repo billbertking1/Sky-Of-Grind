@@ -15,6 +15,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('large_bacterial_bat', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('large_bacterial_vat')
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT])
         .appearanceBlock(GTBlocks.MACHINE_CASING_UV)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('AAAAAAA', 'CCCCCCC', 'CCCCCCC', 'CCCCCCC', 'AAAAAAA')

@@ -2,7 +2,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('dimensionalmatter')
         .category('drack')
         .setEUIO('in')
-        .setMaxIOSize(4, 2, 0, 1)
+        .setMaxIOSize(4, 2, 1, 2)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.BATH)
 })

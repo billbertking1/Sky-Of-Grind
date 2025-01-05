@@ -315,19 +315,12 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "57568ACDB72208A7"
-					item: "watersources:water_source_tier_1"
-					type: "item"
-				}
-				{
-					id: "5C72182F76DAFEC2"
-					item: "gtceu:lv_electric_pump"
-					type: "item"
-				}
-			]
-			x: -4.0d
+			tasks: [{
+				id: "57568ACDB72208A7"
+				item: "watersources:water_source_tier_1"
+				type: "item"
+			}]
+			x: -5.0d
 			y: 3.0d
 		}
 		{

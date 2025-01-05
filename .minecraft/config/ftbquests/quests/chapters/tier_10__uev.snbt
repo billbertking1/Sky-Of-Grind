@@ -3,7 +3,7 @@
 	default_quest_shape: "square"
 	filename: "tier_10__uev"
 	group: "6B3EFCC5BFD49997"
-	icon: "gtceu:resonant_essence_ingot"
+	icon: "draconicevolution:draconium_ingot"
 	id: "6390E93A0F02A823"
 	order_index: 12
 	quest_links: [

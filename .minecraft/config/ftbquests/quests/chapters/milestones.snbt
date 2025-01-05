@@ -687,7 +687,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5701B0DA8F070E6B"]
@@ -733,15 +733,35 @@
 				item: "kubejs:dimensional_processor_mainframe"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 19.5d
 		}
 		{
 			dependencies: [
 				"28365A3D6884CA34"
 				"776B36FB90E136C8"
+				"3CE8156C2E4AAFCE"
+			]
+			description: [
+				"&l&9Hope you enjoyed playing through Sky of Grind.&r"
+				""
+				"This was a pack made by 2 noobs with a lot of passion and ideas."
+				"We'd sure love to see all of your crazy bases that made you reach this point."
+				""
+				"&l&aSpecial Thanks to:"
+				""
+				"Diatonius1 for helping us with most of the endgame item and textures."
+				"Witherschat for helping us with texturing and letting us use his incredible textures."
+				"Thanks to DanRobzProbz for making the first ever Sky of Grind Youtube Playthrough."
+				"- And thanks  to RadzRatz for following in!"
 			]
 			id: "721022894AAF65E9"
+			rewards: [{
+				count: 2
+				id: "5A2ADF86172F4C4C"
+				item: "minecraft:stick"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 5.0d
 			subtitle: "You won!"
@@ -755,7 +775,7 @@
 		}
 		{
 			id: "776B36FB90E136C8"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "2F284A204B00884A"
 				item: "kubejs:max_voltage_coil"
@@ -927,7 +947,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6062F37BB208F232"]
@@ -1102,6 +1122,156 @@
 			}]
 			x: 18.0d
 			y: -3.0d
+		}
+		{
+			id: "2A55D8B3FD9169B0"
+			tasks: [{
+				id: "7336414018ADBABA"
+				item: "gtceu:lv_machine_casing"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 1.5d
+		}
+		{
+			id: "7D134DD7AE4C5EAE"
+			tasks: [{
+				id: "08A6A294984F42D8"
+				item: "gtceu:ulv_machine_casing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "4D6009F7A910ADFE"
+			tasks: [{
+				id: "2D4D3C8FDF36168B"
+				item: "gtceu:mv_machine_casing"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 3.0d
+		}
+		{
+			id: "41D97A9AA1BC13E1"
+			tasks: [{
+				id: "6D5AAF2DCDE82E71"
+				item: "gtceu:hv_machine_casing"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 4.5d
+		}
+		{
+			id: "07C36E7D903BF7EB"
+			tasks: [{
+				id: "60B86171E679AB16"
+				item: "gtceu:ev_machine_casing"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 6.0d
+		}
+		{
+			id: "2BFEB2F5A5729092"
+			tasks: [{
+				id: "7B4D8EFB2E43391B"
+				item: "gtceu:iv_machine_casing"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 7.5d
+		}
+		{
+			id: "0080659C60CE276A"
+			tasks: [{
+				id: "1ABEB4414FC60A11"
+				item: "gtceu:luv_machine_casing"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 9.0d
+		}
+		{
+			id: "15F58C8639CB71D6"
+			tasks: [{
+				id: "0119AE182386A7B9"
+				item: "gtceu:zpm_machine_casing"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 10.5d
+		}
+		{
+			id: "0A36C367F5FC10C0"
+			tasks: [{
+				id: "37F5632CE38B03F9"
+				item: "gtceu:uv_machine_casing"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 12.0d
+		}
+		{
+			id: "2EB1787DB4F75420"
+			tasks: [{
+				id: "2F9FB93AA296BBDA"
+				item: "gtceu:uhv_machine_casing"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 13.5d
+		}
+		{
+			id: "455292DFFF34C4C5"
+			tasks: [{
+				id: "66DE15AEE4426D99"
+				item: "gtceu:uev_machine_casing"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 15.0d
+		}
+		{
+			id: "660123C55A047C00"
+			tasks: [{
+				id: "3B5B4E60CE58F88D"
+				item: "gtceu:uiv_machine_casing"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 16.5d
+		}
+		{
+			id: "0E3A2D8274B79F6D"
+			tasks: [{
+				id: "405915A58402746E"
+				item: "gtceu:uxv_machine_casing"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 18.0d
+		}
+		{
+			id: "1A0ED19C5F1AF2A8"
+			tasks: [{
+				id: "0405B73ECCA744F5"
+				item: "gtceu:opv_machine_casing"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 19.5d
+		}
+		{
+			id: "3CE8156C2E4AAFCE"
+			tasks: [{
+				id: "56A39E5B289B0A16"
+				item: "gtceu:max_machine_casing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 16.0d
 		}
 	]
 	subtitle: ["Dont lose your motivation!"]

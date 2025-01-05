@@ -15,6 +15,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('bio_lab', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('biolab')
+        .recipeModifiers([GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK)])
         .appearanceBlock(GTBlocks.MACHINE_CASING_UV)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('AAAAA', 'ATTTA', 'ATTTA', 'ATTTA', 'AAAAA')

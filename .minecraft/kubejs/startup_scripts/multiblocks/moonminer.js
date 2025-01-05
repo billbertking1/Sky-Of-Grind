@@ -45,6 +45,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('atomic_moonminer', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('moonminer')
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT])
         .appearanceBlock(GTBlocks.MACHINE_CASING_HV)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('#CCC#', '#BBB#', '#CCC#', '##C##', '##C##', '#####', '#####', '#####', '#####', '#####', '#####')
