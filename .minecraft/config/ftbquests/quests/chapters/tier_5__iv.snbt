@@ -838,8 +838,8 @@
 				item: "gtceu:marble"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.5d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["752A9D0E74B3B11F"]
@@ -854,8 +854,8 @@
 				item: "gtceu:magnesium_dust"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 8.5d
+			x: -2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4D876F9D284F5590"]
@@ -870,8 +870,8 @@
 				item: "gtceu:magnalium_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 9.5d
+			x: -1.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7B6D059D211A42FC"]

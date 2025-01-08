@@ -282,7 +282,7 @@ event.recipes.gtceu.dimensionalmatter('matter')
     .circuit(23)
     .dimension('ad_astra:venus')
     .itemOutputsRanged( 'kubejs:exotic_matter', 10, 15)
-    .itemOutputsRanged( 'kubejs:rad_primary_resonant_particles', 1, 2)
+    .outputFluids('gtceu:acidic_venus_residue 1000')
     .duration(40)
     .EUt(GTValues.VA[GTValues.UEV]);
 

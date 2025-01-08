@@ -1433,5 +1433,6 @@ sog.shaped(
         B: 'ae2:annihilation_core',
         Y: 'minecraft:sticky_piston',
 })
+sog.shapeless('ae2:interface', ['ae2:cable_interface'])
 
 })

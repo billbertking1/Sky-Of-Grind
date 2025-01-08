@@ -359,10 +359,8 @@
 			y: 9.5d
 		}
 		{
-			dependencies: [
-				"2A476DB7A53D97B2"
-				"3BCDF0F1CC18328C"
-			]
+			can_repeat: false
+			dependencies: ["2A476DB7A53D97B2"]
 			description: [
 				"This is the distillation tower, a cool funny multiblock to distill your oil at semi max efficiency."
 				"Would 100% recommend it incase you want to use things like diesel for power gen or combustion generators. as well as a better ethylene route."
@@ -1275,63 +1273,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3A83DD21744B00D5"]
-			id: "30919171383C734B"
-			rewards: [{
-				id: "75B53BE3A033714D"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			subtitle: "a big name huh"
-			tasks: [
-				{
-					id: "056971235D8AE139"
-					item: "gtceu:phosphorus_boule"
-					type: "item"
-				}
-				{
-					id: "5C4AB353E439A6F8"
-					item: "gtceu:phosphorus_wafer"
-					type: "item"
-				}
-			]
-			x: 11.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["50B880443FF71E21"]
-			description: [
-				"Centrifuge some stone dust to get  the metal mixture to get the lens"
-				""
-				"You cannot currently make the EV laser engraver so..."
-			]
-			icon: "gtceu:hv_laser_engraver"
-			id: "3021D37643093EE5"
-			rewards: [{
-				id: "53BABE7F4654175E"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "7CDB1F8C6385656E"
-					item: "gtceu:hv_laser_engraver"
-					type: "item"
-				}
-				{
-					id: "446A9F1B52F81480"
-					item: "gtceu:brown_glass_lens"
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: 11.0d
-		}
-		{
-			dependencies: [
-				"30919171383C734B"
-				"3021D37643093EE5"
-			]
 			id: "2B2F37A02EE520AB"
 			rewards: [{
 				id: "3A87957BFB85E773"
@@ -1397,22 +1338,6 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["7D061C1E8930F0F9"]
-			id: "3A83DD21744B00D5"
-			rewards: [{
-				id: "4DE15E89B6456D48"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2B44285EFFA421A4"
-				item: "gtceu:ev_cutter"
-				type: "item"
-			}]
-			x: 10.0d
 			y: 9.5d
 		}
 		{
@@ -1580,8 +1505,8 @@
 				item: "gtceu:quantum_eye"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 15.0d
+			x: 11.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["10FAD89C71AB39A4"]
@@ -1604,8 +1529,8 @@
 				}
 			]
 			title: "You sure hate those."
-			x: 14.0d
-			y: 12.5d
+			x: 13.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["0837650965A6148A"]
@@ -1621,8 +1546,8 @@
 				type: "item"
 			}]
 			title: "Better machinery!"
-			x: 14.0d
-			y: 9.5d
+			x: 13.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["62C09C8F416308C8"]
@@ -1697,7 +1622,11 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["2B2F37A02EE520AB"]
+			dependencies: [
+				"2B2F37A02EE520AB"
+				"3F6D45800AF7EF0F"
+				"50B880443FF71E21"
+			]
 			description: ["Even better ores!"]
 			id: "142BB029494C7A06"
 			rewards: [{
@@ -1710,8 +1639,8 @@
 				item: "gtceu:ev_electric_extractinator"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 11.0d
+			x: 10.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["65AECCF83CDB662B"]
@@ -1765,6 +1694,7 @@
 		}
 		{
 			dependencies: ["69D2657F779DFFE6"]
+			description: ["This is exactly why you needed Petrochem, good luck with the TNT"]
 			id: "7642FE788D211940"
 			tasks: [{
 				id: "08A02902C6D8C456"

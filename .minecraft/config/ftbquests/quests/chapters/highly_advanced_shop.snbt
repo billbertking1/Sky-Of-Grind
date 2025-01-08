@@ -631,6 +631,44 @@
 			x: 18.0d
 			y: 1.5d
 		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						data: 6
+						id: "hostilenetworks:elder_guardian"
+					}
+				}
+			}
+			id: "2B8D0E68A5D165F8"
+			rewards: [{
+				id: "5F4397D1BE749C3C"
+				item: {
+					Count: 1
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							data: 6
+							id: "hostilenetworks:elder_guardian"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "7E734EA211FDA7C9"
+				item: { Count: 25, id: "gtceu:doge_coin" }
+				type: "item"
+			}]
+			title: "Elder Guardian Data Model"
+			x: 18.0d
+			y: 3.0d
+		}
 	]
 	subtitle: ["wow much coin how monyey so cwypto pwz minye v wich vewy cuwwency wow"]
 	title: "Highly Advanced Shop"

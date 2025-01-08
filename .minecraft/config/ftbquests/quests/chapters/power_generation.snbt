@@ -136,8 +136,9 @@
 			y: 4.0d
 		}
 		{
+			description: ["Though Large Solar Panels are probably better"]
 			id: "146A7F173C64886B"
-			subtitle: "Plasma is the Way!"
+			subtitle: "Plasma is a Way!"
 			tasks: [{
 				id: "5AE2965208E44E99"
 				item: "gtceu:plasma_large_turbine"
@@ -478,6 +479,7 @@
 				title: "Combustion isnt gonna cut it!"
 				type: "checkmark"
 			}]
+			title: "Gas energy isn't gonna cut it!"
 			x: -7.0d
 			y: 4.0d
 		}

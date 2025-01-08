@@ -323,7 +323,7 @@
 		{
 			dependencies: [
 				"00D129C33D78FFFE"
-				"333F321745A1F23E"
+				"0E326EE2CC4B7F55"
 			]
 			description: ["You had some Draconium dusts before, but you dont want to fight the ender dragon 5 million times right?"]
 			id: "2560C53365DBDA7D"
@@ -348,7 +348,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			id: "0E326EE2CC4B7F55"
@@ -359,7 +359,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			id: "1BA5F48C84B1E836"
@@ -369,8 +369,8 @@
 				item: "gtceu:californium_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2560C53365DBDA7D"]
