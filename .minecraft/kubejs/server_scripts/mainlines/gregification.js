@@ -1198,8 +1198,8 @@ sog.recipes.gtceu.assembler('uevcasing')
 .itemInputs('8x gtceu:resonant_essence_plate')
 .circuit(8)
 .itemOutputs('gtceu:uev_machine_casing')
-.duration(40)
-.EUt(GTValues.VA[GTValues.UEV]);
+.duration(50)
+.EUt(GTValues.VA[GTValues.LV]);
 sog.recipes.gtceu.large_chemical_reactor('hrcb')
 .itemInputs('2x gtceu:wetware_circuit_board', '64x gtceu:antimatter_foil', 'kubejs:antimatter_boule')
 .inputFluids(Fluid.of('gtceu:antimatter', 100))
