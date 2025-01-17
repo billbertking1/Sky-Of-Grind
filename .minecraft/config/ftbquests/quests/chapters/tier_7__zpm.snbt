@@ -529,39 +529,6 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["387BFDB3C6162B0B"]
-			description: ["Make uranium by mixing gold and aluminum on a fusion reactor! so funny! (Make more fusion)"]
-			id: "1FE96CB97C493D92"
-			rewards: [{
-				id: "7D724D08D2824FE8"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2A38D3A73EE56BE7"
-				item: "gtceu:uranium_ingot"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1FE96CB97C493D92"]
-			id: "12C61C76849B0A00"
-			rewards: [{
-				id: "3FBEB7CF99F035C4"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6D91037C1DE544F5"
-				item: "gtceu:zpm_field_generator"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["3D1BD4696D35F79C"]
 			id: "5621B771EF98931F"
 			rewards: [{
@@ -815,6 +782,22 @@
 			}]
 			x: -3.0d
 			y: 11.5d
+		}
+		{
+			dependencies: ["5CE62A179F6FE234"]
+			id: "12C61C76849B0A00"
+			rewards: [{
+				id: "3FBEB7CF99F035C4"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D91037C1DE544F5"
+				item: "gtceu:zpm_field_generator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
 		}
 	]
 	subtitle: ["Zero Point Module"]

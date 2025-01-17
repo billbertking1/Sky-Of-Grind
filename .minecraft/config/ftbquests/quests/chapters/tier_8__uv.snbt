@@ -614,6 +614,7 @@
 				"&rOh I forgot, you also need 2 &dCreative Energy Cells (AE2)&r and 2 &aZPM Lapotronic Capacitor.&r"
 				""
 				"You can only put hatches on the atomic casings."
+				"You can only use Laser Target Hatches as energy input."
 			]
 			icon: "gtceu:atomicforge"
 			id: "78AD69A43E7C24D4"

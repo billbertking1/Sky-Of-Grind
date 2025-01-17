@@ -87,7 +87,10 @@ sog.create('neutronium_heavy_plating').displayName('Neutronium Heavy Plating').t
 sog.create('infinity_heavy_plating').displayName('Infinity Heavy Plating').texture('kubejs:item/heavy_plating/infinity_heavy_plating')
 sog.create('chaos_heavy_plating').displayName('Chaotic Heavy Plating').texture('kubejs:item/heavy_plating/chaotic_heavy_plating')
 sog.create('californite_heavy_plating').displayName('Radioactive Heavy Plating').texture('kubejs:item/heavy_plating/irradiated_heavy_plating')
-
+        //power
+sog.create('tesla_coil_mk1').displayName('Tesla Coil MKI').texture('kubejs:item/power/tesla_coil_mk1').tooltip('Produces 1 ZPM amp when used on the Tesla Tower')
+sog.create('tesla_coil_mk2').displayName('Tesla Coil MKII').texture('kubejs:item/power/tesla_coil_mk2').tooltip('Produces 1 UHV amp when used on the Tesla Tower')
+sog.create('tesla_coil_mk3').displayName('Tesla Coil MKIII').texture('kubejs:item/power/tesla_coil_mk3').tooltip('Produces 1 UXV amp when used on the Tesla Tower')
 })
 
 StartupEvents.registry('block', sog => {
@@ -160,6 +163,20 @@ StartupEvents.registry('block', sog => {
         sog.create('highly_reinforced_radioactive_casing')
         .displayName('Highly Reinforced Radioactive Casing')
         .textureAll('kubejs:block/casings/highly_reinforced_radioactive_casing')
+        .soundType('metal')
+        .resistance(1)
+        .lightLevel(0)
+        .tagBlock('mineable:pickaxe')
+        sog.create('naquadria_turbine_casing')
+        .displayName('Naquadria Turbine Casing')
+        .textureAll('kubejs:block/casings/machine_casing_turbine_naquadria')
+        .soundType('metal')
+        .resistance(1)
+        .lightLevel(0)
+        .tagBlock('mineable:pickaxe')
+        sog.create('osmiridium_pipe_casing')
+        .displayName('Osmiridium Pipe Casing')
+        .textureAll('kubejs:block/casings/machine_casing_pipe_osmiridium')
         .soundType('metal')
         .resistance(1)
         .lightLevel(0)

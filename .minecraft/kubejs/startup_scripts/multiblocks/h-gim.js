@@ -43,7 +43,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('B', Predicates.blocks('kubejs:fusion_coil_mk2'))
             .where('A', Predicates.blocks('gtceu:electrolytic_cell'))
             .where("C", Predicates.blocks('kubejs:quantum_casing')
-                .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+                .or(Predicates.abilities(PartAbility.EXPORT_ITEMS, PartAbility.EXPORT_FLUIDS, PartAbility.IMPORT_ITEMS, PartAbility.IMPORT_FLUIDS, PartAbility.INPUT_LASER))
                 .or(Predicates.abilities(PartAbility.MAINTENANCE))
                 .or(Predicates.abilities(PartAbility.PARALLEL_HATCH))
             )

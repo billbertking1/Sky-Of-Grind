@@ -2,9 +2,6 @@ const FusionReactorMachine = Java.loadClass("com.gregtechceu.gtceu.common.machin
 
 
 ItemEvents.tooltip(event => {
-    event.add('gtceu:atomicforge', Text.gray('Huge multiblock that uses lots of energy to modify and transmute items'))
-
-
 
     event.add('gtceu:uhv_uhv_parallel_hatch', Text.translatable('gtceu.uhv_parallel_hatch.desc'))
     event.add('gtceu:uev_uev_parallel_hatch', Text.translatable('gtceu.uev_parallel_hatch.desc'))
@@ -14,6 +11,7 @@ ItemEvents.tooltip(event => {
 
     event.addAdvanced('gtceu:quantum_space_projector', (item, adv, text) => {
         text.add(1, Text.translatable('gtceu.multiblock.parallelizable.tooltip'))
+        text.add(2, Text.translatable('gtceu.multiblock.laser_input.description'))
     })
     event.addAdvanced('gtceu:atomic_moonminer', (item, adv, text) => {
         text.add(1, Text.translatable('gtceu.multiblock.parallelizable.tooltip'))
@@ -36,6 +34,19 @@ ItemEvents.tooltip(event => {
     event.addAdvanced('gtceu:uev_fusion_reactor', (item, adv, text) => {
         text.add(1, Text.translatable('gtceu.machine.fusion_reactor.capacity', Math.trunc(FusionReactorMachine.calculateEnergyStorageFactor(GTValues.UEV, 16) / 1000000)))
         text.add(2, Text.translatable('gtceu.multiblock.uev_fusion_reactor.description'))
+    })
+    event.addAdvanced('gtceu:atomicforge', (item, adv, text) => {
+        text.add(1, Text.translatable('gtceu.multiblock.atomic_forge.description'))
+        text.add(2, Text.translatable('gtceu.multiblock.laser_input.description'))
+    })
+    event.addAdvanced('gtceu:gravitational_implosion_machine', (item, adv, text) => {
+        text.add(1, Text.translatable('gtceu.multiblock.laser_input.description'))
+    })
+    event.addAdvanced('gtceu:tesla_tower', (item, adv, text) => {
+        text.add(1, Text.translatable('gtceu.multiblock.laser_output.description'))
+    })
+    event.addAdvanced('gtceu:xl_plasma_turbine', (item, adv, text) => {
+        text.add(1, Text.translatable('gtceu.multiblock.laser_output.description'))
     })
 
 

@@ -728,7 +728,7 @@
 				"2CEF142F1347E4B7"
 				"6F17B7E1C7B46BDB"
 			]
-			description: ["Still no lubricant? Dang.."]
+			description: ["Still no lubricant? Damn.."]
 			id: "2C452AC455C9F798"
 			rewards: [{
 				id: "2A3491BB87598762"
@@ -810,7 +810,7 @@
 				"2C452AC455C9F798"
 				"47F6AD489D5C7003"
 			]
-			description: ["Damm, thats a lot of wafers. "]
+			description: [""]
 			id: "22DCB2E95D47FADC"
 			rewards: [{
 				id: "5AA48D41375D0229"
@@ -819,27 +819,23 @@
 			}]
 			tasks: [
 				{
-					count: 32L
 					id: "7483DEF48B401995"
-					item: { Count: 32, id: "gtceu:cpu_wafer" }
+					item: "gtceu:cpu_wafer"
 					type: "item"
 				}
 				{
-					count: 32L
 					id: "032BFAE8A76FC830"
-					item: { Count: 32, id: "gtceu:ram_wafer" }
+					item: "gtceu:ram_wafer"
 					type: "item"
 				}
 				{
-					count: 32L
 					id: "2EBDE8FDF769CE1E"
-					item: { Count: 32, id: "gtceu:ilc_wafer" }
+					item: "gtceu:ilc_wafer"
 					type: "item"
 				}
 				{
-					count: 32L
 					id: "136A6B2890D6D946"
-					item: { Count: 32, id: "gtceu:ulpic_wafer" }
+					item: "gtceu:ulpic_wafer"
 					type: "item"
 				}
 			]

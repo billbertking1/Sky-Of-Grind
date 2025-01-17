@@ -945,10 +945,6 @@ sog.recipes.gtceu.fusion_reactor('reactmatter')
         .fusionStartEU(640000000)
         .duration(30)
         .EUt((GTValues.VA[GTValues.UHV]))
-sog.recipes.gtceu.plasma_generator('reactmatterplasma')
-        .inputFluids(Fluid.of('gtceu:reactable_fissioned_matter_plasma', 1))
-        .duration(160)
-        .EUt(-(GTValues.V[GTValues.UEV]))
 
 
 sog.shaped(
@@ -1434,5 +1430,5 @@ sog.shaped(
         Y: 'minecraft:sticky_piston',
 })
 sog.shapeless('ae2:interface', ['ae2:cable_interface'])
-
+sog.shapeless('ae2:pattern_provider', ['ae2:cable_pattern_provider'])
 })

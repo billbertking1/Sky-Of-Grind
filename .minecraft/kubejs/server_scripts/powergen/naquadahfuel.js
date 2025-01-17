@@ -37,12 +37,6 @@ ServerEvents.recipes(event => {
         .duration(4200)
         .EUt((GTValues.VA[GTValues.UV]))
 
-    //MK I
-    event.recipes.gtceu.plasma_generator("naquadria_plasma")
-    .inputFluids(Fluid.of('gtceu:naquadria_plasma_plasma', 200))
-    .outputFluids(Fluid.of('gtceu:naquadria', 250))
-    .duration(1120)
-    .EUt(-(GTValues.V[GTValues.ZPM]))
 
 
 

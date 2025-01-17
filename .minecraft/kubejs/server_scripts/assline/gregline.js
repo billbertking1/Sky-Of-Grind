@@ -118,4 +118,14 @@ Fluid.of('gtceu:neutronium', 8124)
 )
 .duration(1000)
 .EUt(GTValues.VA[GTValues.UIV])   
+event.recipes.gtceu.assembly_line('xl_plasma_turbine')
+.itemInputs('16x gtceu:naquadria_plate', '16x gtceu:quantum_star', 'gtceu:zpm_machine_hull', '32x gtceu:double_naquadah_alloy_plate', '4x #gtceu:circuits/uv', '4x gtceu:zpm_robot_arm', '8x gtceu:zpm_electric_piston', 'gtceu:zpm_compressor', '4x gtceu:iv_field_generator')
+.itemOutputs('gtceu:gravitational_implosion_machine')
+.inputFluids(
+Fluid.of('gtceu:soldering_alloy', 1152),
+Fluid.of('gtceu:polybenzimidazole', 1152),
+Fluid.of('gtceu:europium', 244)
+)
+.duration(1000)
+.EUt(GTValues.VA[GTValues.UV])   
     })

@@ -55,7 +55,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('R', Predicates.blocks('gtceu:electrolytic_cell'))
             .where('A', Predicates.blocks('kubejs:quantum_casing')
             .or(Predicates.abilities(PartAbility.MAINTENANCE))
-            .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+            .or(Predicates.abilities(PartAbility.EXPORT_ITEMS, PartAbility.EXPORT_FLUIDS, PartAbility.IMPORT_ITEMS, PartAbility.IMPORT_FLUIDS, PartAbility.INPUT_LASER))
             .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setMaxGlobalLimited(1)))
             .where('G', Predicates.blocks('gtceu:high_power_casing'))
             .where('F', Predicates.blocks('gtceu:fusion_glass'))
