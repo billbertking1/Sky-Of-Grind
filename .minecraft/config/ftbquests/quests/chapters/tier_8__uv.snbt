@@ -18,7 +18,7 @@
 		{
 			id: "7634DBE6BE34CFA2"
 			linked_quest: "7CFBD6D6165E827D"
-			x: 9.5d
+			x: 9.0d
 			y: 6.0d
 		}
 	]
@@ -95,8 +95,8 @@
 				type: "item"
 			}]
 			title: "Assembling everyone at Ultimate Tier"
-			x: 4.0d
-			y: 3.5d
+			x: 3.5d
+			y: 2.75d
 		}
 		{
 			description: ["Recipes start to take longer on those tiers, so remember to upgrade your infrastructure by using large and big bois multiblocks so you can parallelize them."]
@@ -135,6 +135,7 @@
 				type: "item"
 			}]
 			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "28DA474F62720748"
 				item: "gtceu:tritanium_coil_block"
@@ -185,7 +186,7 @@
 				"2B6C1EAE34701CC3"
 				"6F5C4420119FF2FB"
 			]
-			description: ["&n&cThis is a long chemical line, so if u have already automated this and dont want to get buckets just hold 16x dusts of cleaned californium to skip the line.&r&r"]
+			description: ["&n&cThis is a long chemical line, so if you have already automated this and don't want to get buckets just hold 16 dusts of cleaned californium to skip the line.&r"]
 			id: "28F815505B60672A"
 			rewards: [{
 				id: "1CF7F4B990EB40A9"
@@ -214,15 +215,16 @@
 				item: "gtceu:diluted_sulfuric_acid_bucket"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 7.0d
 		}
 		{
 			description: [
-				"Wait a minute, why does this quest requires mince meat?"
+				"Wait a minute, why does this quest require mince meat?"
 				""
-				"Well, you already did Acetic Acid on EV, so its not a big deal."
-				"But you can also make diluted sulfuric acid by mixing sulfuric acid with mince meat and bone meal, it just requires an sterilized cleanroom, which is later on this chapter. So keep in mind automating mince meat for that, and you will also need it for bacteria. (Required for UHV circuits)"
+				"Well, you already did acetic acid in EV, so it's not that big of a deal."
+				""
+				"But you can also make diluted sulfuric acid by mixing sulfuric acid with mince meat and bone meal, it just requires a sterilized cleanroom, which is later in this chapter, so keep in mind automating mince meat for that, and you will also need it for bacteria (which is required for UHV circuits)."
 			]
 			icon: "gtceu:acetic_acid_bucket"
 			id: "255D6A51593E2097"
@@ -237,7 +239,7 @@
 				type: "item"
 			}]
 			title: "Acetic Acid Bucket"
-			x: 2.0d
+			x: 3.0d
 			y: 5.5d
 		}
 		{
@@ -256,7 +258,7 @@
 				item: "gtceu:processed_triplatirium_sulfate_bucket"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 7.0d
 		}
 		{
@@ -299,7 +301,7 @@
 				item: "gtceu:trisulfate_slurry_bucket"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 4.5d
 		}
 		{
@@ -315,7 +317,7 @@
 				item: "gtceu:uv_fluid_heater"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 3.5d
 		}
 		{
@@ -334,7 +336,7 @@
 				item: "gtceu:cleaned_trisulfate_slurry_bucket"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 2.5d
 		}
 		{
@@ -353,7 +355,7 @@
 				item: "gtceu:trisulfate_solution_bucket"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 0.5d
 		}
 		{
@@ -370,7 +372,7 @@
 				item: "gtceu:indium_concentrate_bucket"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 9.0d
 			y: -0.5d
 		}
 		{
@@ -380,6 +382,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "You really thought skipping indium processing was a thing?"
 			tasks: [{
 				id: "73D4F3C80E068B91"
 				item: "gtceu:raw_galena"
@@ -580,6 +583,7 @@
 				item: "gtceu:mega_blast_furnace"
 				type: "item"
 			}]
+			title: "MEGA BLAST FURNACEEEE"
 			x: 2.0d
 			y: -1.0d
 		}
@@ -598,7 +602,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -606,15 +610,14 @@
 				"71C494C011495483"
 			]
 			description: [
-				"This is &9massive&r multiblock that discharges  &2radioactive&r materials and massive &cenergy&r amounts to transmute and mix diverse materials needed to progress."
+				"This is a &9massive&r multiblock that discharges &2radioactive&r materials and massive amounts of &cenergy&r to transmute and mix diverse materials needed to progress."
 				""
-				"&l&8PS:&r&r Dont use &aJEI Support&r, its kinda &cwrong&r."
-				"&l&4You need &r480 tritanium coils&l&4, good luck!&r"
+				"Note: Don't use &aJEI Support&r, it's kinda wrong."
+				"&l&4You need &n480&r&l&4 tritanium coils, good luck!&r"
 				""
-				"&rOh I forgot, you also need 2 &dCreative Energy Cells (AE2)&r and 2 &aZPM Lapotronic Capacitor.&r"
+				"Oh, I forgot, you also need 2 &dCreative Energy Cells&r (AE2) and 2 &aZPM Lapotronic Capacitors&r."
 				""
 				"You can only put hatches on the atomic casings."
-				"You can only use Laser Target Hatches as energy input."
 			]
 			icon: "gtceu:atomicforge"
 			id: "78AD69A43E7C24D4"
@@ -685,8 +688,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -4.0d
+			x: 0.75d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -719,6 +722,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "Quite heavy"
 			tasks: [{
 				id: "06C4799BA6B412EF"
 				item: "kubejs:condensed_star_matter"
@@ -735,13 +739,14 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "How is this so cold?"
 			tasks: [{
 				id: "36DC232089E75E51"
 				item: "gtceu:condensed_star_matter_bucket"
 				type: "item"
 			}]
 			x: 6.0d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -762,7 +767,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2B6C1EAE34701CC3"]
@@ -788,6 +793,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "If you sneeze in there, it's over..."
 			tasks: [{
 				id: "06122C87E6B0C5A0"
 				item: "gtceu:sterilizing_filter_casing"
@@ -805,7 +811,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
-			subtitle: "First step of the Bacteria Line"
+			subtitle: "First step of the bacteria line"
 			tasks: [{
 				id: "287D15CDE325AAAA"
 				item: "gtceu:collagen_dust"
@@ -953,6 +959,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "This has to be illegal"
 			tasks: [{
 				id: "0B3D30672501AF19"
 				item: "gtceu:mutagen_bucket"
@@ -1005,6 +1012,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "Homunculus?"
 			tasks: [{
 				count: 32L
 				id: "0026ED9C7023A760"
@@ -1041,6 +1049,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "IT'S ALIVE!!!"
 			tasks: [{
 				id: "50EEB5A3D0CE3142"
 				item: "gtceu:neuro_processing_unit"
@@ -1073,7 +1082,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
-			subtitle: "The last Luv Circuit"
+			subtitle: "The last LuV circuit"
 			tasks: [{
 				id: "69BD305D3E5718BF"
 				item: "gtceu:wetware_processor"
@@ -1132,6 +1141,7 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
+			subtitle: "Why is it looking at me like that..."
 			tasks: [{
 				id: "01D12D63D44BC614"
 				item: "gtceu:wetware_processor_mainframe"
@@ -1185,23 +1195,12 @@
 			]
 			description: ["Get prepared, you are gonna need a lot of singularities."]
 			id: "02FB67793FFB1B16"
-			rewards: [
-				{
-					id: "0349F68E2E333DAF"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-				{
-					id: "05FF1CD872E124A0"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-				{
-					id: "7BA0B48CE6CFFBC2"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 3
+				id: "0349F68E2E333DAF"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
@@ -1323,10 +1322,9 @@
 				"0FF8D59811787170"
 			]
 			description: [
-				"Takes 25 minutes just to craft te item on the assembly line (at UV)."
-				"Good luck."
+				"Takes 25 minutes just to craft the item in the assembly line. Good luck!"
 				""
-				"You can make it without the data module if u made the creative data, thought it will stay here for the chads that want to make it normally :D"
+				"You can make it without the data module if you made the creative data, thought it will stay here for the chads that want to make it normally :D"
 			]
 			id: "3EB096642664FBB1"
 			rewards: [{
@@ -1335,8 +1333,8 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
-			shape: "octagon"
-			size: 1.5d
+			shape: "gear"
+			size: 1.75d
 			subtitle: "First creative item"
 			tasks: [{
 				id: "0118961905336BBE"
@@ -1345,7 +1343,7 @@
 			}]
 			title: "&d&nCreative Energy Cell"
 			x: 16.5d
-			y: -6.0d
+			y: -5.25d
 		}
 		{
 			dependencies: ["4C15C82E0E38B70A"]
@@ -1368,10 +1366,11 @@
 		{
 			dependencies: ["193584811AABC74F"]
 			description: [
-				"With the new obtained &aStem Cells&r you are now able to create the &eLarge Bacterial Vat. &r"
+				"With the new obtained &aStem Cells&r you are now able to create the &eLarge Bacterial Vat&r."
 				""
-				"Even though its not a very expensive multiblock it will be very useful for&2 cultivating stem cells and bacteria.&r"
-				"You will also need it for bio-chemical lines on &aUEV.&r"
+				"Even though it's not a very expensive multiblock, it will be very useful for &2cultivating stem cells and bacteria&r."
+				""
+				"You will also need it for bio-chemical lines on &aUEV&r."
 			]
 			id: "5C917BB538C98991"
 			tasks: [{

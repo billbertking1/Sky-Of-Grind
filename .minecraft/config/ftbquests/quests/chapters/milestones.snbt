@@ -532,7 +532,7 @@
 				item: "kubejs:space_time_processor_mainframe"
 				type: "item"
 			}]
-			title: "OPV"
+			title: "OpV"
 			x: 18.0d
 			y: 19.5d
 		}
@@ -752,8 +752,8 @@
 				""
 				"Diatonius1 for helping us with most of the endgame item and textures."
 				"Witherschat for helping us with texturing and letting us use his incredible textures."
-				"Thanks to DanRobzProbz for making the first ever Sky of Grind Youtube Playthrough."
-				"- And thanks  to RadzRatz for following in!"
+				"Thanks to DanRobzProbz for making the first ever Sky of Grind YouTube playthrough."
+				"- And thanks to RadzRatz for following in!"
 			]
 			id: "721022894AAF65E9"
 			rewards: [{
@@ -974,6 +974,7 @@
 		{
 			dependencies: ["79325F05275A6041"]
 			id: "20B7921E35AA0D02"
+			subtitle: "You can now run the cracker using 1 EU/t! :D"
 			tasks: [{
 				id: "1A3CDDE20D43B744"
 				item: "kubejs:awakened_draconium_coil_block"

@@ -30,7 +30,7 @@
 	quests: [
 		{
 			dependencies: ["571D6E7449ED876B"]
-			description: ["Prepared for some Fungi Bio-quimical line?"]
+			description: ["Prepared for some fungi bio-chemical line?"]
 			id: "7F4DECD829D05C2B"
 			tasks: [{
 				id: "384CE8DCE6766BD7"
@@ -85,7 +85,7 @@
 				"132CEAF670E7CC3B"
 			]
 			id: "38B15640E2E9E90E"
-			subtitle: "Needs UIV."
+			subtitle: "Needs UIV"
 			tasks: [
 				{
 					id: "7E6B245325184EF3"
@@ -193,7 +193,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["If u dont know how to get the red mushroom, just buy it from the token shop."]
+			description: ["If you dont know how to get the red mushroom, just buy it from the token shop."]
 			id: "7547B95615B7D6F2"
 			tasks: [{
 				id: "3F3B77F8503980CB"
@@ -228,7 +228,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5C288BF6F5762125"]
@@ -240,7 +240,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -325,7 +325,7 @@
 				"00D129C33D78FFFE"
 				"0E326EE2CC4B7F55"
 			]
-			description: ["You had some Draconium dusts before, but you dont want to fight the ender dragon 5 million times right?"]
+			description: ["You had some draconium dust before, but you don't want to fight the ender dragon 5 million times right?"]
 			id: "2560C53365DBDA7D"
 			tasks: [{
 				id: "274A2B852A768E2D"
@@ -377,25 +377,23 @@
 			description: [
 				"Congrats. New Donut."
 				""
-				"This is a great achievement, and will set  up all your UEv Progression."
+				"This is a great achievement, and will set up all your UEV progression."
 				""
-				"Now, since the fusion GUI is made by vanilla GT and we are using new inputs JEI doesnt like it."
+				"Now, since the fusion GUI is made by vanilla GT and we are using new inputs, JEI doesnt like it."
 				""
+				"So for every new material made on the MK 4 you will need to input computation, and instead of having a speed duration it will complete once you get enough CWU ([CWU input*500] Ex: 256*500 CWU)"
 				""
-				"So for every new material made on the MK 4 you will need to input Computation. And instead of having a speed duration it will complete once you get enough CWU ([cwu  input*500]   Ex: 256*500 CWU)"
-				""
-				""
-				"Jei doesnt like this, so this is the cost for every new material:"
+				"JEI doesnt like this, so this is the cost for every new material:"
 				" (next page)"
 				"{@pagebreak}"
 				""
 				"Crystal Matrix = 64 CWU/t (64*500 duration)"
-				"Cosmic Titanium =  64 CWU/t (64*500 duration)"
-				"Cosmic Tungsten =  64 CWU/t (64*500 duration)"
-				"Cosmic Iridium =  96 CWU/t (96*500 duration)"
-				"Cosmic Osmium =  64 CWU/t (64*500 duration)"
-				"Nihonium =  256 CWU/t (256*500 duration)"
-				"Oganesson =  256 CWU/t (256*500 duration)"
+				"Cosmic Titanium = 64 CWU/t (64*500 duration)"
+				"Cosmic Tungsten = 64 CWU/t (64*500 duration)"
+				"Cosmic Iridium = 96 CWU/t (96*500 duration)"
+				"Cosmic Osmium = 64 CWU/t (64*500 duration)"
+				"Nihonium = 256 CWU/t (256*500 duration)"
+				"Oganesson = 256 CWU/t (256*500 duration)"
 			]
 			id: "1AAD55E80A86E225"
 			shape: "octagon"
@@ -520,6 +518,7 @@
 			id: "050822922B932C7D"
 			shape: "octagon"
 			size: 2.0d
+			subtitle: "These platings are REALLY heavy"
 			tasks: [{
 				id: "6ABC8CB7A8F9E09E"
 				item: "gtceu:gravitational_implosion_machine"

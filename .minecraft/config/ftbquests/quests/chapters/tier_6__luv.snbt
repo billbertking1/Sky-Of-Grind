@@ -242,6 +242,7 @@
 		}
 		{
 			dependencies: ["2967F1BE77BC7D35"]
+			description: ["You get 2 crystaltine ingots per nether star."]
 			id: "5DBDBDC74AE2C5C7"
 			rewards: [{
 				id: "742212332A7F563B"
@@ -262,10 +263,13 @@
 				"545751E4174E83B7"
 			]
 			description: [
-				"You will need a LOT of this cool block, so consider maybe making like 10 star extractors just for this."
-				"You need like 400 blocks for the tier 6 altar and if u wanna summon meteorites with big numbers you will need hellforged blocks."
+				"&n1 nether star = 4 hellforged blocks&r"
 				""
-				"Also the higher the tier of the altar is the fastest the recipe is done."
+				"You will need a LOT of this cool block, so consider maybe making like 10 star extractors just for this."
+				""
+				"You need like 400 blocks for the tier MAX altar and if you wanna summon meteorites with big numbers, you will need hellforged blocks."
+				""
+				"Also the higher the tier of the altar, is the fastest the recipe is done."
 			]
 			id: "4E7E9E3C0D2E77B3"
 			rewards: [{
@@ -306,6 +310,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "You will need multiple of these"
 			tasks: [{
 				id: "574708973182082D"
 				item: "bloodmagic:archmagebloodorb"
@@ -342,6 +347,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "This is the last one that can make hellforged blocks!!!"
 			tasks: [{
 				id: "5DF01C58D4FDDD26"
 				item: "gtceu:altart5"
@@ -373,7 +379,6 @@
 			dependencies: [
 				"78B9144DB08C15E1"
 				"282CE68698C0C23B"
-				"3C046D6058D69FA2"
 			]
 			id: "0FFD1907A9ADF583"
 			rewards: [{
@@ -393,34 +398,19 @@
 			y: 15.0d
 		}
 		{
-			id: "3C046D6058D69FA2"
-			rewards: [{
-				id: "442F75C62B487748"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5F52F0E544BD27A5"
-				item: "ad_astra:earth_globe"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 13.5d
-		}
-		{
 			dependencies: ["0FFD1907A9ADF583"]
 			description: [
-				"This is the first Meteor that you will do, you need 2 IV energy hatches to Overclock into LuV and 1 IV input hatch FULL of life essence. We are talking about 256.000 Life essence / meteor."
+				"This is the first meteor that you will do, you need 2 IV energy hatches to overclock to LuV and 1 IV input hatch &lfull&r of life essence. We are talking about 256 B of life essence per meteor."
 				""
 				"The loot is:"
+				"- 256-512 raw apatite"
+				"- 256-512 raw pyrochlore"
+				"- 256-512 raw tricalcium phosphate"
+				"- 256-512 rare earth"
 				""
-				"256-512 Raw Apatite"
-				"256-512 Raw Pyrochlore"
-				"256-512 Raw Tricalcium Phosphate"
-				"256-512 Rare Earth"
-				"You can centrifuge Rare Earth for Samarium."
+				"You can centrifuge rare rarth for samarium."
 				""
-				"Remember to put the programmed circuit on 1"
+				"Remember to put the programmed circuit on 1."
 			]
 			icon: "gtceu:raw_pyrochlore"
 			id: "726067740279B03D"
@@ -516,13 +506,14 @@
 				"7BB6479B13DDD2F0"
 			]
 			description: [
-				"After doing the first meteor you can summon a HUGE one by using a stack of Hellfire blocks and the globe of the planet."
+				"After doing the first meteor you can summon a HUGE one by using a stack of hellforged blocks and the globe of the planet."
 				""
-				"You should really passive this if u wanna progress further."
+				"You should really passive this if you wanna progress further."
 				"Each meteor gives from 500 to 4500 of the ore."
 				""
-				"However this is not the endgame way of making resources. Oh boy you are not prepared."
-				"Consider using BULK item cells for each ore your producing or your ae2 system is gonna go boom."
+				"However, this is not the endgame way of making resources. Oh boy, you are not prepared."
+				""
+				"Consider using bulk item cells (which can store an infinite amount of one item) for each ore your producing, else your AE2 system is gonna go boom."
 			]
 			icon: {
 				Count: 1
@@ -547,13 +538,11 @@
 		{
 			dependencies: ["52064AFC1561236F"]
 			description: [
-				"The Earth vein."
-				""
-				"25 Diferent ores. "
-				""
-				"100B of Oil"
-				"50B of Natural Gas"
-				"2500B of Lava"
+				"The Earth vein:"
+				"- 25 different ores;"
+				"- 100 B of oil;"
+				"- 50 B of natural gas;"
+				"- 2500 B of lava;"
 			]
 			id: "693962DB728137A9"
 			rewards: [{
@@ -690,6 +679,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "Your first data storage!"
 			tasks: [{
 				id: "00D1D5C43E6DEA6A"
 				item: {
@@ -741,7 +731,7 @@
 					type: "item"
 				}
 			]
-			title: "Yeah you like this."
+			title: "Yeah, you like this."
 			x: 9.0d
 			y: 1.5d
 		}
@@ -768,7 +758,7 @@
 					type: "item"
 				}
 			]
-			title: "Damm, i dont need anything weird?"
+			title: "Damn, I don't need anything weird?"
 			x: 9.0d
 			y: 2.5d
 		}
@@ -794,10 +784,10 @@
 				"09740CD234AE9E63"
 			]
 			description: [
-				"Have u not made osmiridium alloy yet?."
-				"Crazy.."
+				"Have you not made osmiridium alloy yet? Crazy..."
 				""
 				"Now process 3000 rare earth into samarium."
+				""
 				"Yes, you need to passive the moon vein meteor."
 			]
 			id: "690A7FC1286BEA13"
@@ -817,8 +807,9 @@
 		{
 			dependencies: ["690A7FC1286BEA13"]
 			description: [
-				"Please upgrade every EBF, Every Altar, Every star extractor. EVERYTHING."
-				"We are entering the Late game."
+				"Please upgrade every EBF, every altar, every star extractor, EVERYTHING."
+				""
+				"We are entering the late game."
 			]
 			id: "215B14559169ADDA"
 			rewards: [{
@@ -1124,6 +1115,7 @@
 		{
 			dependencies: ["677D8768414A9814"]
 			id: "280D88ECFC490021"
+			optional: true
 			rewards: [{
 				id: "22FC37E0861BD716"
 				item: "gtceu:doge_coin"
@@ -1209,6 +1201,7 @@
 				"703F021AA20886F4"
 			]
 			id: "1554884EF9FACAA4"
+			optional: true
 			rewards: [{
 				id: "2E2B407512938D48"
 				item: "gtceu:doge_coin"
@@ -1256,6 +1249,7 @@
 		}
 		{
 			dependencies: ["1554884EF9FACAA4"]
+			description: ["Chemically react this with calcium to get some indium, 'cause why not?"]
 			id: "6CEBD79E3B2E7AC9"
 			rewards: [{
 				id: "34F9D9DF94E1D265"
@@ -1268,10 +1262,11 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 23.5d
+			y: 24.5d
 		}
 		{
 			dependencies: ["1554884EF9FACAA4"]
+			description: ["The only way of getting trinium."]
 			id: "6D5D1CBC7C5935A1"
 			rewards: [{
 				id: "00BB9F4CEB8C240F"
@@ -1284,7 +1279,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 23.5d
+			y: 24.5d
 		}
 		{
 			dependencies: ["280D88ECFC490021"]
@@ -1313,7 +1308,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
-			subtitle: "Another EBF Upgrade"
+			subtitle: "Another EBF upgrade"
 			tasks: [{
 				count: 16L
 				id: "7FFD415D4EB742DF"
@@ -1337,7 +1332,7 @@
 			}]
 			tasks: [{
 				id: "5918C90D59A1A519"
-				item: "gtceu:hot_trinium_ingot"
+				item: "gtceu:trinium_ingot"
 				type: "item"
 			}]
 			x: 13.5d
@@ -1345,7 +1340,7 @@
 		}
 		{
 			dependencies: ["426DFA355636395B"]
-			description: ["Cool down your trinium and then macerate it into naquadah alloy."]
+			description: ["Naquadah alloy is a bunch of naqline and platline components mashed together."]
 			id: "75FA405DB766F717"
 			rewards: [{
 				id: "7BE28B4E9EC36CD3"
@@ -1362,6 +1357,7 @@
 		}
 		{
 			dependencies: ["75FA405DB766F717"]
+			description: ["Main ZPM material!"]
 			id: "6F79E43AC15B3D22"
 			rewards: [{
 				id: "01F6CA880E33D136"
@@ -1381,24 +1377,18 @@
 			description: [
 				"Congrats on reaching this point."
 				""
-				"Did you had fun?"
+				"Are you having fun?"
 			]
 			id: "5C47B681BACC22D4"
-			rewards: [
-				{
-					id: "331B0C2C0826260E"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-				{
-					id: "460BF6F6098EB4B5"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "331B0C2C0826260E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "But, have you finished the Naquadah Line?"
+			subtitle: "But have you finished the naquadah line?"
 			tasks: [{
 				id: "46750707EE6A53D0"
 				item: "gtceu:zpm_machine_casing"
@@ -1427,10 +1417,10 @@
 		{
 			dependencies: ["4543B6C470336195"]
 			description: [
-				"Finally, naquadria."
+				"Finally, naquadria!"
 				"Have you done enriched naquadah?"
 				""
-				"Now, right now you currently dont have access to make it into a typical ingot, as you need the ZPM assembler to make the Trinium Coils. But you should still do this."
+				"Now, right now you currently don't have access to make it into a typical ingot, as you need the ZPM assembler to make the trinium coils, but you should still do this to future-proof."
 			]
 			icon: "gtceu:naquadria_sulfate_dust"
 			id: "086F05947A60D81B"
@@ -1551,7 +1541,7 @@
 			description: [
 				"wow. Another AE2 rabbit hole to do. "
 				""
-				"Prepare some 256k parts. "
+				"Prepare some 64k parts. "
 			]
 			id: "6C545D94F3FCE01A"
 			rewards: [{
@@ -1569,7 +1559,11 @@
 		}
 		{
 			dependencies: ["6C545D94F3FCE01A"]
-			description: ["Automate this, you will a TON for UHV."]
+			description: [
+				"Automate this, you will a TON for UHV."
+				""
+				"Despite needing 256 buckets of a liquid or 256K items, you only need a 64K Storage Component to make these in the Matter Condenser."
+			]
 			id: "1258F9F4BC01511B"
 			rewards: [{
 				id: "466D756BC2B76A79"
@@ -1589,10 +1583,10 @@
 			description: [
 				"Autocrafting, very important, right?"
 				""
-				"Congrats, you unlocked a Very BIG storage, capable of handling 760+ coprocessors and more than 2B of Crafting Storage."
-				"This is a whole new ae2 multiblock. "
+				"Congrats, you unlocked a very BIG crafting storage, having 760+ co-processing unitsr and more than 2 GB of crafting storage."
+				"This is a whole new AE2 multiblock. "
 				""
-				"I recommend  you checking out the inside wiki."
+				"I recommend you check out the inside wiki."
 			]
 			id: "00E3A948DA789604"
 			rewards: [{

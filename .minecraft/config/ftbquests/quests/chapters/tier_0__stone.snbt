@@ -150,17 +150,19 @@
 			dependencies: ["3E51F11030134663"]
 			description: [
 				"First ores! "
-				"Ps: You can &bautomate&r this with a rock crusher and a hopper :D "
+				"Note: You can &bautomate&r this with a rock crusher and a hopper :D "
 				""
 				"Extractinator guide on the second page:"
 				""
 				"{@pagebreak}"
 				""
-				"To use the machine you need to RMB with the input material, the items will drop floating to the sky. "
+				"To use the machine you need to right click with the input material, the items will drop floating to the sky."
 				" "
 				"You can place a block above the machine to make the items go inside the block and you can extract them with a hopper."
-				"You can also automate the process by placing a hopper with the cobblestone. "
-				"But i wouldnt recommend making a massive automation as your gonna get more and better ways of getting resources later on, like HNN or just simply Passive Lines. Good Luck!"
+				""
+				"You can also automate the process by placing a hopper with the cobblestone."
+				""
+				"I wouldn't recommend making a massive automation, as you're gonna unlock better ways of getting resources later on, like HNN or the extractinator as a GregTech machine that doesn't send items flying. Good luck!"
 			]
 			id: "3539E7FC4963D6BD"
 			rewards: [{
@@ -183,7 +185,7 @@
 			dependencies: ["3E51F11030134663"]
 			description: [
 				"Break leaves with a crook to get silkworks."
-				"RMB the silkworms on more leaves to infest em'. Get string by breaking a fully infested one."
+				"Right click the silkworms on more leaves to infest 'em. Get string by breaking a fully infested one."
 			]
 			icon: "minecraft:string"
 			id: "2611ADAFB9634874"
@@ -279,7 +281,7 @@
 				"65227B6C862A9584"
 				"451B35D595D41780"
 			]
-			description: ["Get clay by right clicking a barrel full of water with dust from ex deorum."]
+			description: ["Get clay by right clicking a barrel full of water with dust from Ex Deorum."]
 			id: "746C7C0274CEDDFB"
 			rewards: [{
 				id: "6375AC928996471E"
@@ -300,7 +302,7 @@
 				"3539E7FC4963D6BD"
 				"746C7C0274CEDDFB"
 			]
-			description: ["Get bone meal by extracting sand. (While also getting redstone and rotten flesh as a byproduct yey)"]
+			description: ["Get bone meal by extracting sand (while also getting redstone and rotten flesh as a byproduct, yey)."]
 			id: "6B370D23E01642EC"
 			rewards: [{
 				id: "606FDF4C90404BBB"
@@ -319,9 +321,10 @@
 			dependencies: ["3539E7FC4963D6BD"]
 			description: [
 				"This quest only asks for 1 wrought iron, but you can also see the tools as an optional quest."
-				"Its asking for iron tools but you can get wrought iron ones and 1 ingot and complete the quest."
 				""
-				"So its up to you."
+				"It's asking for iron tools but you can get wrought iron ones and 1 ingot and complete the quest."
+				""
+				"Wrought iron tools are technically cheaper (due to one nugget smelting into three) and are more durable, so I wouldn't use iron for tools right now if I were you."
 			]
 			icon: {
 				Count: 1
@@ -756,6 +759,18 @@
 				type: "item"
 			}]
 			x: -0.5d
+			y: 4.0d
+		}
+		{
+			description: ["This pack has FTB Ultimine, which allows you to mine up to 64 blocks of the same (or similar) type at once if they're all close together. Check for the keybind in settings."]
+			id: "48C35CFE8DFEF467"
+			optional: true
+			tasks: [{
+				id: "073ED6EC887753AF"
+				title: "Vein Mining"
+				type: "checkmark"
+			}]
+			x: 1.5d
 			y: 4.0d
 		}
 	]

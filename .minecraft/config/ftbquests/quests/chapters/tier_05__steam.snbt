@@ -158,9 +158,9 @@
 		{
 			dependencies: ["001955464B84E2C3"]
 			description: [
-				"The coke oven is gonna be your first multiblock, it transforms coal into coal coke, which is 100% recommended for steel ingots, as 30s/Steel is something that you should really do."
+				"The coke oven is gonna be your first multiblock, it transforms stone dust into sulfur and coal into coke, which is 100% recommended for steel ingots, as 30 seconds per steel ingot is something that you should definitely take advantage of before you waste too much time waiting for the coal recipe."
 				""
-				"Consider making more than 1."
+				"Consider making more than 1, since they're pretty slow."
 			]
 			icon: "gtceu:coke_oven"
 			id: "41F3D8A51709C22B"
@@ -241,6 +241,7 @@
 				"41F3D8A51709C22B"
 				"6B67E665F9D2B062"
 			]
+			description: ["You have multiple PBFs, right? :D"]
 			id: "31E750DDB33FE642"
 			rewards: [{
 				count: 5
@@ -523,6 +524,7 @@
 				"794CADF7CC86C821"
 				"4DB2D82E82C03F4E"
 			]
+			description: ["I sure hope you're batch crafting everything, else it's not looking good for you."]
 			id: "47F08B64D8FA018F"
 			rewards: [
 				{
@@ -550,7 +552,11 @@
 		}
 		{
 			dependencies: ["47F08B64D8FA018F"]
-			description: ["Welcome to LV!"]
+			description: [
+				"Welcome to LV!"
+				""
+				"Rev up those PBFs, you're about to start eating through steel like it's candy (don't try this at home though)."
+			]
 			id: "2DA0003222D48B72"
 			rewards: [{
 				id: "64C76D124E780174"
@@ -611,7 +617,7 @@
 		}
 		{
 			dependencies: ["41F3D8A51709C22B"]
-			description: ["While yes, there is the water source mod the primitive pump might be an alternative if u wanna rush inf water."]
+			description: ["While yes, there is the water source mod the primitive pump might be an alternative if u wanna rush infinite water... or like to stay faithful to GregTech =)"]
 			id: "71A1EDA69A1E26F8"
 			optional: true
 			rewards: [{
@@ -631,7 +637,7 @@
 		}
 		{
 			dependencies: ["001955464B84E2C3"]
-			description: ["You can use Liquid Boilers with rock crushers and crucibles to get lava for a different way to make steam"]
+			description: ["You can use liquid boilers with rock crushers and crucibles to get lava for a different way to make steam."]
 			id: "1904613EF69350E3"
 			rewards: [{
 				id: "1198BF5D23241911"

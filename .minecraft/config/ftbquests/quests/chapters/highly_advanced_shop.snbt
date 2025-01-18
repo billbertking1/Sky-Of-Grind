@@ -19,6 +19,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "th&lj&re fishbig"
 			tasks: [{
 				consume_items: true
 				count: 300L
@@ -613,20 +614,13 @@
 				}
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "6CB355F16B9156C4"
-					item: "hostilenetworks:blank_data_model"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 20L
-					id: "4CCCABC3ACFB8D51"
-					item: { Count: 100, id: "gtceu:doge_coin" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "4CCCABC3ACFB8D51"
+				item: { Count: 100, id: "gtceu:doge_coin" }
+				type: "item"
+			}]
 			title: "Warden Data Model"
 			x: 18.0d
 			y: 1.5d

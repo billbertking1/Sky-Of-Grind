@@ -341,7 +341,7 @@
 				"2F889EB9AB0A817D"
 				"6A6162225FADF88B"
 			]
-			description: ["The cleanroom is a multiblock that can be different sizes, ranging from 5x5 to 17x17. You will need a diode to make energy enter the room safely while maintaining the multiblock clean."]
+			description: ["The cleanroom is a multiblock that can be different sizes, ranging from 5x5x5 to 15x15x15. You will need a diode to make energy enter the room safely while maintaining the multiblock clean."]
 			hide_text_until_complete: false
 			icon: "gtceu:cleanroom"
 			id: "63367A2F12D66CC4"
@@ -352,6 +352,7 @@
 				type: "item"
 			}]
 			shape: "gear"
+			size: 1.25d
 			tasks: [
 				{
 					id: "3E363D54F1D4AFD2"
@@ -382,11 +383,11 @@
 			dependency_requirement: "one_completed"
 			description: [
 				"New material. "
-				"3 ways to get it."
 				""
-				"Ore processing Nickel, probably expensive."
-				"Dust Mixer recipe, uses various materials, but requires going into the end. Which to be honest you will also need."
-				"Endstone processing. Simple. (Not good for longterm though)"
+				"3 main ways to get it:"
+				"- ore processing nickel ores, probably expensive, but might be your best bet for long term;"
+				"- dust mixer recipe, uses various materials and requires going into the end, which, to be honest, you will also need to do at some point;"
+				"- endstone processing. simple... and extremely slow;"
 				""
 				"Choose one option, you only need to complete one dependency to continue."
 			]
@@ -784,7 +785,11 @@
 		}
 		{
 			dependencies: ["360D961BC4D5B1E6"]
-			description: ["Mix potassium and sodium, which you get on the passive clay line on MV"]
+			description: [
+				"Mix potassium and sodium, which you get on the passive clay line in MV."
+				""
+				"You will need this for every 2 amp energy hatch from now on."
+			]
 			id: "2414A0A7C9751A04"
 			rewards: [{
 				id: "645B9A60D73CA57A"
@@ -804,6 +809,7 @@
 				"63367A2F12D66CC4"
 				"259C1DD19C9D3DBA"
 			]
+			description: ["Remember that orange lens we gave you?"]
 			id: "75AF3E9D764EFFBB"
 			rewards: [{
 				id: "3ED263B2DFE8D8A2"
@@ -893,7 +899,11 @@
 		}
 		{
 			dependencies: ["61A5B173BB7BB693"]
-			description: ["Add water to the mix."]
+			description: [
+				"Add water to the mix."
+				""
+				"When you reach the next tier, EV, you will be able to make this using water and sulfur, very nice."
+			]
 			id: "146DAC8F4E639BE1"
 			rewards: [{
 				id: "289927492BB22C7F"
@@ -929,7 +939,10 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["2DE4387D5B19D55A"]
+			dependencies: [
+				"2DE4387D5B19D55A"
+				"1146168E1629BD64"
+			]
 			id: "382F3F52D9C42DDC"
 			rewards: [{
 				id: "1B41EEE106E6B2F0"
@@ -1020,9 +1033,9 @@
 		{
 			dependencies: ["5CA98EECF6E26643"]
 			description: [
-				"This unlocks access to EV chapter, no Titanium yet tho. "
+				"This unlocks access to EV chapter, no titanium yet though. "
 				""
-				"You will get that on the questline, by... Going to the moon."
+				"You will get that by... going to the moon."
 			]
 			id: "2A476DB7A53D97B2"
 			rewards: [{
@@ -1047,7 +1060,7 @@
 			description: [
 				"Now, congrats!"
 				""
-				"You dont actually \"need\" the controller to make a network work, channels are disabled. "
+				"You don't actually \"need\" the controller to make a network work, channels are disabled. "
 				"But, really? It looks cool!"
 			]
 			icon: "ae2:controller"
@@ -1091,7 +1104,7 @@
 		}
 		{
 			dependencies: ["7CC9AEC1E514D0DE"]
-			description: ["Get certus by centrifuging quartz sand. Which you passive so, so, so easy"]
+			description: ["Get certus by centrifuging quartz sand. Which you can passive so, so, so easily (just macerate sand)."]
 			icon: "ae2:calculation_processor"
 			id: "402BCDC57F0BE6FF"
 			rewards: [{
@@ -1146,7 +1159,7 @@
 		}
 		{
 			dependencies: ["0A6236EB1EA5A3A1"]
-			description: ["Use  this thing as much as u want. Though remember that they use passive power."]
+			description: ["Use this thing as much as you want. Though, remember that they use power, unlike cables."]
 			id: "2AF66B8CF76F5CBF"
 			rewards: [{
 				id: "0CC8B7E615B68B39"
@@ -1166,6 +1179,11 @@
 			dependencies: [
 				"7CC9AEC1E514D0DE"
 				"2AF66B8CF76F5CBF"
+			]
+			description: [
+				"Storage for your cells! Can store 10 cells of any type."
+				""
+				"Upgrade to an ME Extended Drive for 20 slots!"
 			]
 			id: "302767FC02F7C8B5"
 			rewards: [{
@@ -1450,6 +1468,33 @@
 			}]
 			x: 5.5d
 			y: 3.5d
+		}
+		{
+			description: ["Please choose iron(III) chloride."]
+			id: "1146168E1629BD64"
+			tasks: [{
+				id: "1A10E2E98DB99F66"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:iron_iii_chloride_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:sodium_persulfate_bucket"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Dip the board in!"
+			x: -8.5d
+			y: 11.0d
 		}
 	]
 	subtitle: ["High Voltage"]
