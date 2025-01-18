@@ -28,10 +28,9 @@
 	quests: [
 		{
 			description: [
-				"Hello!, this is Sky of Grind, a Skyblock gregtech pack that features a modified progression from ULV/Steam to &cMAX&r Tier Circuits"
+				"Hello! This is Sky of Grind, a skyblock GregTech pack that features a modified progression from ULV/Steam to &cMAX&r voltage tier."
 				""
-				"We've taken a lot of inspiration from a lot of packs like Nomi, GTNH, technological journey, etc. "
-				"So thanks a lot to the pack devs that made those ones :D"
+				"We've taken a lot of inspiration from a lot of packs like Nomifactory, GT:NH, Technological Journey, etc., so thanks a lot to the pack devs that made those packs! :D"
 				""
 				"Good luck while playing this!"
 				"And remember, batch crafting for the win."

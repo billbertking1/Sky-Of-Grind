@@ -33,7 +33,7 @@
 		}
 		{
 			dependencies: ["5999DFCEB9FF4F3A"]
-			description: ["Have you gotten styriene butadine or polydimethylsiloxane yet?"]
+			description: ["Have you gotten one of the more advanced rubbers yet?"]
 			icon: "gtceu:iv_electric_motor"
 			id: "700D75AB04659866"
 			rewards: [{
@@ -68,7 +68,7 @@
 					type: "item"
 				}
 			]
-			title: "Do u?"
+			title: "Do you?"
 			x: 0.0d
 			y: 3.5d
 		}
@@ -150,18 +150,13 @@
 		{
 			dependencies: ["5D5FA5429F87E942"]
 			id: "7CFBD6D6165E827D"
-			rewards: [
-				{
-					id: "0322830F5294C4F3"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-				{
-					id: "024CC13089994E31"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "0322830F5294C4F3"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "Latin for \"royal water\", because it can dissolve some very expensive metals like gold and platinum"
 			tasks: [{
 				id: "48A4557D8B4E74DB"
 				item: "gtceu:aqua_regia_bucket"
@@ -182,18 +177,11 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "4ECEFC92BD63F03C"
-					item: "gtceu:rarest_metal_mixture_dust"
-					type: "item"
-				}
-				{
-					id: "2CA67E838D93C016"
-					item: "gtceu:iv_centrifuge"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4ECEFC92BD63F03C"
+				item: "gtceu:rarest_metal_mixture_dust"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 6.0d
 		}
@@ -374,7 +362,7 @@
 		}
 		{
 			dependencies: ["700D75AB04659866"]
-			description: ["Yes  this looks like a dumb multiblock, but believe me that distilling coal tar or wood is so useful for pozole(polybenzimidazole)"]
+			description: ["Yes, this looks like a dumb multiblock, but believe me that distilling coal tar or wood is very useful for polybenzimidazole."]
 			icon: "gtceu:pyrolyse_oven"
 			id: "7D056C61FBF5FB14"
 			rewards: [{
@@ -401,10 +389,10 @@
 		{
 			dependencies: ["3158F541E708945F"]
 			description: [
-				"Damm thats a lot of benzene."
-				"did u use this on mv?"
+				"Damn, that's a lot of benzene."
+				"Did you use this in MV?"
 				""
-				"We care about the Dimethylbenzene(tho)"
+				"We care about the dimethylbenzene in this case."
 			]
 			id: "4828548537B14DA8"
 			rewards: [{
@@ -422,6 +410,7 @@
 		}
 		{
 			dependencies: ["3158F541E708945F"]
+			description: ["Creosote, naphthalene, phenol."]
 			id: "7C8DE25CEB012D1B"
 			rewards: [{
 				id: "375F3636939C8CDE"
@@ -433,12 +422,11 @@
 				item: "gtceu:coal_tar_bucket"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["3158F541E708945F"]
-			description: ["Weird right?, whatever."]
+			description: ["Another random catalyst."]
 			id: "3EC6FC25E1BC7385"
 			rewards: [{
 				id: "0A4C793FF604AF9C"
@@ -451,64 +439,14 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["3EC6FC25E1BC7385"]
-			id: "0CF6BED166F49CA3"
-			rewards: [{
-				id: "43BFEC8876C19399"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2EF32ABABB0AD1B2"
-				item: "gtceu:saltpeter_dust"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
-				"0CF6BED166F49CA3"
-				"4811361491437474"
+				"3EC6FC25E1BC7385"
+				"7C8DE25CEB012D1B"
 			]
-			id: "35E40A44497C4813"
-			rewards: [{
-				id: "573D771086AC75A9"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "34916393845558C1"
-				item: "gtceu:potassium_dichromate_dust"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 6.5d
-		}
-		{
-			id: "4811361491437474"
-			rewards: [{
-				id: "20EE6968B6CC5FB8"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2ECC14B63FB5D755"
-				item: "gtceu:chromium_trioxide_dust"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 6.5d
-		}
-		{
-			dependencies: [
-				"7C210FFE6D9FDEA0"
-				"35E40A44497C4813"
-			]
-			description: ["Add a weird potassium into the mix"]
+			description: ["Please use the potassium recipe, it yields so much more and the ingredients are all really easy to get."]
 			id: "538B3E0A963EE919"
 			rewards: [{
 				id: "1CAA4FFE849CF42A"
@@ -521,24 +459,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["4828548537B14DA8"]
-			description: ["Put the wood tar in a distillation towe to get some Dimethylbenzene"]
-			id: "7C210FFE6D9FDEA0"
-			rewards: [{
-				id: "7D71151258DA68E7"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "095C46BAB37D508C"
-				item: "gtceu:dimethylbenzene_bucket"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -557,11 +478,15 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4828548537B14DA8"]
-			description: ["Another product from distilling wood tar"]
+			description: [
+				"Another product from distilling wood tar."
+				""
+				"You can get this from cumene later."
+			]
 			id: "7A886EC5250E59CC"
 			rewards: [{
 				id: "08380E67B0607128"
@@ -584,6 +509,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "Chemistry in the mixer!"
 			tasks: [{
 				id: "4FE073E15553B952"
 				item: "gtceu:nitration_mixture_bucket"
@@ -635,11 +561,13 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "Just call this PBI..."
 			tasks: [{
 				id: "2CFA0A2DFA59EE06"
 				title: "Pozole(Polybenzimidazole)"
 				type: "checkmark"
 			}]
+			title: "Polybenzimidazole line"
 			x: 2.0d
 			y: 3.5d
 		}
@@ -687,10 +615,26 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "4BF6F22F6FF70D07"
-				item: "gtceu:tiny_copper_dust"
+				id: "54CE6688EC445DF2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:copper_dust"
+							}
+							{
+								Count: 1b
+								id: "gtceu:tiny_copper_dust"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
+			title: "Copper Dusts"
 			x: 7.0d
 			y: -0.5d
 		}
@@ -708,7 +652,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -727,14 +671,14 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
 				"1540E57AE0D47EF4"
 				"0D05BFB2F9EB5B3A"
 			]
-			description: ["Ehem, its actually called PBI!"]
+			description: ["Another big milestone, this incredibly strong synthetic fiber is gonna be used for almost everything from now on, so I hope you made it sustainable to mass produce! :D"]
 			id: "62704CC3038F1B20"
 			rewards: [{
 				count: 3
@@ -742,9 +686,9 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
-			shape: "octagon"
-			size: 1.0d
-			subtitle: "Finally, POZOLE"
+			shape: "gear"
+			size: 1.25d
+			subtitle: "Poly[2,2’-(m-phenylen)-5,5’-bisbenzimidazole]"
 			tasks: [{
 				id: "3007ADC3FE5F4BCB"
 				item: "gtceu:polybenzimidazole_bucket"
@@ -902,8 +846,8 @@
 				item: "gtceu:iv_centrifuge"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.0d
+			x: 3.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2D20B06AA89E2F17"]
@@ -953,7 +897,7 @@
 			]
 			title: "Star's Ore generation!"
 			x: 7.0d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["286AC73CCBD26965"]
@@ -969,13 +913,14 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 11.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
 				"72B9DA06E31AA7E5"
 				"2287165331647A9E"
 			]
+			description: ["Extremely easy to make both acetone and phenol at the same time from this!"]
 			id: "6363956FABDABA66"
 			rewards: [{
 				id: "3965828E01CFE28F"
@@ -1283,7 +1228,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 17.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["165BA28A8FBA4556"]
@@ -1299,7 +1244,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 17.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["165BA28A8FBA4556"]
@@ -1315,10 +1260,11 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 18.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["165BA28A8FBA4556"]
+			description: ["Right now this is a bit more complicated to make than others, as it requires niobium."]
 			id: "261C8012956FDFFB"
 			rewards: [{
 				id: "7D14BAD230CBB703"
@@ -1331,7 +1277,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 18.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["165BA28A8FBA4556"]
@@ -1347,11 +1293,11 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 18.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["62704CC3038F1B20"]
-			description: ["Do u still only have 1 cleanroom. bff"]
+			description: ["Do you still only have 1 cleanroom???"]
 			id: "4DF9D36F7C82C455"
 			rewards: [{
 				id: "36891DBB5E6B3E33"
@@ -1429,6 +1375,7 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
+			subtitle: "Your first LuV circuits!"
 			tasks: [{
 				id: "5DAFB2A7D2268503"
 				item: "gtceu:nano_processor_mainframe"
@@ -1444,19 +1391,12 @@
 			]
 			description: ["Welcome to LuV"]
 			id: "34112DEEBBD82652"
-			rewards: [
-				{
-					count: 5
-					id: "1DA22FB0D2EC861F"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-				{
-					id: "42307B98E0C73B1B"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 6
+				id: "1DA22FB0D2EC861F"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 2.5d
 			subtitle: "We LuV gregrech"
@@ -1547,13 +1487,14 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "Because apparently black + gray dusts make yellow ingots"
 			tasks: [{
 				id: "07976DFB5CFED2A7"
 				item: "gtceu:tantalum_carbide_ingot"
 				type: "item"
 			}]
 			x: 9.0d
-			y: 12.0d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -1564,13 +1505,13 @@
 			description: [
 				"First big multiblock machine."
 				""
-				"The ABs is a multiblock capable of producing all the alloys, including advanced ones."
+				"The ABS is a multiblock capable of producing any alloy."
 				""
-				"The rates are better than making dust-ebf-freezer"
-				"but you will sometimes also need to cool down some of the alloys to make them usable."
+				"The rates are better than making dust-EBF-freezer, but you will sometimes also need to cool down some of the alloys to make them usable in a regular vacuum freezer but with an ingot mold."
 				""
-				"This is insanely important as with the new advanced alloys you unlock new tech capable of making new parallelizable multiblocks."
-				"This one *cant* parallelize though."
+				"This is insanely important, as with the new advanced alloys that can't be made in a mixer, you unlock new tech capable of making new parallelizable multiblocks!"
+				""
+				"This one *can't* parallelize though, unlike the EBF later on."
 			]
 			id: "7243EE3F57F3A31A"
 			rewards: [{
@@ -1578,12 +1519,14 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "6872ABB0D553C1D4"
 				item: "gtceu:alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.75d
 			y: 13.5d
 		}
 		{
@@ -1599,24 +1542,25 @@
 				item: "gtceu:titanium_carbide_ingot"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: 12.5d
 		}
 		{
-			description: ["A lot of diferent dusts on a mixer, then EBF it and cool it down."]
+			description: ["A lot of diferent dusts on a mixer!"]
 			id: "6071D79FFF8DCE13"
 			rewards: [{
 				id: "7100582E470DBE49"
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "High-strength low-alloy steel"
 			tasks: [{
 				id: "4C03C1D93B338591"
 				item: "gtceu:hsla_steel_ingot"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 14.0d
+			x: 11.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["7243EE3F57F3A31A"]
@@ -1626,12 +1570,13 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "This one is used in a LOT of multiblocks"
 			tasks: [{
 				id: "7992196DD8FC139E"
 				item: "gtceu:watertight_steel_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 13.5d
 		}
 		{
@@ -1640,6 +1585,7 @@
 				"6AF40905D8C70C89"
 				"02B307E39FF0547C"
 			]
+			description: ["Put 2 IV hatches on these to be able to finally make nether stars!"]
 			id: "1514A260777E6B32"
 			rewards: [{
 				id: "0B6C2BA9059681BA"
@@ -1674,10 +1620,9 @@
 		{
 			dependencies: ["1514A260777E6B32"]
 			description: [
-				"The nether star is a big milestone, remember? No nether and peaceful mode, right."
+				"The nether star is a big milestone, remember? No nether and peaceful mode."
 				""
-				"You make this by placing some star matter on a crystalization chamber with a extruder mold of star, but the reason of why"
-				"you use this big boi instead of an autoclave is because of the overclocking. You need quantum stars to get the IV emitter and IV sensor but the recipe asks for LuV tier recipes. Yup, 2 energy hatches here we go."
+				"You make this by placing some star matter in a crystalization chamber with an extruder mold of star, but the reason to why you use this big boi instead of an autoclave, is because of the overclocking."
 			]
 			id: "3F0D5B357A418240"
 			rewards: [
@@ -1748,7 +1693,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 16.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["137868B8B24F436D"]
@@ -1770,23 +1715,33 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: 16.0d
+			x: 11.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["73AB9D7E04840A3C"]
+			description: [
+				"Congrats once again, you unlocked an extremely useful block."
+				""
+				"These can be put on some of the multiblock machines, and do what they say - allow you to perform multiple of the same recipe at once."
+				""
+				"Make sure you utilize these to the fullest of your ability!"
+			]
 			id: "78A8A5FABB94743B"
 			rewards: [{
 				id: "64DAE8F78252F1ED"
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Crafting on steroids!"
 			tasks: [{
 				id: "6F0ED4FD0B1DDB27"
 				item: "gtceu:iv_parallel_hatch"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 9.75d
 			y: 15.0d
 		}
 		{

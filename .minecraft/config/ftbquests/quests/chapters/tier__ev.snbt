@@ -17,7 +17,7 @@
 	quests: [
 		{
 			dependencies: ["2A476DB7A53D97B2"]
-			description: ["Haii, its the Vacuum Freezer, a new multiblock that will help you freeze different types of fluids and hot ingots. Buts that maybe too far away, lets start with the titanium, right?"]
+			description: ["Haii, it's the vacuum freezer, a new multiblock that will help you freeze molten of fluids and hot ingots. Molten fluids are maybe too far away, let's start with the titanium, right?"]
 			icon: "gtceu:vacuum_freezer"
 			id: "14C1550AE72B2F18"
 			rewards: [{
@@ -44,11 +44,7 @@
 		}
 		{
 			dependencies: ["2A476DB7A53D97B2"]
-			description: [
-				"This is the nasa workbench, a new block that will help you make the tier 1 rocket, sadly other rockets are too complicated for this little guy right know tho."
-				""
-				"Make the workbench a work towards the steel required for the first rocket."
-			]
+			description: ["This is the NASA workbench, a new block that will help you make the tier 1 rocket, sadly other rockets are too complicated for your infrastructure though."]
 			id: "1FEED5A8478A1039"
 			rewards: [{
 				id: "163475DBD43CC571"
@@ -115,7 +111,7 @@
 			y: 5.25d
 		}
 		{
-			description: ["Yeah you cant breathe on the moon, u know?"]
+			description: ["Yeah, you can't breathe on the moon, you know?"]
 			icon: {
 				Count: 1
 				id: "ad_astra:space_helmet"
@@ -189,9 +185,10 @@
 		{
 			description: [
 				"Put some water into the oxygen loader to make it into breathable oxygen."
-				"Just remember to add an Energy converter to give it energy."
 				""
-				"Put oxygen into your space suit."
+				"Just remember to add an energy converter to give it energy."
+				""
+				"Put oxygen in your space suit."
 			]
 			id: "1EF74C22591E5638"
 			rewards: [{
@@ -227,22 +224,24 @@
 					type: "item"
 				}
 			]
-			title: "&6Fuel  for the fuel god!"
+			title: "&6Fuel for the fuel god!"
 			x: -1.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["6307A99BEC83D5B8"]
 			description: [
-				"GG!, you got to the moon. But it isnt the end, not even close."
+				"GG!, you got to the moon, but it isn't the end, not even close."
 				""
 				"Explore the moon to find a village full of lunarian villagers, so much fun!"
-				"On these villages you may find a hidden dungeon below them (or near by) "
-				"Instead of mining everywhere just look for a little entrance, you will need to mine just a few blocks to enter the first stronghold-like staircase."
+				""
+				"In these villages you may find a hidden dungeon below them (or near by)"
+				""
+				"Instead of mining everywhere, just look for a little entrance, you will need to mine just a few blocks to enter the first stronghold-like staircase."
 				""
 				"The Globe will be placed on world in a room, It may look scary at first glance. But remember, you are playing on peaceful mode, no mob will ever spawn!"
 				""
-				"You will need atleast 2 to get titanium, so get one and duplicate it."
+				"You will need atleast 2 to get titanium, fortunately you can replicate them using the forming press."
 			]
 			icon: "ad_astra:moon_globe"
 			id: "69620FAFB77E56F2"
@@ -263,22 +262,18 @@
 					type: "dimension"
 				}
 			]
-			title: "Land in to the moon"
+			title: "Land on the Moon"
 			x: 0.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["69620FAFB77E56F2"]
 			description: [
-				"This is the first custom multiblock on the pack."
+				"This is the first custom multiblock in the pack."
 				""
-				"The moon miner is a sort of \"big\" multiblock that will be your only way to make titanium for now."
-				"It actually requires like 200 stainless steel."
-				"So if u havent passived or atleast made more than like 5 ebfs at this point you really should do it."
+				"The moon miner is sort of a \"big\" multiblock, that will be your only way to make titanium for now."
 				""
-				"&cSecond page guide !!!!&r"
-				""
-				"{@pagebreak}"
+				"It needs a lot of stainless steel casings, so if you haven't passived or atleast made more than like 5 EBFs at this point, you really should do it."
 			]
 			icon: "gtceu:moonminer"
 			id: "7D015E4DA16D5C2B"
@@ -363,7 +358,8 @@
 			dependencies: ["2A476DB7A53D97B2"]
 			description: [
 				"This is the distillation tower, a cool funny multiblock to distill your oil at semi max efficiency."
-				"Would 100% recommend it incase you want to use things like diesel for power gen or combustion generators. as well as a better ethylene route."
+				""
+				"Would 100% recommend it, in case you want to use things like diesel for power gen or combustion generators, as well as a better ethylene route."
 			]
 			id: "0003740F226E6E62"
 			rewards: [{
@@ -458,9 +454,9 @@
 		{
 			dependencies: ["6AF751C3DC9AF62D"]
 			description: [
-				"Yes, but dont worry, you still need to get tungstensteel. "
+				"Yes, but don't worry, you still need to get tungstensteel. "
 				""
-				"But maybe you can get more stuff with those :D"
+				"But maybe you can get more stuff with those (hint: circuit assembler) :D"
 			]
 			id: "6854B14E447D63F9"
 			rewards: [{
@@ -480,7 +476,9 @@
 		}
 		{
 			dependencies: ["50B880443FF71E21"]
+			description: ["There's actually only one wiremill recipe that requires voltage above LV, which is string from polycaprolactam, but wires get stronger and take longer to make, and you don't like waiting, do you?"]
 			id: "434868CD779CD49B"
+			optional: true
 			rewards: [{
 				id: "15CAC79952443EE1"
 				item: "gtceu:doge_coin"
@@ -497,7 +495,9 @@
 		}
 		{
 			dependencies: ["50B880443FF71E21"]
+			description: ["Most expensive energy-wise recipe is MV, but these recipes are also, like wiremill, gonna start taking a while if you don't upgrade!"]
 			id: "1B78EE6D1100DFB4"
+			optional: true
 			rewards: [{
 				id: "520E61A6E17283A2"
 				item: "gtceu:doge_coin"
@@ -517,8 +517,9 @@
 			description: [
 				"Yup a new assembler, is it new anymore?"
 				""
-				"But dont worry, you will be using this little guy a lot."
-				"&5Ae2 Autocrafting incoming!&r"
+				"But don't worry, you will be using this little guy a lot."
+				""
+				"&5AE2 Autocrafting incoming!&r"
 			]
 			id: "30A814E7C57E284A"
 			rewards: [{
@@ -617,6 +618,11 @@
 		}
 		{
 			dependencies: ["3BB539619E06A099"]
+			description: [
+				"Probably the most useful ME device."
+				""
+				"By inserting encoded patterns, you can request an item to be crafted, the provider will push items from the system to a nearby inventory and wait for the encoded result to be sent into the system through itself or another ME Pattern Provider (or any other automatic way that isn't done by the player)."
+			]
 			id: "65AECCF83CDB662B"
 			rewards: [{
 				id: "24BC36B996878E45"
@@ -633,6 +639,7 @@
 		}
 		{
 			dependencies: ["3BB539619E06A099"]
+			description: ["This is a pretty useful device. You can autocraft with it by surrounding it with ME Pattern Providers. Or you can insert an already encoded pattern and pipe items in to craft them repeatedly. ME Molecular Assemblers will push the results to nearby inventories (such as ME Pattern Providers, ME Interfaces, or a Minecraft barrel)."]
 			id: "180700BC4249F0BB"
 			rewards: [{
 				id: "47BFDE17A82EEE39"
@@ -651,6 +658,13 @@
 			dependencies: [
 				"30A814E7C57E284A"
 				"3BB539619E06A099"
+			]
+			description: [
+				"Encode any recipe inside of an ME Pattern Encoding Terminal!"
+				""
+				"For processing patterns, you may need to encode what the ME Pattern Provider will push and what it's gonna receive, not what the recipe says."
+				""
+				"This means you should never encode programmed circuits, data sticks/orbs/modules, or molds."
 			]
 			id: "0FF0AB0CB40371AF"
 			rewards: [{
@@ -762,7 +776,7 @@
 			description: [
 				"This is the processing line to get polytetrafluoroethylene."
 				""
-				"This is actually not as hard as it looks. If u can find a Salt Water vein on an ocean you probably can make it passively."
+				"This is actually not as hard as it looks. If you can find a salt water vein in an ocean, you probably can make it passively."
 			]
 			id: "448F247F9BCD871C"
 			rewards: [{
@@ -780,7 +794,11 @@
 		}
 		{
 			dependencies: ["448F247F9BCD871C"]
-			description: ["Put some water in the electrolyzer to get Hydrogen and Oxygen."]
+			description: [
+				"This quest used to call for electrolyzing water... please don't!"
+				""
+				"You have petrochem, and reacting methane gas with water yields &linsane&r amounts of hydrogen. Just make sure to keep some for further chemistry!"
+			]
 			id: "73DFD69ED7CCBD76"
 			rewards: [{
 				id: "108A6CF6B1349C8C"
@@ -814,10 +832,9 @@
 		{
 			dependencies: ["448F247F9BCD871C"]
 			description: [
-				"You can also get fluorine by deepslate dust processing."
-				"Its super easy and cheap, and you also get a lot of byproducts."
+				"You can also get fluorine by deepslate dust processing. It's super easy and cheap, and you also get a lot of byproducts."
 				""
-				"Rock Crusher(EV) - Deepslate dust - Biotite Dust - Fluorine."
+				"Rock crusher (EV) - deepslate dust - biotite dust - fluorine."
 			]
 			id: "739B469B45BC13A2"
 			rewards: [{
@@ -845,6 +862,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "4/4 health hazard by NFPA 704"
 			tasks: [{
 				id: "31BB0C29821D7386"
 				item: "gtceu:hydrofluoric_acid_bucket"
@@ -873,7 +891,8 @@
 		{
 			dependencies: ["118E1ECFA72C5329"]
 			description: [
-				"You can also search for Salt Water on an ocean biome by using the fluid prospector module. "
+				"You can also search for salt water on an ocean biome by using the fluid prospector module."
+				""
 				"Which gives free hydrogen and chlorine."
 			]
 			id: "4F4EA00A88BD951A"
@@ -903,7 +922,7 @@
 				item: "gtceu:methane_bucket"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 5.0d
 		}
 		{
@@ -936,6 +955,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "Almost there..."
 			tasks: [{
 				id: "3DAA961A69E01D9F"
 				item: "gtceu:tetrafluoroethylene_bucket"
@@ -950,9 +970,9 @@
 				""
 				"Air distillation? Maybe."
 				""
-				"Flint Processing? Maybe. (Silicon Dioxide)"
+				"Flint processing? Maybe."
 				""
-				"Glass Processing? Works too."
+				"Glass processing? Works too."
 			]
 			icon: "gtceu:oxygen_bucket"
 			id: "77BBB6EDA8CC4DD3"
@@ -975,11 +995,9 @@
 				"77BBB6EDA8CC4DD3"
 			]
 			description: [
-				"A.K.A PTFE."
+				"You will need polytetrafluoroethylene for IV+ hatches."
 				""
-				"You will need &epolytetrafluoroethylene&r for IV hatches."
-				""
-				"I recommend you make this not fully pasive, just enough to get LCR and then passive it with that."
+				"I recommend you not passiveing this just yet, only enough to get LCRs and then passive it with that, read the next quest's second page if you're wondering why!"
 			]
 			id: "1F0CBC118A025669"
 			rewards: [{
@@ -987,7 +1005,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
-			subtitle: "Nice Name"
+			subtitle: "Just call this PTFE..."
 			tasks: [{
 				id: "0C02F9B763AEFBFC"
 				item: "gtceu:polytetrafluoroethylene_bucket"
@@ -999,6 +1017,7 @@
 		{
 			dependencies: ["50B880443FF71E21"]
 			id: "1FCC6FB18BA2159E"
+			optional: true
 			rewards: [{
 				id: "54BF62AA49F67977"
 				item: "gtceu:doge_coin"
@@ -1015,9 +1034,21 @@
 		{
 			dependencies: ["1F0CBC118A025669"]
 			description: [
-				"You did it, you passived (right) polytetrafluoroethylene (aka go to hell)."
+				"You did it, you got polytetrafluoroethylene. Huge milestone!"
 				""
-				"Now get the big chemical reactor and make your setup better. You like this dont you?"
+				"Now get the large chemical reactor and make your setup better. You like this don't you?"
+				""
+				"Check second page to see the advantages of this over singleblock chemical reactors."
+				""
+				"{@pagebreak}"
+				""
+				"1. LCRs have perfect overclock, meaning if you overclock a recipe by a tier, instead of being 2x faster it's gonna be 4x faster!"
+				""
+				"2. You can skip some basic (and not so much) chemistry lines by using an LCR. For example, sulfuric acid can now be made using sulfur and water."
+				""
+				"3. You can overclock an LCR like an EBF, allowing you to do next tier recipes."
+				""
+				"4. Later on, you'll be able to put cleaning maintenance hatches on them, meaning you can do cleanroom recipes outside of one!"
 			]
 			id: "6FD55D694E7D6D1C"
 			rewards: [{
@@ -1025,13 +1056,14 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			shape: "gear"
+			size: 1.5d
 			subtitle: "Big chemistry go brr"
 			tasks: [{
 				id: "23BE9CD56B15D016"
 				item: "gtceu:large_chemical_reactor"
 				type: "item"
 			}]
-			title: "LCR"
 			x: -5.5d
 			y: 11.0d
 		}
@@ -1046,12 +1078,13 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "Decently easy to make, and very useful"
 			tasks: [{
 				id: "48C62E45E2FCF1E4"
 				item: "gtceu:polydimethylsiloxane_dust"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 8.5d
 		}
 		{
@@ -1060,9 +1093,11 @@
 				"012C03ED5DBADBBD"
 			]
 			description: [
-				"Silicon Rubber is used to cover higher tier cables, typical rubber will not last enough."
+				"Silicone rubber is used to cover higher tier cables, typical rubber will not last enough."
 				""
-				"SR is capable of covering all tiers of cables, but as an alternative you can also use Styrene Butadiene Rubber, which is also capable of covering all types of cables, however, it does require some petrochem stuff that you might have not done yet. I recommend you checking out the oil distillation quest too."
+				"Silicone rubber is capable of covering all tiers of cables, but as an alternative you can also use styrene-butadiene rubber, which is also capable of covering all types of cables, however, it does require some petrochem stuff that you might have not done yet. I recommend you checking out the oil distillation quest too."
+				""
+				"Also, it's &lrequired&r for LuV+ electric pumps."
 			]
 			id: "6142DB85A24CEDB9"
 			rewards: [{
@@ -1075,7 +1110,7 @@
 				item: "gtceu:silicone_rubber_bucket"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 11.0d
 		}
 		{
@@ -1097,7 +1132,7 @@
 		}
 		{
 			dependencies: ["0003740F226E6E62"]
-			description: ["Ethylene + Benzene. Are u ready?"]
+			description: ["Ethylene + benzene. Are you ready?"]
 			id: "56DFEF515D038DE6"
 			rewards: [{
 				id: "7C281543A7E17175"
@@ -1117,7 +1152,7 @@
 				"0F068CABFD8E8B7F"
 				"56DFEF515D038DE6"
 			]
-			description: [""]
+			description: ["Styrene the butadiene together (don't forget oxygen tho) (I hope you're not using air for these)!"]
 			id: "4CA53F9E7ADC3B37"
 			rewards: [{
 				id: "0C7BD7B3124A7AC6"
@@ -1135,7 +1170,7 @@
 		}
 		{
 			dependencies: ["4CA53F9E7ADC3B37"]
-			description: ["Chemical react the new rubber with sulfur dust to make it into a liquid form."]
+			description: ["Chemical react the new rubber with sulfur dust to make it into a liquid form. This is the strongest rubber, congrats!"]
 			id: "46356F11079CEC2E"
 			rewards: [{
 				id: "3E9CD54004154006"
@@ -1155,7 +1190,7 @@
 				"1AD136F25B306F75"
 				"14C1550AE72B2F18"
 			]
-			description: ["You have everything to make the nichrome coils, congrats. Just cool down the nichrome ingot in the VF and you will be able to have a higher temperature on the EBF"]
+			description: ["You have everything to make the nichrome coils, congrats. Just cool down the nichrome ingot in the vacuum freezer and you will be able to have a higher temperature on the EBF."]
 			id: "228D20DB0820F303"
 			rewards: [{
 				id: "757D03485C5FF945"
@@ -1178,13 +1213,11 @@
 				"65B415B6FF037504"
 			]
 			description: [
-				"This normally would require Plat-line stuff. But dont worry, it will come soon."
+				"This normally would require platline stuff, but dont worry, it will come soon."
 				""
 				"As for tungsten, you need to process tungstate or scheelite, this is why you need the end miner module."
 				""
-				"For Molybdenum you will need to do ore proc of scheelite."
-				""
-				"Choose the best for you!"
+				"For molybdenum you will need to do ore processing of scheelite."
 			]
 			id: "2461BCC7EDFAD930"
 			rewards: [{
@@ -1193,9 +1226,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 7L
 				id: "3A045D70D085DD89"
-				item: { Count: 7, id: "gtceu:rtm_alloy_dust" }
+				item: "gtceu:rtm_alloy_dust"
 				type: "item"
 			}]
 			x: 10.5d
@@ -1212,6 +1244,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "New coils already???"
 			tasks: [{
 				count: 16L
 				id: "3A249BF4BEF5B6C3"
@@ -1220,7 +1253,7 @@
 			}]
 			title: "RTM Alloy Coil Block"
 			x: 10.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["228D20DB0820F303"]
@@ -1237,7 +1270,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1247,21 +1280,15 @@
 			description: [
 				"Welcome to IV."
 				""
-				"Just remember to make PTFE, Polydimethylsiloxane  and styriene butadiene, its 100% worth it and you will need it on iv."
+				"Just remember to make PTFE, silicone rubber and styrene-butadene rubber, it's 100% worth it and you will need it in IV."
 			]
 			id: "56A354EB0D7C0ACE"
-			rewards: [
-				{
-					id: "49A257F91A7CFEE5"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-				{
-					id: "64980BDDF5EB28D2"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "49A257F91A7CFEE5"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -1270,7 +1297,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			id: "2B2F37A02EE520AB"
@@ -1332,6 +1359,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "Yet another obscure alloy"
 			tasks: [{
 				id: "3D4A5774A0D25692"
 				item: "gtceu:ultimet_dust"
@@ -1412,6 +1440,7 @@
 				"4622B5E85CBD3660"
 				"473DDA77A96437BD"
 			]
+			description: ["Feel free to solidify this into plates and put these into a forming press with tempered glass, it's not used for anything else."]
 			id: "0BAF086EB15F694F"
 			rewards: [{
 				id: "69D6B01DFDEDF5D8"
@@ -1428,7 +1457,11 @@
 		}
 		{
 			dependencies: ["0BAF086EB15F694F"]
-			description: ["Now you can get IV hatches."]
+			description: [
+				"Now you can get IV hatches."
+				""
+				"This will be used instead of glass/tempered glass in IV-UV machines (don't ask me why UHV+ machines use regular glass)."
+			]
 			id: "63E6C9DB9DFBCFBD"
 			rewards: [{
 				id: "1941646F8A85D003"
@@ -1450,8 +1483,9 @@
 				"700D75AB04659866"
 			]
 			description: [
-				"Yes, you need IV hatches to be able to centrifuge &lliquid ender air&r in a distillation tower, for radon."
-				"As EV hatches dont have enough capacity."
+				"Yes, you need IV hatches to be able to centrifuge &lliquid ender air&r in a distillation tower for radon gas, as EV hatches dont have enough capacity."
+				""
+				"&oNote: you can use ME hatches, but those can't be locked like regular output hatches can."
 			]
 			id: "355551C96D1D7287"
 			rewards: [{
@@ -1474,9 +1508,9 @@
 				"18395B8BC22B8E18"
 			]
 			description: [
-				"Distill 200b of liquid ender air to get a bit of radon and lots of other things."
+				"Distill 200 B of liquid ender air to get a bit of radon gas and lots of other fluids."
 				""
-				"Only way of getting radon till Fusion."
+				"Only way of getting radon gas 'till fusion."
 			]
 			id: "27C70F756C875E96"
 			rewards: [{
@@ -1500,6 +1534,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "Radon sink #1"
 			tasks: [{
 				id: "0AB55F8887E7E2F7"
 				item: "gtceu:quantum_eye"
@@ -1516,6 +1551,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "Don't worry, IV ones are even more annoying"
 			tasks: [
 				{
 					id: "1F41E3853F064491"
@@ -1551,8 +1587,13 @@
 		}
 		{
 			dependencies: ["62C09C8F416308C8"]
-			description: ["Acetic Acid + (NotConsumed)  Quicklime dust"]
+			description: [
+				"Acetone is used for some chemistry later on:"
+				"- catalyze acetic acid with a piece of quicklime dust, it's not consumed;"
+				"- or distill wood vinegar!"
+			]
 			id: "581425B3F165BFCF"
+			optional: true
 			rewards: [{
 				id: "0018B0368B7D102E"
 				item: "gtceu:doge_coin"
@@ -1568,8 +1609,13 @@
 		}
 		{
 			dependencies: ["581425B3F165BFCF"]
-			description: ["This is a part of the Epoxy line that you will need to make epoxy boards. (for LuV circuits. So def try to passive this)"]
+			description: [
+				"This is a part of the epoxy line that you will need to make epoxy boards (for LuV circuits, so definitely try to passive this)."
+				""
+				"You can skip this part with an LCR though."
+			]
 			id: "2738CB2721C4E4A6"
+			optional: true
 			rewards: [{
 				id: "34FDFD342729C784"
 				item: "gtceu:doge_coin"
@@ -1585,13 +1631,14 @@
 		}
 		{
 			dependencies: ["4F4EA00A88BD951A"]
-			description: ["Chlorine gas with ethylene"]
+			description: ["Chlorine gas with ethylene."]
 			id: "77FB89A525267AAA"
 			rewards: [{
 				id: "52A29C38D06E9D79"
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "H2C=CH2 + Cl2 → H2ClC−CH2Cl"
 			tasks: [{
 				id: "6570FB89F025C438"
 				item: "gtceu:vinyl_chloride_bucket"
@@ -1603,9 +1650,11 @@
 		{
 			dependencies: ["77FB89A525267AAA"]
 			description: [
-				"Just add Oxygen to make it \"Poly\""
+				"Polymerizate it by adding oxygen."
 				""
-				"You will need this to make a lot of cables from now up."
+				"You will need this to make a lot of cables from now up, in the form of foil."
+				""
+				"You should still produce plates though, as they make for some incredibly cheap yet powerful item pipes, the biggest variant being able to transport up to 16 stacks per second!"
 			]
 			id: "1D87EF7BD4013FB8"
 			rewards: [{
@@ -1645,16 +1694,15 @@
 		{
 			dependencies: ["65AECCF83CDB662B"]
 			description: [
-				"This is an upgraded version of the typical pattern provider. "
+				"This is an upgraded version of the typical ME Pattern Provider. "
 				""
-				"You cannot get an extended version of this, so i would'nt recommend using this as the normal provider, but it has some useful uses in some instances."
+				"You cannot get the non-extended version of this, so I wouldn't recommend using this as the normal provider, but it has it's use cases."
 				""
-				"The advanced pattern provider has the ability to use advanced patterns."
-				"That means selecting where every item enter the block. "
+				"The advanced pattern provider has the ability to use advanced patterns - that means selecting where the provider is gonna push every item from the pattern. "
 				""
-				"So for example you could make coal enter behind the furnace and iron through the top."
+				"So, for example, you could make coal enter behind the furnace and iron through the top."
 				""
-				"To do this, however,  you will need a custom advanced pattern encoder."
+				"To do this, however, you will need a custom advanced pattern encoder."
 			]
 			id: "7BBCA0485B9345FB"
 			rewards: [{
@@ -1672,18 +1720,13 @@
 		}
 		{
 			id: "69D2657F779DFFE6"
-			rewards: [
-				{
-					id: "26794F68EA4DB05A"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-				{
-					id: "07AB2A721D395B69"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "26794F68EA4DB05A"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "Ka-boombox"
 			tasks: [{
 				id: "1108E20BB3BAD259"
 				item: "gtceu:implosion_compressor"
@@ -1694,7 +1737,7 @@
 		}
 		{
 			dependencies: ["69D2657F779DFFE6"]
-			description: ["This is exactly why you needed Petrochem, good luck with the TNT"]
+			description: ["This is exactly why you needed petrochem, good luck with the TNT."]
 			id: "7642FE788D211940"
 			tasks: [{
 				id: "08A02902C6D8C456"
@@ -1707,7 +1750,7 @@
 		{
 			dependencies: ["7642FE788D211940"]
 			id: "1515E6555228FF00"
-			subtitle: "Ev Tier Superconductor"
+			subtitle: "EV tier superconductor"
 			tasks: [{
 				id: "717504773255ABE7"
 				item: "gtceu:heavy_duty_alloy_t1_single_wire"
@@ -1723,11 +1766,26 @@
 			]
 			id: "18D90B48089D87CF"
 			tasks: [{
-				count: 32L
-				id: "19F56F70BEAE4887"
-				item: { Count: 32, id: "gtceu:endstone_tungstate_ore" }
+				id: "13A2DFDD9A8F9A43"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:endstone_tungstate_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:endstone_scheelite_ore"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
+			title: "Tungsten ores"
 			x: 2.0d
 			y: 8.5d
 		}

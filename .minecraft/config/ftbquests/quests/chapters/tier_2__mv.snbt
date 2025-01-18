@@ -73,7 +73,7 @@
 		}
 		{
 			dependencies: ["089AB7F6D2A6E393"]
-			description: ["New machine"]
+			description: ["New machine, let's go gambling!"]
 			id: "1AF2494549817153"
 			rewards: [{
 				id: "01D89F44DA23E90A"
@@ -165,7 +165,7 @@
 		}
 		{
 			dependencies: ["089AB7F6D2A6E393"]
-			description: ["If u dont want to use the ore washer you can drop the ores in a cauldron.&l"]
+			description: ["If you don't want to use the ore washer you can drop the ores in a cauldron with water."]
 			id: "3AC10294813C5823"
 			optional: true
 			rewards: [{
@@ -289,10 +289,7 @@
 		}
 		{
 			dependencies: ["7EF5763606EA45C6"]
-			description: [
-				"Electrolyze some cobaltite on MV to get normal cobalt."
-				"Pss: and better arsenic"
-			]
+			description: ["Electrolyze some cobaltite on MV to get normal cobalt, while also getting  arsenic."]
 			id: "1FA79A4EA720B648"
 			rewards: [{
 				id: "39698CF3F70D7F43"
@@ -310,6 +307,7 @@
 		}
 		{
 			dependencies: ["1FA79A4EA720B648"]
+			description: ["This isn't the last time you'll be making an obscure alloy for a cutter =)"]
 			id: "6A7A36130497849E"
 			rewards: [{
 				id: "28749A22F6230DE0"
@@ -345,19 +343,12 @@
 		{
 			dependencies: ["089AB7F6D2A6E393"]
 			description: [
-				"You can get Distilled water and Lubricant on this little machine."
+				"You can get distilled water and lubricant using this little machine."
 				""
-				"But you currently dont have access to oil so make lubricant by using seed oil or creosote."
-				"Distilled water is a lot cheaper but isnt as fast as lubricant."
+				"You currently don't have access to oil so make lubricant by using seed oil or creosote from a coke oven."
+				"Distilled water is a lot cheaper but isn't as fast as lubricant."
 				""
-				"Go for any of those, they're a must for the Boules and Chips that you will need."
-				""
-				"Pss: Check the second page."
-				""
-				""
-				"{@pagebreak}"
-				""
-				"You can also get  distilled water by extracting it from steam turbines, they create  some distilled water while processing the steam into energy, but just consider not making this your main way of getting the water as you are gonna need it for  a lot of things."
+				"Go for any of those, they're a must for the boules and chips that you will need."
 			]
 			id: "4DFA29090D0F1B6C"
 			rewards: [{
@@ -378,9 +369,9 @@
 			description: [
 				"This is a cool material."
 				""
-				"And you have 2 options to make it:"
-				"You can make an LV cutter to cut a redstone block into 9 plates or"
-				"You can extract redstone into liquid redstone and then fluid solidify it into a redstone plate."
+				"You have 2 options to make it:"
+				"- make an LV cutter to cut a redstone block into 9 plates;"
+				"- extract redstone into liquid redstone and then fluid solidify it into a redstone plate;"
 			]
 			id: "0EF069DF318BBB74"
 			rewards: [{
@@ -525,7 +516,7 @@
 		}
 		{
 			dependencies: ["089AB7F6D2A6E393"]
-			description: ["This is the start at infinite clay/aluminium/lithium/etc!"]
+			description: ["This is the start of infinite clay, aluminium, lithium, etc."]
 			id: "070CEF22C846C7D6"
 			rewards: [{
 				id: "4CF12F8C155B62FD"
@@ -679,6 +670,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "Baby's first passive processing line"
 			tasks: [
 				{
 					id: "616416396B76216D"
@@ -728,7 +720,7 @@
 				"2CEF142F1347E4B7"
 				"6F17B7E1C7B46BDB"
 			]
-			description: ["Still no lubricant? Damn.."]
+			description: ["Still no lubricant? Damn..."]
 			id: "2C452AC455C9F798"
 			rewards: [{
 				id: "2A3491BB87598762"
@@ -765,6 +757,11 @@
 			dependencies: [
 				"0B24FFCB0F9028E5"
 				"6F17B7E1C7B46BDB"
+			]
+			description: [
+				"Unfortunately, some materials are incompatible with benders, so you need to cut a block into plates, then put one of the plates through a lathe to get the lens."
+				""
+				"You get an orange lens as a gift since you can't craft the ones that don't have an ore counterpart yet!"
 			]
 			id: "47F6AD489D5C7003"
 			rewards: [
@@ -810,7 +807,7 @@
 				"2C452AC455C9F798"
 				"47F6AD489D5C7003"
 			]
-			description: [""]
+			description: ["This quest used to require 32 of each wafer, lol."]
 			id: "22DCB2E95D47FADC"
 			rewards: [{
 				id: "5AA48D41375D0229"
@@ -845,7 +842,7 @@
 		}
 		{
 			dependencies: ["22DCB2E95D47FADC"]
-			description: ["Hmm"]
+			description: ["Very precise."]
 			id: "18668CEE8EC1353E"
 			rewards: [{
 				id: "1B50930E55099FA6"
@@ -894,12 +891,13 @@
 				item: "gtceu:mv_energy_input_hatch"
 				type: "item"
 			}]
-			title: "Overcloking at HV"
-			x: 9.5d
-			y: 8.0d
+			title: "Overclocking to HV"
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["35581FB067BD40D2"]
+			description: ["Wait, why is the result shiny?"]
 			id: "014FC16336774705"
 			rewards: [{
 				id: "47D01536B2D03545"
@@ -915,10 +913,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"602C98D4F15BF4D0"
-				"014FC16336774705"
-			]
+			dependencies: ["6DCF95D375D3A848"]
 			id: "37899B413FBB19ED"
 			rewards: [{
 				id: "6D0C79058B462541"
@@ -959,6 +954,7 @@
 		}
 		{
 			dependencies: ["1AD136F25B306F75"]
+			description: ["Did you passive chromium?"]
 			id: "46A878765A5DB2BA"
 			rewards: [{
 				id: "33F1DA4BAECD8C7E"
@@ -978,7 +974,11 @@
 		}
 		{
 			dependencies: ["7D6C30089B9F8938"]
-			description: ["Another LV machine? thats crazy.."]
+			description: [
+				"Another LV machine? That's crazy..."
+				""
+				"These will always require the next tier of circuits, and will often make some insanely cheap recipes!"
+			]
 			id: "27673572DE928611"
 			rewards: [{
 				id: "48271652DCA10B6F"
@@ -1002,6 +1002,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "(this one is also hot)"
 			tasks: [{
 				id: "70449CCCCC5DDB8F"
 				item: "gtceu:silicon_ingot"
@@ -1013,14 +1014,15 @@
 		{
 			dependencies: ["44DD4446278E8F14"]
 			description: [
-				"Tell me this isn't a cool multiblock."
+				"Tell me this isn't a cool multiblock (you can't)."
 				""
-				"This is a Fluid drilling rig and it will help you get fluids out of the void, atleast till you get a better way of getting oil."
+				"This is a fluid drilling rig, and it will help you get fluids out of the void, at least 'till you get a better way of getting oil."
 				""
-				"You can use this for Polyethylene , and it will be the way that the quests do, but if you really dont wanna do this the quest is gonna be optional so you can go full vegan mode."
-				"Also, if u see only refinery gas in your prospector, you will need to make a bridge."
+				"You can use this for polyethylene, and it will be the way that the quests do, but if you really don't wanna do this, the quest is gonna be optional so you can go full vegan mode."
 				""
-				"Psss: Second Page"
+				"Also, if you see only refinery gas in your prospector, you will need to move to another chunk, it's useless for you."
+				""
+				"(second page)"
 				""
 				"{@pagebreak}"
 				""
@@ -1029,7 +1031,7 @@
 				""
 				"We understand people may not like making prospectors, so here is one for free."
 				""
-				"If the oil is too far away you can use long distance fluid pipelines to bring the oil into your base."
+				"If the oil is too far away, you can use long distance fluid pipelines to bring the oil into your base."
 			]
 			icon: "gtceu:mv_fluid_drilling_rig"
 			id: "1E04F58E81F4F89F"
@@ -1156,6 +1158,7 @@
 				"26C62836B41D0095"
 				"06DE434A12522869"
 			]
+			description: ["Bend the silicon ingots into plates."]
 			id: "63452C5A3536E82A"
 			rewards: [{
 				id: "12039BFF4CC4838E"
@@ -1200,18 +1203,12 @@
 			]
 			description: ["Welcome to HV"]
 			id: "331055377E5032C8"
-			rewards: [
-				{
-					id: "4044D75B594BAB7C"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-				{
-					id: "1B831BEA3E36A1E9"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "4044D75B594BAB7C"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -1288,7 +1285,7 @@
 			dependencies: ["63452C5A3536E82A"]
 			description: [
 				"LESGOOOO"
-				"Finally a better ore generation."
+				"Finally better ore generation."
 			]
 			id: "5936175360D8F049"
 			rewards: [{
@@ -1307,9 +1304,11 @@
 		{
 			dependencies: ["41D39163C8154F7C"]
 			description: [
-				"This is the Greenhouse multiblock, it will help you deal with wood issues and other materials."
+				"This is the greenhouse multiblock, it will help you deal with wood issues and other materials."
 				""
-				"You can make it give resin while doing rubber trees, but you will need to boost the greenhouse for it thus requiring apatite, which you unlock on IV."
+				"You can make it give resin while doing rubber trees, but you will need to boost the greenhouse using fertilizer for it."
+				""
+				"&lMake sure you use that exact chiseled glowstone block!"
 			]
 			id: "5DD037064DB51B4D"
 			rewards: [{
@@ -1337,6 +1336,23 @@
 			}]
 			x: 3.0d
 			y: 7.0d
+		}
+		{
+			dependencies: [
+				"014FC16336774705"
+				"602C98D4F15BF4D0"
+			]
+			description: ["Quick, dunk this in a chemical bath with water to cool it down! You can't hold these for very long."]
+			id: "6DCF95D375D3A848"
+			subtitle: "\"Think fast, chucklenut!\""
+			tasks: [{
+				id: "4E8690B05A7F4C2D"
+				item: "gtceu:hot_kanthal_ingot"
+				type: "item"
+			}]
+			title: "Ouch!"
+			x: 11.5d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Medium Voltage"]

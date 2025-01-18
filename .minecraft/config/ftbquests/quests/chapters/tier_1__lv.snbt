@@ -17,6 +17,7 @@
 	quests: [
 		{
 			dependencies: ["2DA0003222D48B72"]
+			description: ["Hulls = casing + cables + some extra plates"]
 			id: "16AF5E167963CD5E"
 			rewards: [{
 				id: "496C2BDBD139BC6D"
@@ -59,7 +60,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
-			subtitle: "1x1 plate ratio"
+			subtitle: "1:1 plate to ingot ratio!"
 			tasks: [{
 				id: "3F168CF6D46C9BDB"
 				item: "gtceu:lv_bender"
@@ -88,11 +89,15 @@
 		{
 			dependencies: ["600C9FE63DAFB132"]
 			description: [
-				"This is the Large Bronze Boiler."
-				"A multiblock that uses coal (or any type of fuel) + water to make huge amounts of steam."
+				"This is the large bronze boiler."
+				""
+				"A multiblock that uses fuel + water to make huge amounts of steam."
 				""
 				"But beware, this boiler might explode if heated before putting water, so make sure you have a good water source."
-				"You could even wait before making it and get water source t2 block before."
+				""
+				"You could even wait before making it and get the tier 2 water source block beforehand."
+				""
+				"Don't worry about the excess steam, the boiler will keep running and will void any steam if the outputs are full."
 			]
 			icon: "gtceu:bronze_large_boiler"
 			id: "3BE98091F78DA8F5"
@@ -139,7 +144,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
-			subtitle: "GTNH reference :o"
+			subtitle: "GT:NH reference :o"
 			tasks: [
 				{
 					id: "36E1A5850CCDF01D"
@@ -173,6 +178,7 @@
 		}
 		{
 			dependencies: ["600C9FE63DAFB132"]
+			description: ["Very important machine, unlocks coils and a LOT of cheaper recipes!"]
 			id: "62F9642692D0B556"
 			rewards: [{
 				id: "77529765B3DA9738"
@@ -189,7 +195,7 @@
 		}
 		{
 			dependencies: ["600C9FE63DAFB132"]
-			description: ["Get graphite by placing raw coal on a coke oven."]
+			description: ["Get graphite by placing raw coal in a coke oven."]
 			id: "4E9536B853DD60C3"
 			rewards: [{
 				id: "66CAABCF0F21209A"
@@ -245,12 +251,18 @@
 			]
 			description: [
 				"Yup, this little gas is gonna be super useful."
-				"You will be able to \"transmute\" ores into new types for machinery."
 				""
-				"Consider making passive lines for every new ore, (maybe not the copper tho)"
-				"and make a lot of oxygen."
+				"You will be able to \"transmute\" ores into others with machinery."
+				""
+				"Consider making passive lines for every new ore and make a lot of oxygen (check the second page for an example way to automate oxygen). "
 				""
 				"Automating the extractinator is easy now so you should also have it."
+				""
+				"{@pagebreak}"
+				""
+				"A good way to automate oxygen is to forge hammer cobblestone twice, arc furnace the sand into glass, crush the glass into glass dust, centrifuge into silicon dioxide and finally electrolyze it into silicon and oxygen, send some oxygen into the arc furnace and the rest is yours."
+				""
+				"This makes a LOT of oxygen and silicon as a byproduct, but costs a lot of machines to make."
 			]
 			id: "445F7A65CE2C862C"
 			rewards: [{
@@ -274,10 +286,10 @@
 			]
 			description: [
 				"Get the new ores by transmuting the ores that you get by extracting cobblestone. Just add a raw material and put some oxygen."
-				"Annhealed copper requieres copper ingots."
 				""
+				"Anhealed copper requires copper ingots."
 				""
-				"Psss: With the new silver you can get HP Solar boilers, so if u haven't made the LBB yet those are gonna be your best bet."
+				"Note: with the new silver you can get high pressure solar boilers, so if you haven't made the large bronze boiler yet, those are gonna be your best bet."
 			]
 			icon: "gtceu:raw_diamond"
 			id: "11F178FE7717ACD2"
@@ -442,6 +454,7 @@
 		}
 		{
 			dependencies: ["5E616BF4128429D8"]
+			description: ["2 iron for every nickel ingot in an alloy smelter and you get invar."]
 			id: "0DC1C7A1BA3CD3AB"
 			rewards: [{
 				id: "633A7A231078084D"
@@ -461,7 +474,7 @@
 				"0DC1C7A1BA3CD3AB"
 				"040E4BD75ABC15DD"
 			]
-			description: ["Cool multiblock, you might wanna make even 2 or more of those as your also gonna need it for the circuit not only the aluminum."]
+			description: ["Cool multiblock, you might wanna make even 2 or more of those as you're also gonna need it for the circuit, not only the aluminium."]
 			icon: "gtceu:electric_blast_furnace"
 			id: "507C474A64173290"
 			rewards: [
@@ -518,6 +531,7 @@
 		}
 		{
 			dependencies: ["5E616BF4128429D8"]
+			description: ["Another alloy smelter ingot! This uses nickel too just like invar."]
 			id: "27F6D28FC22CF47D"
 			rewards: [{
 				id: "60ADF1B5CE31F06D"
@@ -572,7 +586,7 @@
 			]
 			description: [
 				"The start of the coil progression."
-				"Remember to check the Milestone Tab if u want to see the whole progression!"
+				"Remember to check the milestone tab in the questbook if you want to see the whole progression!"
 			]
 			id: "040E4BD75ABC15DD"
 			rewards: [{
@@ -595,10 +609,11 @@
 				"5A9747B96C3219CC"
 			]
 			description: [
-				"So, you will need to overclock your EBF to get it into MV."
+				"You will need to overclock your EBF to get it running at MV voltage."
 				""
 				"Get 2 LV energy hatch and plug them into your EBF."
-				"You could also set up turbines exclusively for the multiblock as its very power hungry at this stage."
+				""
+				"You could also set up turbines exclusively for the multiblock as it's very power hungry at this stage."
 			]
 			id: "1057F8D3CB6DB125"
 			rewards: [{
@@ -616,8 +631,7 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["62F9642692D0B556"]
-			hide_dependency_lines: true
+			dependencies: ["5E41736C950E9C4F"]
 			id: "3A121AF19BE3A6E4"
 			rewards: [{
 				id: "2F0B2C590F7C2AFD"
@@ -630,8 +644,8 @@
 				item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 11.0d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -671,6 +685,7 @@
 		}
 		{
 			dependencies: ["3BE5759C7FFEF529"]
+			description: ["You can also get aluminium (as well as some other elements) from clay at MV!"]
 			id: "5A9747B96C3219CC"
 			rewards: [{
 				id: "7C1804305274FD7F"
@@ -691,8 +706,9 @@
 				"62F9642692D0B556"
 			]
 			description: [
-				"Get some glue by putting some sticky resin in a centrifuge"
-				"You can get wood pulp by macerating or putting wood on a lathe."
+				"Get some glue by putting some sticky resin in a centrifuge."
+				""
+				"You can get wood pulp by macerating or putting wood in a lathe."
 			]
 			id: "56A802215E4A1AC7"
 			rewards: [{
@@ -764,6 +780,7 @@
 		}
 		{
 			dependencies: ["780137604FB5DEC9"]
+			description: ["Separate materials into periodic table elements!"]
 			id: "4EB49C9582930970"
 			rewards: [{
 				id: "247FA55EAFB880F2"
@@ -841,6 +858,11 @@
 		}
 		{
 			dependencies: ["16AD964F16907184"]
+			description: [
+				"These are gonna take a while to craft."
+				""
+				"Make sure to make a lot at a time, and use annealed copper to get twice as much as you would with regular copper."
+			]
 			id: "163D91789C3F12E6"
 			rewards: [{
 				id: "5AE08B8270203370"
@@ -861,6 +883,7 @@
 				"163D91789C3F12E6"
 				"3E565050BADBB2FD"
 			]
+			description: ["Did you passive aluminium ingots???"]
 			id: "2F459E86E600C4DD"
 			rewards: [{
 				count: 5
@@ -889,7 +912,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Did u make 32 circuits?"
+			subtitle: "Have you also batch crafted circuits?"
 			tasks: [{
 				id: "3BAAC0BC3ECF7FF4"
 				item: "gtceu:mv_machine_casing"
@@ -922,9 +945,9 @@
 		{
 			dependencies: ["62F9642692D0B556"]
 			description: [
-				"Yes, this is Hostile Neural Networks. But remember, this pack is peaceful friendly so the way you will get the data models is gonna be buying them with items on the quests."
+				"Yes, this is Hostile Neural Networks. Remember, this pack is peaceful, so the way you will get the data models is gonna be buying them with items in the quests."
 				""
-				"Psss: Get energy by making a converter"
+				"&oPsss, get RF energy from EU by making a converter!"
 			]
 			id: "66079F4565A6B631"
 			rewards: [{
@@ -1051,6 +1074,11 @@
 		}
 		{
 			dependencies: ["3F0C71A412C94C98"]
+			description: [
+				"That's a lot of different alloys."
+				""
+				"Don't worry though, you won't use most of these."
+			]
 			id: "4F312669D4434DF1"
 			rewards: [{
 				count: 2
@@ -1159,6 +1187,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
+			subtitle: "These can transfer unlimited RF/t and have no loss"
 			tasks: [{
 				count: 16L
 				id: "5CFE8C7A38E0453A"
@@ -1170,6 +1199,7 @@
 		}
 		{
 			dependencies: ["62F9642692D0B556"]
+			description: ["AE2 but not digital... and no autocrafting... and no fluid storage... :("]
 			id: "55634ACFE6F9AA5D"
 			rewards: [{
 				id: "7063C06DF797BD20"
@@ -1187,6 +1217,7 @@
 		}
 		{
 			dependencies: ["55634ACFE6F9AA5D"]
+			description: ["See items that you have right next to the crafting slots!"]
 			id: "34A90C36E9A8A51C"
 			rewards: [{
 				count: 3
@@ -1224,6 +1255,7 @@
 		}
 		{
 			dependencies: ["55634ACFE6F9AA5D"]
+			description: ["Connect this to a chest to expose it's storage to the simple storage network."]
 			id: "0E504DAB2E92683D"
 			rewards: [{
 				id: "338AB0A176BC378A"
@@ -1260,6 +1292,7 @@
 			dependencies: ["4F312669D4434DF1"]
 			description: ["But there is no better place to put this in."]
 			id: "023F2CD0DEEFCC9F"
+			optional: true
 			rewards: [{
 				id: "4EB38AABFC7890EC"
 				item: "gtceu:doge_coin"
@@ -1278,6 +1311,7 @@
 			dependencies: ["4F312669D4434DF1"]
 			description: ["But there is no better place to put this in."]
 			id: "66DBAE910833BF27"
+			optional: true
 			rewards: [{
 				id: "0FBF16D3774BB09E"
 				item: "gtceu:doge_coin"
@@ -1296,6 +1330,7 @@
 			dependencies: ["4F312669D4434DF1"]
 			description: ["But there is no better place to put this in."]
 			id: "71E4376CE22393F9"
+			optional: true
 			rewards: [{
 				id: "2DACDC38BC0651E6"
 				item: "gtceu:doge_coin"
@@ -1314,6 +1349,7 @@
 			dependencies: ["4F312669D4434DF1"]
 			description: ["But there is no better place to put this in."]
 			id: "2CBB2708CA520484"
+			optional: true
 			rewards: [{
 				id: "666795D2EE9F52D8"
 				item: "gtceu:doge_coin"
@@ -1332,6 +1368,7 @@
 			dependencies: ["4F312669D4434DF1"]
 			description: ["But there is no better place to put this in."]
 			id: "32B7C2E1DDD9D932"
+			optional: true
 			rewards: [{
 				id: "4BAF39995EBD75F7"
 				item: "gtceu:doge_coin"
@@ -1418,10 +1455,10 @@
 		{
 			dependencies: ["7CCA83876C2A61BB"]
 			description: [
-				"As you may have noticed already, normal &4cables/wires have a loss/b/eu. &r"
+				"As you may have noticed already, normal &4cables/wires have an EU loss per block. &r"
 				""
-				"But those are not normal cables, they are &2superconductors!&r"
-				"&2Superconductors&r have &ono&r loss so you can make large cablelines and you will not lose a single eu :D"
+				"But those are not normal cables, they are &2superconductors&r!"
+				"&2Superconductors&r have &ono&r loss so you can make large cablelines and you will not lose a single EU :D"
 			]
 			id: "0141F3DC5713D52E"
 			subtitle: "First Superconductor"
@@ -1472,7 +1509,7 @@
 		}
 		{
 			dependencies: ["11F178FE7717ACD2"]
-			description: ["If u are tired of making lv pumps and conveyors for automations try those, they require a little bit of lead, but are very cheap in comparison."]
+			description: ["If you are tired of making LV pumps and conveyors for automations, try those, they require a little bit of lead, but are very cheap in comparison."]
 			icon: "ulvcovm:ulv_electric_pump"
 			id: "752B0E07BBC5F492"
 			tasks: [
@@ -1528,6 +1565,19 @@
 			}]
 			x: 4.875d
 			y: 4.125d
+		}
+		{
+			dependencies: ["62F9642692D0B556"]
+			description: ["You need voltage coils for every energy hatch."]
+			hide_dependency_lines: true
+			id: "5E41736C950E9C4F"
+			tasks: [{
+				id: "25DB808D6FD446D6"
+				item: "gtceu:lv_voltage_coil"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
 		}
 	]
 	subtitle: ["Low Voltage"]

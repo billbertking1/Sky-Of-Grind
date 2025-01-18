@@ -187,6 +187,7 @@
 	quests: [
 		{
 			dependencies: ["0A6236EB1EA5A3A1"]
+			description: ["Most basic way of transferring connection to your ME system around your base!"]
 			id: "6F5560D4A7877AAC"
 			tasks: [{
 				id: "11378D6F228A93E7"
@@ -198,6 +199,7 @@
 		}
 		{
 			dependencies: ["6F5560D4A7877AAC"]
+			description: ["This is a Fluix ME Glass Cable, but covered with wool."]
 			id: "4922BDA97A6EAE1C"
 			tasks: [{
 				id: "7C3572624BE42F0B"
@@ -209,6 +211,11 @@
 		}
 		{
 			dependencies: ["4922BDA97A6EAE1C"]
+			description: [
+				"Normally, these cables show the amount of channels that pass through them."
+				""
+				"But here they just look cool =)"
+			]
 			id: "113752ECE4C41520"
 			tasks: [{
 				id: "36ED668359BC33CA"
@@ -221,9 +228,9 @@
 		{
 			dependencies: ["113752ECE4C41520"]
 			description: [
-				"Yeah, this modpack doesnt have channels enabled, but you already know this. "
+				"Yeah, this modpack doesn't have channels enabled, but you already know this. "
 				""
-				"Those cables are used for recipes too, so they arent useless items."
+				"Those cables are used for recipes, so they aren't useless items."
 			]
 			id: "25DFF2F1997167EA"
 			subtitle: "Hmm."
@@ -238,6 +245,7 @@
 		{
 			dependencies: ["302767FC02F7C8B5"]
 			id: "307FEA664A2655F6"
+			subtitle: "LV"
 			tasks: [{
 				id: "58BE6EE70CD6895D"
 				item: {
@@ -253,6 +261,7 @@
 		{
 			dependencies: ["302767FC02F7C8B5"]
 			id: "0ACE972324C14E25"
+			subtitle: "MV"
 			tasks: [{
 				id: "7BF181A67C714F5F"
 				item: {
@@ -268,6 +277,7 @@
 		{
 			dependencies: ["302767FC02F7C8B5"]
 			id: "6B6CDEFA1BE8C7C0"
+			subtitle: "HV"
 			tasks: [{
 				id: "7932C6F0D8E065CE"
 				item: {
@@ -283,6 +293,7 @@
 		{
 			dependencies: ["302767FC02F7C8B5"]
 			id: "150BC1BC46D722AE"
+			subtitle: "EV"
 			tasks: [{
 				id: "2E94EAFF53C69C10"
 				item: {
@@ -298,6 +309,7 @@
 		{
 			dependencies: ["302767FC02F7C8B5"]
 			id: "79D838F1C0677905"
+			subtitle: "IV"
 			tasks: [{
 				id: "2B3AD40460F19CF2"
 				item: {
@@ -323,6 +335,7 @@
 		}
 		{
 			dependencies: ["65AECCF83CDB662B"]
+			description: ["ME Pattern Provider but with 4x as much slots, go crazy!"]
 			id: "0FE5ABB593124FAF"
 			tasks: [{
 				id: "4BF177BA1FD08F96"
@@ -334,6 +347,11 @@
 		}
 		{
 			dependencies: ["0A6236EB1EA5A3A1"]
+			description: [
+				"Ideally, you will use a lot of these, especially with ME Storage Busses."
+				""
+				"ME Interfaces can request and accept items and fluids, up to 9 stacks or 36 buckets per tick (that's a staggering 180 stacks or 720 buckets per second)!"
+			]
 			id: "5843A15AFD872EE6"
 			tasks: [{
 				id: "2CB8A4D26564F858"
@@ -345,6 +363,7 @@
 		}
 		{
 			dependencies: ["5843A15AFD872EE6"]
+			description: ["An upgraded ME Interface that has more slots."]
 			id: "400F0569066E0364"
 			tasks: [{
 				id: "76194BB25D21EFFC"
@@ -356,6 +375,7 @@
 		}
 		{
 			dependencies: ["6C545D94F3FCE01A"]
+			description: ["You can color these, put them in a Color Applicator and color your cables on go (or just use a GregTech spray can)."]
 			id: "21B80386636E3FED"
 			tasks: [{
 				id: "2A88DBAB40B042AE"
@@ -373,7 +393,7 @@
 				"Congrats, you unlocked a mix of a lot of pattern providers and molecular assemblers, In a multiblock!"
 				"This little guy is capable of handling billions of crafts, when you have enough co-processors!"
 				""
-				"I recommend you checking out the inside wiki."
+				"I recommend you check out the inside wiki."
 			]
 			id: "072194C950A135B9"
 			tasks: [{
@@ -431,6 +451,14 @@
 		}
 		{
 			dependencies: ["0FF0AB0CB40371AF"]
+			description: [
+				"This is a quite useful tool, as it can multiply and divide inputs and outputs of any encoded pattern."
+				""
+				"It can also:"
+				"- clear multiple patterns at once;"
+				"- replace items in patterns;"
+				"- clone patterns;"
+			]
 			id: "385C5CDD36656563"
 			subtitle: "Multiply Recipes!"
 			tasks: [{
@@ -446,9 +474,9 @@
 			description: [
 				"A better requester."
 				""
-				"May need some AdvancedAE like the reaction chamber and the assline for singularities, but it will sure be worth."
+				"May need some AdvancedAE machines like the reaction chamber and the assembly line for singularities, but it will be worth it."
 				""
-				"It has 9 slots and you can control how much of each ingredient  you want, its perfect!"
+				"It has 9 slots and you can control how much of each item you want, it's perfect for keeping a huge stock of any craftable item!"
 			]
 			id: "26D49CA7240302DE"
 			tasks: [{

@@ -80,23 +80,31 @@
 			description: [
 				"Yeah the only LV option is steam, sorry!"
 				""
-				"Okey this is a joke, you can do other stuff on LV but its not recommended, thats why this description exists."
-				"To get you started on power generation make a normal gas turbine."
+				"Okay this is a joke, you can do other stuff in LV but it's not recommended, that's why this description exists."
+				"To get you started on power generation, make an LV gas or steam turbine."
 			]
 			id: "567ECBB12C33B460"
 			subtitle: "Cracker and coal gas when"
-			tasks: [
-				{
-					id: "1FD7F098A25BB903"
-					item: "gtceu:lv_gas_turbine"
-					type: "item"
+			tasks: [{
+				id: "22C6B8ECEE4134A9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_steam_turbine"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_gas_turbine"
+							}
+						]
+					}
 				}
-				{
-					id: "1CFA192502A2342B"
-					item: "gtceu:lv_steam_turbine"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "LV Options"
 			x: 0.0d
 			y: 3.0d
@@ -104,9 +112,9 @@
 		{
 			dependencies: ["567ECBB12C33B460"]
 			description: [
-				"Distill oil into different gases like Benzene for easy early game power."
+				"Distill oil into different gases like benzene for easy early-game power."
 				""
-				"They are \"kinda\" locked behind mv as you need oil and the easiest way to get oil is on an oil drilling rig."
+				"They are \"kinda\" locked behind MV as you need oil and the easiest way to get oil is on an oil drilling rig."
 			]
 			id: "4FC4ADD13A66783E"
 			tasks: [{
@@ -121,9 +129,9 @@
 		{
 			dependencies: ["567ECBB12C33B460"]
 			description: [
-				"Distill oil into different fuels like naptha and light fuel, or make diesel / gasoline."
+				"Distill oil into different fuels like naphtha and light fuel, or make diesel. You can't make gasoline yet, as that's locked behind EV."
 				""
-				"They are \"kinda\" locked behind mv as you need oil and the easiest way to get oil is on an oil drilling rig."
+				"They are \"kinda\" locked behind MV as you need oil and the easiest way to get oil is on an oil drilling rig."
 			]
 			id: "17DF3F05D95B034F"
 			tasks: [{
@@ -391,9 +399,9 @@
 		{
 			dependencies: ["48EA518B25180EC6"]
 			description: [
-				"While yes, combustion is very nice for mid-earlylate game gregtech is not gonna be enough for later tiers like ZPM-UHV"
+				"While yes, combustion is very nice for mid-early game, it is not gonna be enough for later tiers like ZPM-UHV."
 				""
-				"So go check out other methods too, like plasma energy like Helium, Naquadrid or Star Matter. Or simply request 100 solar panels through your AE."
+				"So, go check out other methods too, like plasma energy using helium, naquadria or star matter plasmas... or simply request 100 solar panels through your AE."
 			]
 			id: "0A06D1A8A5115B47"
 			shape: "gear"
@@ -468,9 +476,9 @@
 		{
 			dependencies: ["5E2178FFAED6B5DF"]
 			description: [
-				"While yes, Gas Energy is very nice  for early-mid game gregtech is not gonna be enough for later tiers like IV-UHV"
+				"While yes, gas energy is very nice for early-mid game, GregTech is not gonna be enough for later tiers like IV-UHV."
 				""
-				"So go check out other methods too, like combustion energy or plasma energy like Helium, Naquadrid or Star Matter. Or simply request 100 solar panels through your AE."
+				"So, go check out other methods too, like combustion energy or plasma energy using helium, naquadria or star matter plasmas... or simply request 100 solar panels through your AE."
 			]
 			id: "240D3E4E4614D936"
 			shape: "gear"
@@ -594,7 +602,8 @@
 				"This is the Large Solar Panel."
 				""
 				"A large solar panel that holds stacks of panels in it's interior to gather energy from the sun."
-				"This is your best choice if u want to spam "
+				""
+				"Definitely the best choice if u have high voltage dynamos, as it can overclock and produce more energy from lower tier panels."
 			]
 			id: "17169E18FCB4C6CF"
 			shape: "octagon"

@@ -12,10 +12,10 @@
 			description: [
 				"Multiblocks can wallshare."
 				""
-				"Yes, this is an insanely useful feature. you can make a quad ebf or an octo ebf to \"parallelize\" recipes and save space."
-				"Just keep in mind, you are not able to wallshare Maintenance Hatches and in some cases muffler hatches."
+				"Yes, this is an insanely useful feature. You can make a quad EBF or an octo EBF to \"parallelize\" recipes and save space."
+				"Just keep in mind, you are not able to wallshare maintenance matches and, in some cases, muffler hatches."
 				""
-				"This is for example how you would set up a quad ebf:"
+				"This is, for example, how you would set up coils a quad EBF (top view):"
 				""
 				"⏹︎⏹︎⏹︎⏹︎⏹︎"
 				"⏹︎    ⏹︎    ⏹︎"
@@ -38,7 +38,7 @@
 			description: [
 				"You can rotate nearly &lany&r multiblocks on the game."
 				""
-				"Make cursed setups like quad upside down ebfs or just simply use it to save space with things like vertical assembly lines."
+				"Make cursed setups like quad upside down EBFs or just simply use it to save space with things like vertical assembly lines."
 			]
 			id: "7DF8B9DB4C0EAF24"
 			tasks: [{
@@ -58,7 +58,7 @@
 			y: -0.5d
 		}
 		{
-			description: ["On gregtech, all the Energy Hatches/Energy Dynamo above EV tier can \"overclock\" to use more amps. (or output more)"]
+			description: ["In GregTech, all the energy/dynamo hatches of EV tier and above can \"overclock\" to use more amps than two."]
 			id: "677BE653DAE16978"
 			tasks: [{
 				id: "598C6005417C20D6"
@@ -71,14 +71,14 @@
 		}
 		{
 			description: [
-				"The terminal is probably the most useful item on GT."
+				"The terminal is probably the most useful item in GT."
 				"If you've played other gregtech packs like GT:NH you will know there is things like the Hologram Projector to autobuild multiblocks."
 				""
 				"In GTCeu Modern there is the Terminal."
-				"With shift right click in the controller you will be able to autobuild the multiblock. "
-				"PD: Dont use Hatches, they are kinda buggy with the terminal."
+				"With shift + right-click in the controller you will be able to autobuild the multiblock."
+				"Note: Don't have hatches in your inventory when using this, they are kinda buggy with the terminal and will be placed in usual places."
 				""
-				"You can also Shift right click the multiblock to show a hologram. (Without the terminal)"
+				"You can also shift + right-click the multiblock controller with an empty hand to show a hologram of it."
 			]
 			id: "755C2808CF7FBA7E"
 			tasks: [{
@@ -91,7 +91,7 @@
 			y: -0.5d
 		}
 		{
-			description: ["The power substation is the best GT Battery multiblock, its a simple structure that can be expanded and filled with every type of battery. The energy will stack, so you can have 36x Ultimate batterys!"]
+			description: ["The power substation is the best GT battery multiblock, it's a simple structure, that can be expanded and filled with any type of battery. You can stack layers of batteries, so you can have up to 36x ultimate batteries in one substation!"]
 			id: "4378E2D39FD5C808"
 			subtitle: "The best battery"
 			tasks: [{

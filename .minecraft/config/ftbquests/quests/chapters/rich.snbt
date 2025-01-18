@@ -30,9 +30,10 @@
 		{
 			description: [
 				"This is rich part of the shop."
+				""
 				"Only used for building things like dyes and saplings."
 				""
-				"There is the Richer part which uses the dog coins that you get only from quests to buy more \"useful\" items."
+				"There is the richer part which uses the dog coins that you get only from quests to buy more \"useful\" items."
 			]
 			id: "792CA960CA776F9B"
 			tasks: [{
@@ -371,10 +372,11 @@
 			description: [
 				"You are probably confused on why the shop uses credits and not doge coins."
 				""
-				"This is the Part 1 of the shops, this is for cosmetic stuff like dyes, building blocks and saplings."
+				"This is the part 1 of the shops, this is for cosmetic stuff like dyes, building blocks and saplings."
 				" "
-				"The part 2 if under heavy wip and will probably be released at uhv or later."
-				"that one is gonna use doge coins for useful items like basic circuits and/or alloys."
+				"The part 2 is under heavy WIP and will probably be released at UHV or later."
+				""
+				"That one is gonna use doge coins for useful items like basic circuits and/or alloys."
 			]
 			icon: {
 				Count: 1
