@@ -487,6 +487,276 @@
 			x: 1.5d
 			y: 8.5d
 		}
+		{
+			dependencies: ["5BFB1C8CFAEAD059"]
+			id: "44721393C34FAB56"
+			rewards: [{
+				count: 2
+				id: "3A67567179E5BDEC"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5838D9239FBF4FCA"
+				item: "megacells:mega_crafting_unit"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["44721393C34FAB56"]
+			id: "5483EC9F0EBB1DA0"
+			rewards: [{
+				id: "1047C2AD871F662B"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CC6C6059187F2C0"
+				item: "megacells:1m_crafting_storage"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5483EC9F0EBB1DA0"]
+			id: "31B491DB9D0C300A"
+			rewards: [{
+				id: "52393BCD1884520D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "006811D0D95DCE47"
+				item: "megacells:4m_crafting_storage"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["31B491DB9D0C300A"]
+			id: "3E611DBA8EAB465B"
+			rewards: [{
+				id: "73D7724F9C6D226D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "101FA8DE5F4F37AC"
+				item: "megacells:16m_crafting_storage"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3E611DBA8EAB465B"]
+			id: "62FF9D527D28A04D"
+			rewards: [{
+				id: "05ADEF6CBB2B63A1"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44DD4EC679D5AFC7"
+				item: "megacells:64m_crafting_storage"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["62FF9D527D28A04D"]
+			id: "05E3BFAF5D4F8302"
+			rewards: [{
+				id: "0FAF9C802804F0CB"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "295BDF4D0EC0112A"
+				item: "megacells:256m_crafting_storage"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7CC9AEC1E514D0DE"]
+			id: "42D295B064D98316"
+			rewards: [{
+				id: "105522B6949F8B85"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3F8A000F8F7C9E88"
+					item: "ae2:wireless_terminal"
+					type: "item"
+				}
+				{
+					id: "5D1BB47E2B6CDC4A"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["302767FC02F7C8B5"]
+			id: "492C5AFC1EFF2142"
+			tasks: [{
+				id: "0B1A7B69C8F39F92"
+				item: {
+					Count: 1
+					id: "megacells:fluid_storage_cell_1m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["302767FC02F7C8B5"]
+			id: "5E09B417DF450500"
+			tasks: [{
+				id: "28F6650F4F59D1F8"
+				item: {
+					Count: 1
+					id: "megacells:fluid_storage_cell_4m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["302767FC02F7C8B5"]
+			id: "25049454BCFCD1C6"
+			tasks: [{
+				id: "6FA76CEF15B8F60A"
+				item: {
+					Count: 1
+					id: "megacells:item_storage_cell_1m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["302767FC02F7C8B5"]
+			id: "47DC6BC574E3E233"
+			tasks: [{
+				id: "5B53D64F8516F662"
+				item: {
+					Count: 1
+					id: "megacells:item_storage_cell_4m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["302767FC02F7C8B5"]
+			id: "5647025201E4379B"
+			tasks: [{
+				id: "64D2EFA1885674CB"
+				item: {
+					Count: 1
+					id: "megacells:fluid_storage_cell_16m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["302767FC02F7C8B5"]
+			id: "58BFECACDD6304A0"
+			tasks: [{
+				id: "131FF6596C3301F3"
+				item: {
+					Count: 1
+					id: "megacells:item_storage_cell_16m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["302767FC02F7C8B5"]
+			id: "215925F187DAFD50"
+			tasks: [{
+				id: "5F77C37B3F6FD203"
+				item: {
+					Count: 1
+					id: "megacells:fluid_storage_cell_64m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["302767FC02F7C8B5"]
+			id: "70CA0AAFB77D925E"
+			tasks: [{
+				id: "27D26C3B8A09915A"
+				item: {
+					Count: 1
+					id: "megacells:fluid_storage_cell_256m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["302767FC02F7C8B5"]
+			id: "6C39D978FF3D246F"
+			tasks: [{
+				id: "485E039A4EFE9FB5"
+				item: {
+					Count: 1
+					id: "megacells:item_storage_cell_64m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["302767FC02F7C8B5"]
+			id: "14572181485F7DC9"
+			tasks: [{
+				id: "48338D9EB4426AEB"
+				item: {
+					Count: 1
+					id: "megacells:item_storage_cell_256m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.0d
+		}
 	]
 	subtitle: ["Singularities"]
 	title: "&#8442f5Applied Energistics 2"
