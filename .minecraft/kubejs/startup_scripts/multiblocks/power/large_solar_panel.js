@@ -29,7 +29,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('O', Predicates.blocks('minecraft:blue_stained_glass'))
             .where('T', Predicates.blocks('minecraft:light_blue_stained_glass'))
             .where("C", Predicates.blocks('gtceu:clean_machine_casing')
-            .or(Predicates.abilities(PartAbility.INPUT_ENERGY))
+            .or(Predicates.abilities(PartAbility.OUTPUT_ENERGY))
             .or(Predicates.blocks('gtceu:ulv_input_bus'))
             )
             .where('#', Predicates.any())
