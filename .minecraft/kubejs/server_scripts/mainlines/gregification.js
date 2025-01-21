@@ -1296,16 +1296,7 @@ sog.shaped(
         B: 'gtceu:stem_cells',
         Z: 'gtceu:petri_dish',
         F: '#gtceu:circuits/uv'
-})
-sog.shaped(
-    'gtceu:uhv_transformer_1a',
-    ['ADD', 'BC ', 'ADD'],
-    {
-        A: 'gtceu:uhpic_chip',
-        B: 'gtceu:crystal_matrix_single_wire',
-        D: 'gtceu:europium_single_cable',
-        C: 'gtceu:uhv_machine_hull'
-})
+    })
 
 //Stabilized Iridium
 

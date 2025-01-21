@@ -164,6 +164,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'draconicevolution:energy_core_stabilizer'})
     event.remove({ output: 'gtceu:tiny_diamond_dust'})
     event.remove({ output: 'gtceu:uhv_energy_input_hatch'})
+    event.remove({ output: 'gtceu:uhv_energy_output_hatch'})
     event.remove({ mod: 'watersources'})
     event.remove({ output: 'minecraft:paper'})
     event.remove({ output: 'extendedcrafting:singularity'})

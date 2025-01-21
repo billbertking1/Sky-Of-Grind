@@ -58,7 +58,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('*', Predicates.blocks('minecraft:light_blue_stained_glass'))
             .where('I', Predicates.blocks('minecraft:beacon'))
             .where('C', Predicates.blocks("gtceu:atomic_casing")
-            .or(Predicates.abilities(PartAbility.EXPORT_ITEMS, PartAbility.EXPORT_FLUIDS, PartAbility.IMPORT_ITEMS, PartAbility.IMPORT_FLUIDS, PartAbility.INPUT_LASER)))
+            .or(Predicates.abilities(PartAbility.EXPORT_ITEMS, PartAbility.EXPORT_FLUIDS, PartAbility.IMPORT_ITEMS, PartAbility.IMPORT_FLUIDS, PartAbility.INPUT_LASER, PartAbility.INPUT_ENERGY)))
             .where('O', Predicates.abilities(PartAbility.MUFFLER)
                 .setExactLimit(1)
             )

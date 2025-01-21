@@ -9,5 +9,16 @@ ServerEvents.recipes(sog => {
             Y: 'gtceu:uhv_machine_hull',
             H: 'gtceu:draconium_single_cable'
     })
+    sog.shaped(
+        'gtceu:uev_uev_parallel_hatch',
+        ['ABC', 'BYB', 'HBH'],
+        {
+            B: '#gtceu:circuits/uiv',
+            A: 'gtceu:uev_sensor',
+            C: 'gtceu:uev_emitter',
+            Y: 'gtceu:uev_machine_hull',
+            H: 'gtceu:awakened_draconium_single_cable'
+    })
+    
   
   })

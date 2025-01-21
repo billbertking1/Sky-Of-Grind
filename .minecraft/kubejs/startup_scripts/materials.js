@@ -2,6 +2,7 @@
 
 GTCEuStartupEvents.registry('gtceu:material_icon_set', event => {
     event.create('infinity').parent(GTMaterialIconSet.SHINY)
+    event.create('space_time').parent(GTMaterialIconSet.SHINY)
     event.create('infinity_catalyst').parent(GTMaterialIconSet.FINE)
     event.create('atomic_alloy').parent(GTMaterialIconSet.BRIGHT)
     event.create('cosmic_neutronium').parent(GTMaterialIconSet.BRIGHT)
@@ -59,7 +60,15 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
     event.create('condensed_star_matter')
         .protons(1510)
         .neutrons(2226)
-        .symbol('CsaM₁₅₁₀(SM₁₀(H₅He₃C₂))₁₄₄(NaK₁₂)(C₂H₆OSi)');       
+        .symbol('CsaM₁₅₁₀(SM₁₀(H₅He₃C₂))₁₄₄(NaK₁₂)(C₂H₆OSi)'); 
+    event.create('awakened_draconium')
+        .protons(61)
+        .neutrons(82)
+        .symbol('*Dn*');      
+    event.create('chaos')
+        .protons(50)
+        .neutrons(75)
+        .symbol('Ch');
         
         //  ₂₃₄₅₆₇₈₉₀
 })
@@ -524,20 +533,19 @@ event.create("molten_space_time")
 event.create('space_time')
 .ingot()
 .element('space_time')
-.color(0x78fffa)
-.iconSet('metallic')
+.color(0xffffff)
+.iconSet('space_time')
 .flags(
-    GTMaterialFlags.GENERATE_PLATE, 
-    GTMaterialFlags.GENERATE_ROD, 
-    GTMaterialFlags.GENERATE_GEAR, 
-    GTMaterialFlags.GENERATE_FINE_WIRE,
-    GTMaterialFlags.GENERATE_FRAME, 
-    GTMaterialFlags.GENERATE_DENSE, 
-    GTMaterialFlags.GENERATE_ROTOR, 
-    GTMaterialFlags.GENERATE_BOLT_SCREW,
+    GTMaterialFlags.GENERATE_PLATE,
+    GTMaterialFlags.GENERATE_ROD,
     GTMaterialFlags.GENERATE_LONG_ROD,
+    GTMaterialFlags.GENERATE_RING,
+    GTMaterialFlags.GENERATE_ROUND,
+    GTMaterialFlags.GENERATE_GEAR, 
     GTMaterialFlags.GENERATE_SMALL_GEAR,
-    GTMaterialFlags.GENERATE_ROUND
+    GTMaterialFlags.GENERATE_SPRING, 
+    GTMaterialFlags.GENERATE_BOLT_SCREW, 
+    GTMaterialFlags.PHOSPHORESCENT
 )
     })
 

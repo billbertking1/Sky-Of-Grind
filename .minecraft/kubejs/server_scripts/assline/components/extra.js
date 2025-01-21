@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
         ['uiv', 'awakened_draconium', 'chaos', '134217728'],
     ]
     const transformer = [
-        ['uhv', 'neutronium', 'crystal_matrix'],
+        ['uhv', 'ruthenium_trinium_americium_neutronate', 'crystal_matrix'],
         ['uev', 'cosmic_neutronium', 'draconium'],
         ['uiv', 'awakened_draconium', 'chaos'],
     ]
@@ -171,6 +171,15 @@ ServerEvents.recipes(sog => {
             .totalCWU(256*500)
             .CWUt(256)
 
+                sog.recipes.gtceu.hgim("kubejs:space_time_heavy_plating")
+                .notConsumable('kubejs:gravitational_containment_cell')
+                .itemInputs('7x gtceu:dense_hypoxylon_plate', 'kubejs:quantum_energy_capsule')
+                .itemInputs("31x gtceu:double_space_time_plate")
+                .inputFluids("gtceu:nihonium 144*16", "gtceu:oganesson 144*16")
+                .itemOutputs("kubejs:space_time_heavy_plating")
+                .EUt(GTValues.VA[GTValues.UIV])
+                .duration(20*60)
+
             const plating = ["neutronium", "chaos", "infinity", "cosmic_neutronium", "draconium", "awakened_draconium", "californite"]
             plating.forEach((plate) => {
             sog.recipes.gtceu.hgim("kubejs:" + plate + "_heavy_plating")
@@ -179,8 +188,12 @@ ServerEvents.recipes(sog => {
                 .itemInputs("7x gtceu:dense_" + plate + "_plate")
                 .inputFluids("gtceu:nihonium 144*16", "gtceu:oganesson 144*16")
                 .itemOutputs("kubejs:" + plate + "_heavy_plating")
-                .EUt(GTValues.VA[GTValues.UIV])
+                .EUt(GTValues.VA[GTValues.UEV])
                 .duration(20*60)
+
+
+
+
         })
 
 
