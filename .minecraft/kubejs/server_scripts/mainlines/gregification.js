@@ -1431,4 +1431,30 @@ sog.shaped(
 })
 sog.shapeless('ae2:interface', ['ae2:cable_interface'])
 sog.shapeless('ae2:pattern_provider', ['ae2:cable_pattern_provider'])
+
+const ebfHeavyAlloyRecipe = (tier, fluidInput, temperature, voltage, durationInSeconds) => {
+    const GAS_BOOST = 0.67
+    const idBase = `heavy_duty_alloy_t${tier}`
+
+    sog.recipes.gtceu.electric_blast_furnace(`blast_${idBase}`)
+        .itemInputs(`gtceu:${idBase}_dust`)
+        .itemOutputs(`gtceu:${idBase}_ingot`)
+        .blastFurnaceTemp(temperature)
+        .duration(20 * durationInSeconds)
+        .circuit(1)
+        .EUt(GTValues.VA[GTValues[voltage]])
+
+    sog.recipes.gtceu.electric_blast_furnace(`blast_${idBase}_gas`)
+        .itemInputs(`gtceu:${idBase}_dust`)
+        .inputFluids(fluidInput)
+        .itemOutputs(`gtceu:${idBase}_ingot`)
+        .blastFurnaceTemp(temperature)
+        .duration(20 * durationInSeconds * GAS_BOOST)
+        .circuit(2)
+        .EUt(GTValues.VA[GTValues[voltage]])
+}
+
+ebfHeavyAlloyRecipe(1, "gtceu:nitrogen 1000", 3500, "HV", 45)
+ebfHeavyAlloyRecipe(2, "gtceu:argon 50", 5100, "LuV", 60)
+ebfHeavyAlloyRecipe(3, "gtceu:krypton 10", 9600, "UHV", 65)
 })
