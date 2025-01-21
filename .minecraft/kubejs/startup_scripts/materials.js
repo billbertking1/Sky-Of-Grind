@@ -547,6 +547,16 @@ event.create('space_time')
     GTMaterialFlags.GENERATE_BOLT_SCREW, 
     GTMaterialFlags.PHOSPHORESCENT
 )
+event.create("raw_cosmic_matter")
+.liquid()
+.color(0x000000)
+event.create("cosmic_matter")
+.liquid(new GTFluidBuilder().state(GTFluidState.LIQUID).customStill())
+.color(0xffffff)
+event.create("stellar_matter_plasma")
+.liquid(new GTFluidBuilder().state(GTFluidState.LIQUID).customStill())
+.color(0xffffff)
+
     })
 
 
