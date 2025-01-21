@@ -69,7 +69,7 @@ Fluid.of('gtceu:naquadria', 576),
 .stationResearch(b => b.researchStack(Item.of('gtceu:uv_robot_arm')).EUt(GTValues.VA[GTValues.UHV]).CWUt(64)) // 
 .duration(600)
 .EUt(GTValues.VA[GTValues.UV])
-event.recipes.gtceu.assembly_line('uhv_energy_hatch')
+event.recipes.gtceu.assembly_line('energy_hatch_uhv')
 .itemInputs('gtceu:uhv_machine_hull', '4x gtceu:europium_single_cable', '2x gtceu:highly_advanced_soc', '#gtceu:circuits/uhv', '2x kubejs:uhv_voltage_coil', 'avaritia:eternal_singularity')
 .itemOutputs('gtceu:uhv_energy_input_hatch')
 .inputFluids(
@@ -79,7 +79,7 @@ Fluid.of('gtceu:soldering_alloy', 2880)
 .stationResearch(b => b.researchStack(Item.of('gtceu:uv_energy_input_hatch')).EUt(GTValues.VA[GTValues.UHV]).CWUt(64)) // 
 .duration(600)
 .EUt(GTValues.VA[GTValues.UHV])
-event.recipes.gtceu.assembly_line('uhv_energy_dyanmo_hatch')
+event.recipes.gtceu.assembly_line('dynamo_hatch_uhv')
 .itemInputs('gtceu:uhv_machine_casing', '4x gtceu:europium_single_cable', '2x gtceu:highly_advanced_soc', '#gtceu:circuits/uhv', '2x kubejs:uhv_voltage_coil', 'avaritia:eternal_singularity')
 .itemOutputs('gtceu:uhv_energy_output_hatch')
 .inputFluids(
