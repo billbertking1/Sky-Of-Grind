@@ -449,6 +449,61 @@ ServerEvents.recipes(sog => {
             C: '#gtceu:circuits/iv'
           }
         )
+    sog.shaped('megacells:cell_component_1m', [
+        'ABA',
+        'CDC',
+        'ACA'
+    ], {
+        A: 'ae2:sky_dust',
+        B: 'megacells:accumulation_processor',
+        C: 'ae2:cell_component_256k',
+        D: '#gtceu:circuits/luv'
+      }
+    )
+    sog.shaped('megacells:cell_component_4m',[
+        'ABA',
+        'CDC',
+        'ACA'
+    ], {
+        A: '#forge:dusts/ender_pearl',
+        B: 'megacells:accumulation_processor',
+        C: 'megacells:cell_component_1m',
+        D: '#gtceu:circuits/zpm'
+      }
+    )
+    sog.shaped('megacells:cell_component_16m',[
+        'ABA',
+        'CDC',
+        'ACA'
+    ], {
+        A: '#forge:dusts/ender_pearl',
+        B: 'megacells:accumulation_processor',
+        C: 'megacells:cell_component_4m',
+        D: '#gtceu:circuits/uv'
+      }
+    )
+    sog.shaped('megacells:cell_component_64m',[
+        'ABA',
+        'CDC',
+        'ACA'
+    ], {
+        A: 'ae2:matter_ball',
+        B: 'megacells:accumulation_processor',
+        C: 'megacells:cell_component_16m',
+        D: '#gtceu:circuits/uhv'
+      }
+    )
+    sog.shaped('megacells:cell_component_256m',[
+        'ABA',
+        'CDC',
+        'ACA'
+    ], {
+        A: 'ae2:matter_ball',
+        B: 'megacells:accumulation_processor',
+        C: 'megacells:cell_component_64m',
+        D: '#gtceu:circuits/uev'
+      }
+    )
     sog.shaped('ae2:drive', [// arg 1: output
             'ABA', 
             'C C', // arg 2: the shape (array of strings)
