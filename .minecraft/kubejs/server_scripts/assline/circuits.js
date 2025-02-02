@@ -46,6 +46,51 @@ ServerEvents.recipes(event => {
     .duration(1600)
     .EUt(GTValues.VA[GTValues.UEV])   
 
+// E A R L Y   C I R C U I T S
+
+event.recipes.gtceu.circuit_assembly_line('microchip_processor')
+.itemInputs('16x gtceu:plastic_printed_circuit_board', '8x gtceu:advanced_soc')
+.itemOutputs('32x gtceu:microchip_processor')
+.inputFluids(
+Fluid.of('gtceu:copper', 2056),
+Fluid.of('gtceu:soldering_alloy', 2056)
+)
+.duration(320)
+.EUt(GTValues.VA[GTValues.UV])
+
+
+event.recipes.gtceu.circuit_assembly_line('micro_processor')
+.itemInputs('16x gtceu:plastic_printed_circuit_board', '16x gtceu:advanced_soc')
+.itemOutputs('32x gtceu:micro_processor')
+.inputFluids(
+Fluid.of('gtceu:red_alloy', 2056),
+Fluid.of('gtceu:soldering_alloy', 4112)
+)
+.duration(480)
+.EUt(GTValues.VA[GTValues.UV])
+
+
+event.recipes.gtceu.circuit_assembly_line('nano_processor')
+.itemInputs('16x gtceu:epoxy_printed_circuit_board', '24x gtceu:advanced_soc')
+.itemOutputs('32x gtceu:nano_processor')
+.inputFluids(
+Fluid.of('gtceu:electrum', 4112),
+Fluid.of('gtceu:soldering_alloy', 8124)
+)
+.duration(640)
+.EUt(GTValues.VA[GTValues.UV])
+
+
+event.recipes.gtceu.circuit_assembly_line('quantum_processor')
+.itemInputs('16x gtceu:fiber_reinforced_printed_circuit_board', '32x gtceu:advanced_soc')
+.itemOutputs('32x gtceu:quantum_processor')
+.inputFluids(
+Fluid.of('gtceu:niobium_titanium', 2056),
+Fluid.of('gtceu:platinum', 4112),
+Fluid.of('gtceu:soldering_alloy', 8124)
+)
+.duration(800)
+.EUt(GTValues.VA[GTValues.UV])
 
 //  U I V   C I R C U I T S 
 
