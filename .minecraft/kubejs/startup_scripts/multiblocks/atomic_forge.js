@@ -49,7 +49,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('U', Predicates.blocks('gtceu:zpm_lapotronic_battery'))
             .where('W', Predicates.blocks('gtceu:tritanium_coil_block'))
             .where('T', Predicates.blocks('gtceu:fusion_casing_mk3'))
-            .where('Z', Predicates.blocks('gtceu:magenta_lamp'))
+            .where('Z', Predicates.blocks('antiblocksrechiseled:bright_magenta_border'))
             .where('F', Predicates.blocks('gtceu:superconducting_coil'))
             .where('Y', Predicates.blocks('gtceu:fusion_glass'))
             .where('G', Predicates.blocks("minecraft:netherite_block"))

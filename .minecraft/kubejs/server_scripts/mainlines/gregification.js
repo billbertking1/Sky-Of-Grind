@@ -856,12 +856,12 @@ sog.recipes.gtceu.implosion_compressor('ae2:quantumsingularity')
             .EUt(GTValues.VA[GTValues.UHV]);
 sog.recipes.gtceu.implosion_compressor('gtceu:ic/crystal_matrix')
             .itemInputs('4x gtceu:industrial_tnt', '64x avaritia:diamond_lattice')
-            .itemOutputs('gtceu:crystal_matrix_ingot')
+            .itemOutputs('4x gtceu:crystal_matrix_ingot')
             .duration(5)
             .EUt(GTValues.VA[GTValues.UHV]);
 sog.shaped(
                 'avaritia:diamond_lattice',
-                ['ABA', 'BAB', 'ABA'],
+                [' BA', 'BBB', 'AB '],
                 {
                     A: 'gtceu:quantum_star',
                     B: 'gtceu:diamond_plate'
@@ -1258,14 +1258,16 @@ sog.recipes.gtceu.assembler('uevcasing')
 sog.recipes.gtceu.large_chemical_reactor('hrcb')
 .itemInputs('2x gtceu:wetware_circuit_board', '64x gtceu:antimatter_foil', 'kubejs:antimatter_boule')
 .inputFluids(Fluid.of('gtceu:antimatter', 100))
-.itemOutputs('kubejs:highly_resonative_circuit_board')
+.itemOutputs('4x kubejs:highly_resonative_circuit_board')
+.cleanroom(CleanroomType.CLEANROOM)
 .duration(900)
 .EUt(GTValues.VA[GTValues.UEV]);
 sog.recipes.gtceu.large_chemical_reactor('hrcb2')
-.itemInputs('kubejs:highly_resonative_circuit_board', '64x gtceu:resonant_essence_single_wire')
+.itemInputs('kubejs:highly_resonative_circuit_board', '32x gtceu:resonant_essence_single_wire')
 .inputFluids(Fluid.of('gtceu:antimatter', 100))
 .circuit(8)
 .itemOutputs('kubejs:highly_resonative_printed_circuit_board')
+.cleanroom(CleanroomType.CLEANROOM)
 .duration(1800)
 .EUt(GTValues.VA[GTValues.UEV]);
 sog.recipes.gtceu.large_chemical_reactor('red_granite')
@@ -1404,6 +1406,11 @@ sog.recipes.gtceu.macerator('shattered')
 .itemOutputs('advanced_ae:quantum_infused_dust')
 .duration(15)
 .EUt(512)
+sog.recipes.gtceu.macerator('refined_apatite_ore_apatite')
+.itemInputs('gtceu:refined_apatite_ore')
+.itemOutputs('gtceu:apatite_dust')
+.duration(400)
+.EUt(2)
 sog.recipes.gtceu.circuit_assembler('quantumprocessor')
 .itemInputs('ae2:silicon', 'minecraft:redstone', 'advanced_ae:quantum_alloy')
 .inputFluids('gtceu:lubricant 63')
@@ -1475,6 +1482,14 @@ sog.shaped(
         B: 'ae2:annihilation_core',
         Y: 'minecraft:sticky_piston',
 })
+
+    sog.recipes.gtceu.autoclave("glow_ink_sac")
+      .itemInputs("1x minecraft:ink_sac")
+      .inputFluids(Fluid.of("gtceu:liquid_glowstone", 144))
+      .itemOutputs("1x minecraft:glow_ink_sac")
+      .duration(20 * 5)
+      .EUt(16)
+
 sog.shapeless('ae2:interface', ['ae2:cable_interface'])
 sog.shapeless('ae2:pattern_provider', ['ae2:cable_pattern_provider'])
 

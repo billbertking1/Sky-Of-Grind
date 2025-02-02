@@ -122,6 +122,7 @@ event.recipes.gtceu.qsp('hrsoc')
     .itemOutputsRanged('gtceu:raw_platinum', 10000, 45000)
     .itemOutputsRanged('minecraft:glowstone_dust', 10000, 45000)
     .itemOutputsRanged('gtceu:raw_uraninite', 10000, 45000)
+    .itemOutputsRanged('gtceu:raw_sulfur', 10000, 45000)
     .circuit(3)
     .duration(6000)
     .EUt(GTValues.VA[GTValues.UEV]);

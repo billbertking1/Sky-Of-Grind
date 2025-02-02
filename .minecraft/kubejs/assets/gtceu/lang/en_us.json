@@ -79,6 +79,9 @@
     "material.gtceu.molten_space_time": "Molten Space Time",
     "material.gtceu.universium": "Universium",
     "material.gtceu.teslarium": "Teslarium",
+    "material.gtceu.stellar_matter_plasma": "Stellar Matter Plasma",
+    "material.gtceu.cosmic_matter": "Cosmic Matter",
+    "material.gtceu.raw_cosmic_matter": "Raw Cosmic Matter",
 
     "material.gtceu.raw_bacterial_dna": "Raw Bacterial DNA",
     "material.gtceu.overgrown_bacterial_dna": "Overgrown Bacterial DNA",
@@ -149,7 +152,7 @@
     "gtceu.opv_parallel_hatch.desc": "§rAllows to run up to 262144 recipes in parallel",
     "gtceu.multiblock.uev_fusion_reactor.description": "§7The Fusion Reactor MK 4 is a large multiblock structure used for fusing elements into heavier ones. It can only use UEV Energy Hatches. For every Hatch it has, its buffer increases by 160M EU, and has a maximum of 2560M.",
     "gtceu.multiblock.atomic_forge.description": "Huge multiblock that uses lots of energy to modify and transmute items",
-    "gtceu.multiblock.laser_input.description": "This multiblock can only be powered by Laser Target Hatches",
+    "gtceu.multiblock.laser_input.description": "This multiblock can be powered by Laser Target Hatches",
     "gtceu.multiblock.laser_output.description": "Power may only be extracted by Laser Source Hatches",
 
     "gtceu.jei.ore_vein.glacio_chaos": "Chaos Vein Glacio",

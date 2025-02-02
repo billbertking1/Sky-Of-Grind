@@ -189,6 +189,6 @@ ServerEvents.recipes(event => {
     event.remove({ output: ['draconicevolution:celestial_manipulator', 'draconicevolution:energy_pylon', 'draconicevolution:energy_core', 'draconicevolution:crystal_binder', 'draconicevolution:wyvern_energy_core', 'draconicevolution:reactor_prt_in_rotor', 'draconicevolution:reactor_prt_out_rotor', 'draconicevolution:reactor_prt_rotor_full', 'draconicevolution:wyvern_core']})
     event.remove({ output: ['draconicevolution:chaos_shard', 'draconicevolution:large_chaos_frag', 'draconicevolution:medium_chaos_frag', 'draconicevolution:small_chaos_frag'], mod: 'draconicevolution'})
     event.remove({ output: ['ae2:export_bus', 'ae2:import_bus', 'ae2:interface', 'ae2:energy_acceptor']})
-    
+    event.remove({ output: 'gtceu:pyrochlore_dust', input: 'gtceu:refined_apatite_ore'})
 
   })
