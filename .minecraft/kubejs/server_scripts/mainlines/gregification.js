@@ -856,7 +856,7 @@ sog.recipes.gtceu.implosion_compressor('ae2:quantumsingularity')
             .EUt(GTValues.VA[GTValues.UHV]);
 sog.recipes.gtceu.implosion_compressor('gtceu:ic/crystal_matrix')
             .itemInputs('4x gtceu:industrial_tnt', '64x avaritia:diamond_lattice')
-            .itemOutputs('4x gtceu:crystal_matrix_ingot')
+            .itemOutputs('1x gtceu:crystal_matrix_ingot')
             .duration(5)
             .EUt(GTValues.VA[GTValues.UHV]);
 sog.shaped(

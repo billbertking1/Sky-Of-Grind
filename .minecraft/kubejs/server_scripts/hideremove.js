@@ -125,8 +125,6 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'megacells:cell_component_1m'})
     event.remove({output: 'megacells:cell_component_4m'})
     event.remove({output: 'megacells:cell_component_16m'})
-    event.remove({output: 'megacells:cell_component_64m'})
-    event.remove({output: 'megacells:cell_component_256m'})
     event.remove({ output: 'ae2:drive'})
     event.remove({ output: 'ae2:blank_pattern'})
     event.remove({ output: 'ad_astra:nasa_workbench'})
