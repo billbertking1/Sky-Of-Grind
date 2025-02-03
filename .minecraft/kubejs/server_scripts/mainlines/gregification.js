@@ -1485,7 +1485,7 @@ sog.shaped(
 
     sog.recipes.gtceu.autoclave("glow_ink_sac")
       .itemInputs("1x minecraft:ink_sac")
-      .inputFluids(Fluid.of("gtceu:liquid_glowstone", 144))
+      .inputFluids(Fluid.of("gtceu:glowstone", 144))
       .itemOutputs("1x minecraft:glow_ink_sac")
       .duration(20 * 5)
       .EUt(16)
