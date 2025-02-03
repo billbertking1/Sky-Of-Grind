@@ -373,7 +373,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["2560C53365DBDA7D"]
+			dependencies: [
+				"2560C53365DBDA7D"
+				"00D129C33D78FFFE"
+			]
 			description: [
 				"Congrats. New Donut."
 				""

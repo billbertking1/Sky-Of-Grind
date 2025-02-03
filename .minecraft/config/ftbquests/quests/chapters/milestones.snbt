@@ -74,6 +74,12 @@
 			x: 13.5d
 			y: 0.0d
 		}
+		{
+			id: "0D00E71CC73FDBB9"
+			linked_quest: "61F1797DA06E0711"
+			x: 7.0d
+			y: 21.0d
+		}
 	]
 	quests: [
 		{
@@ -1115,6 +1121,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["4D968848815FA9AD"]
 			id: "306E4DCF47AFECFE"
 			tasks: [{
 				id: "45EDB2C6BBBCB140"
@@ -1273,6 +1280,137 @@
 			}]
 			x: -0.5d
 			y: 16.0d
+		}
+		{
+			dependencies: ["20B7921E35AA0D02"]
+			id: "7E113B2CB886D602"
+			tasks: [{
+				id: "746A06F04ACDA77B"
+				item: "kubejs:infinity_coil_block"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"306E4DCF47AFECFE"
+				"41D28FE36C13266F"
+			]
+			id: "7FFA0E8C4210B437"
+			tasks: [{
+				id: "30E8AE831136644C"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			id: "28CF677C1BC569EB"
+			tasks: [{
+				id: "215E6F2E67D22E71"
+				item: "gtceu:stellar_matter_plasma_bucket"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -1.5d
+		}
+		{
+			id: "41D28FE36C13266F"
+			tasks: [{
+				id: "707F8E9BE317BE0B"
+				item: "gtceu:cosmic_matter_bucket"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["61F1797DA06E0711"]
+			id: "79770BA9B4C8A7A8"
+			tasks: [{
+				id: "6833F634DA50F959"
+				item: "avaritia:infinity_sword"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["61F1797DA06E0711"]
+			id: "5790C3C273BAD65C"
+			tasks: [{
+				id: "0D6D2A401A46EF7E"
+				item: "avaritia:infinity_chestplate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["61F1797DA06E0711"]
+			id: "7F6914C12CC935EE"
+			tasks: [{
+				id: "6B7326A5DA40C48D"
+				item: "avaritia:infinity_helmet"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"7B468B84887DD456"
+				"61F1797DA06E0711"
+			]
+			id: "711147ADEB4A3906"
+			tasks: [{
+				id: "36A179A0F40AD2AC"
+				item: "avaritia:infinity_pants"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"7B468B84887DD456"
+				"61F1797DA06E0711"
+			]
+			id: "5C691D64A4A67E7F"
+			tasks: [{
+				id: "530389B7F4A19810"
+				item: "avaritia:infinity_boots"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"28365A3D6884CA34"
+				"7B468B84887DD456"
+			]
+			id: "61F1797DA06E0711"
+			tasks: [{
+				id: "607F82A945C86212"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1B4C0866D289C638"]
+			id: "01F355170C09A06B"
+			tasks: [{
+				id: "1FC8744F3BD84AEB"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
 		}
 	]
 	subtitle: ["Dont lose your motivation!"]

@@ -800,8 +800,8 @@
 				}
 			]
 			title: "Netherite Space Suit"
-			x: 12.0d
-			y: 10.5d
+			x: 12.5d
+			y: 10.0d
 		}
 		{
 			dependencies: [
