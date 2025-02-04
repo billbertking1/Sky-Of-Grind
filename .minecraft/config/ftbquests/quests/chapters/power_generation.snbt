@@ -186,8 +186,8 @@
 				item: "ae2:creative_energy_cell"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 21.0d
+			x: 0.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["28E8CCAF48716EA7"]
@@ -569,16 +569,6 @@
 			}]
 			x: 0.0d
 			y: 7.5d
-		}
-		{
-			id: "1ED8D284B1F63471"
-			tasks: [{
-				id: "6FBB32D99765C1A6"
-				item: "solarflux:sp_avaritia.infinity"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 21.0d
 		}
 		{
 			dependencies: [

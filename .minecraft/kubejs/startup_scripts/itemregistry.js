@@ -48,7 +48,7 @@ sog.create('stable_matter').maxStackSize(64).displayName('Stable Matter')
 sog.create('atomically_compressed_black_hole').maxStackSize(64).displayName('Atomically-Compressed Black Hole').tooltip('§0Hold with caution. Maintains an Event Horizon')
 sog.create('quantum_resonant_core').maxStackSize(64).displayName('Quantum Resonant Core')
     //Singularities Stuff 
-sog.create('antimattersingularity').maxStackSize(64).displayName('Antimatter Catalyst Singularity').glow(true).tooltip('Not safe for work')
+sog.create('quantum_anomaly').maxStackSize(64).displayName('Quantum Anomaly').glow(true).tooltip('Not safe for work')
 sog.create('stabilized_collapsed_singularity').maxStackSize(64).displayName('Stabilized Collapsed Singularity')    
 sog.create('fallen_singularity').maxStackSize(64).displayName('Fallen Singularity').tooltip('§cNot-Stabilized Collapsed Singularity')
 //voltage coils
@@ -92,6 +92,18 @@ sog.create('space_time_heavy_plating').displayName('Space Time Heavy Plating').t
 sog.create('tesla_coil_mk1').displayName('Tesla Coil MKI').texture('kubejs:item/power/tesla_coil_mk1').tooltip('Produces 1 ZPM amp when used on the Tesla Tower')
 sog.create('tesla_coil_mk2').displayName('Tesla Coil MKII').texture('kubejs:item/power/tesla_coil_mk2').tooltip('Produces 1 UHV amp when used on the Tesla Tower')
 sog.create('tesla_coil_mk3').displayName('Tesla Coil MKIII').texture('kubejs:item/power/tesla_coil_mk3').tooltip('Produces 1 UXV amp when used on the Tesla Tower')
+        //Particles
+sog.create('graviton').displayName('Graviton').texture('kubejs:item/particles/graviton')   
+sog.create('quarks').displayName('Quarks').texture('kubejs:item/particles/quarks')   
+sog.create('photon').displayName('Photon').texture('kubejs:item/particles/photon')   
+sog.create('strange_quarks').displayName('Strange Quarks').texture('kubejs:item/particles/strange_quarks')   
+sog.create('tau_neutrino').displayName('Tau Neutrino').texture('kubejs:item/particles/tau_neutrino')   
+sog.create('condensed_hydrogen_ball').displayName('Condensed Hydrogen Ball').texture('kubejs:item/particles/condensed_hydrogen_ball')   
+
+
+
+
+
 })
 
 StartupEvents.registry('block', sog => {

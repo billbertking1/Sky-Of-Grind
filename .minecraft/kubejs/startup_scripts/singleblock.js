@@ -2,7 +2,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('extractinator')
         .category('extractor')
         .setEUIO('in')
-        .setMaxIOSize(2, 8, 0, 0)
+        .setMaxIOSize(2, 8, 1, 0)
         .setSlotOverlay(false, false, GuiTextures.COMPRESSOR_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ELECTROLYZER)
