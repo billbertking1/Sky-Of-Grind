@@ -553,11 +553,6 @@
 			description: ["You are really lazy right?"]
 			id: "3A6DEA6DADE51FD9"
 			invisible: true
-			rewards: [{
-				id: "4A2FA9A9FEB464F5"
-				item: "gtceu:doge_coin"
-				type: "item"
-			}]
 			tasks: [{
 				count: 16L
 				id: "1277DDB0D4187FB2"

@@ -1441,6 +1441,21 @@ sog.shaped(
         B: 'gtceu:computer_casing'
 })
 sog.shaped(
+    '2x kubejs:highly_reinforced_radioactive_casing',
+    ['AAA', 'ABA', 'AAA'],
+    {
+        A: 'gtceu:stabilized_iridium_plate',
+        B: 'kubejs:californite_heavy_plating'
+})
+sog.shaped(
+    '2x kubejs:stellar_powered_casing',
+    ['AAA', 'EBE', 'AAA'],
+    {
+        E: 'kubejs:draconium_heavy_plating',
+        A: 'gtceu:dense_antimatter_plate',
+        B: 'kubejs:highly_reinforced_radioactive_casing'
+})
+sog.shaped(
     'gtceu:atmospheric_collector',
     ['ABA', 'YCY', 'ABA'],
     {

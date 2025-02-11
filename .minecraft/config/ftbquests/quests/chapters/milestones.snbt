@@ -577,6 +577,7 @@
 		}
 		{
 			id: "78C27888EEB6BF83"
+			subtitle: "LV"
 			tasks: [{
 				id: "3B72D3844F0A3B0F"
 				item: "gtceu:steel_ingot"
@@ -588,6 +589,7 @@
 		{
 			dependencies: ["78C27888EEB6BF83"]
 			id: "694F957DBBEF62C0"
+			subtitle: "MV"
 			tasks: [{
 				id: "2A1A6EF64456ED53"
 				item: "gtceu:aluminium_ingot"
@@ -599,6 +601,7 @@
 		{
 			dependencies: ["694F957DBBEF62C0"]
 			id: "510FCE21E7479512"
+			subtitle: "HV"
 			tasks: [{
 				id: "51665A5FFAC034D3"
 				item: "gtceu:stainless_steel_ingot"
@@ -610,6 +613,7 @@
 		{
 			dependencies: ["510FCE21E7479512"]
 			id: "52B44EBA5DDB7140"
+			subtitle: "EV"
 			tasks: [{
 				id: "7A11E50630EB167B"
 				item: "gtceu:titanium_ingot"
@@ -621,6 +625,7 @@
 		{
 			dependencies: ["52B44EBA5DDB7140"]
 			id: "0D839269374F6D08"
+			subtitle: "IV"
 			tasks: [{
 				id: "397644FC53F8A355"
 				item: "gtceu:tungsten_steel_ingot"
@@ -632,6 +637,7 @@
 		{
 			dependencies: ["0D839269374F6D08"]
 			id: "3A6300A19C62E8D8"
+			subtitle: "LuV"
 			tasks: [{
 				id: "28DE5CFB0C0B017C"
 				item: "gtceu:rhodium_plated_palladium_ingot"
@@ -643,6 +649,7 @@
 		{
 			dependencies: ["3A6300A19C62E8D8"]
 			id: "2480E7366908AED8"
+			subtitle: "ZPM"
 			tasks: [{
 				id: "729E5908261A40A9"
 				item: "gtceu:naquadah_alloy_ingot"
@@ -654,6 +661,7 @@
 		{
 			dependencies: ["2480E7366908AED8"]
 			id: "4AABD05884758892"
+			subtitle: "UV"
 			tasks: [{
 				id: "3F6512204B975D49"
 				item: "gtceu:darmstadtium_ingot"
@@ -676,6 +684,7 @@
 		{
 			dependencies: ["4AABD05884758892"]
 			id: "05A2AD0C2CB88E16"
+			subtitle: "UHV"
 			tasks: [{
 				id: "48391018A7F17C0D"
 				item: "gtceu:neutronium_ingot"
@@ -685,15 +694,15 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6062F37BB208F232"]
+			dependencies: ["05A2AD0C2CB88E16"]
 			id: "375F8A8F7CF58F99"
 			tasks: [{
 				id: "051A274F755C032F"
 				item: "avaritia:neutron_ingot"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -1.5d
+			x: 12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5701B0DA8F070E6B"]
@@ -941,23 +950,25 @@
 				item: "gtceu:resonant_essence_ingot"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 12.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["05A2AD0C2CB88E16"]
 			id: "6062F37BB208F232"
+			subtitle: "UEV"
 			tasks: [{
 				id: "3791D2D0B0A63687"
 				item: "draconicevolution:draconium_ingot"
 				type: "item"
 			}]
 			x: 13.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6062F37BB208F232"]
 			id: "7323EB3DBA1D74D8"
+			subtitle: "UIV"
 			tasks: [{
 				id: "2C7CB7191BF23A6C"
 				item: "draconicevolution:awakened_draconium_ingot"
@@ -1100,18 +1111,8 @@
 			y: 16.5d
 		}
 		{
-			dependencies: ["05A2AD0C2CB88E16"]
-			id: "2278040396A0BE34"
-			tasks: [{
-				id: "6C6471492FB1C904"
-				item: "gtceu:antimatter_ingot"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -3.0d
-		}
-		{
 			id: "4D968848815FA9AD"
+			subtitle: "OpV"
 			tasks: [{
 				id: "31073D4E1C922E53"
 				item: "gtceu:space_time_ingot"
@@ -1307,14 +1308,15 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["592AB72B0476B66B"]
 			id: "41D28FE36C13266F"
 			tasks: [{
 				id: "707F8E9BE317BE0B"
 				item: "gtceu:cosmic_matter_bucket"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -3.0d
+			x: 15.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["61F1797DA06E0711"]
@@ -1407,6 +1409,17 @@
 			}]
 			x: 4.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["6062F37BB208F232"]
+			id: "40D2EA83C1217431"
+			tasks: [{
+				id: "21F0E2A745F84DF1"
+				item: "gtceu:hypoxylon_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Dont lose your motivation!"]

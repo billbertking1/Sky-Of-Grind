@@ -14,7 +14,173 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["5E851266CCD8E325"]
+			description: [
+				"The start of the UIV chapter."
+				"This is the tier zero of Fusion Injectors."
+				""
+				"You will progress from the basic injector the chaotic one."
+				""
+				"Each tier has the recipes of the last one, so you only need to upgrade the frames and the controller!"
+			]
+			id: "1CFDE8AD978AA9EF"
+			tasks: [{
+				id: "77C8A19523921931"
+				item: "gtceu:basic_fusion_injector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"This is a very tall multiblock huh."
+				""
+				"Prepare lots of hydrogen, you will need it-"
+				"Wait what's that? ..."
+			]
+			id: "3A6AD36D1D7EF770"
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "Accelerating particles is my passion."
+			tasks: [{
+				id: "3BA518838FC5840E"
+				item: "gtceu:large_synchrotron_switcher"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3A6AD36D1D7EF770"]
+			description: [
+				"A quantum anomaly huh..."
+				"Be careful, this is dangerous."
+				""
+				"Jokes aside, good luck and pray to rng jesus."
+			]
+			id: "6075D2D1AA906975"
+			subtitle: "This is sick"
+			tasks: [{
+				id: "6A41C454F86CF351"
+				item: "kubejs:quantum_anomaly"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CFDE8AD978AA9EF"]
+			id: "0A717B3462215AEF"
+			tasks: [{
+				id: "1B76E05FCBE01800"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A717B3462215AEF"]
+			id: "4B3133370EF57E4B"
+			tasks: [{
+				id: "145E8616E155E529"
+				item: "gtceu:wyvern_fusion_injector"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4B3133370EF57E4B"
+				"0A717B3462215AEF"
+			]
+			id: "010A1946F22B62A3"
+			tasks: [{
+				id: "00811A66B7F03F12"
+				item: "draconicevolution:awakened_draconium_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4B3133370EF57E4B"
+				"010A1946F22B62A3"
+			]
+			id: "093B75408D3BEC38"
+			tasks: [{
+				id: "0F808BFE081A035F"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"093B75408D3BEC38"
+				"6C8F57A1DBEBBAB3"
+			]
+			id: "4E2B592E170BF6B0"
+			tasks: [{
+				id: "2F18554F54236714"
+				item: "gtceu:draconic_fusion_injector"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["176C5C21B6EDF8FA"]
+			id: "6C8F57A1DBEBBAB3"
+			tasks: [{
+				id: "59996FC6EF712AA1"
+				item: "gtceu:uiv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["093B75408D3BEC38"]
+			id: "176C5C21B6EDF8FA"
+			tasks: [
+				{
+					id: "55F7F5A1F0413FC1"
+					item: "gtceu:uiv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "79ADF8645FCD53D8"
+					item: "gtceu:uiv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "6A2F617706E0EBBD"
+					item: "gtceu:uiv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "6F095ED71AA08387"
+					item: "gtceu:uiv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "2AD312F04666E7CC"
+					item: "gtceu:uiv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "UIV Components"
+			x: 3.5d
+			y: 5.0d
+		}
+	]
 	subtitle: ["Ultra Immense Voltage"]
 	title: "&#4c00ffTier 11 - UIV"
 }

@@ -40,13 +40,17 @@ ItemEvents.tooltip(event => {
         text.add(2, Text.translatable('gtceu.multiblock.laser_input.description'))
     })
     event.addAdvanced('gtceu:gravitational_implosion_machine', (item, adv, text) => {
-        text.add(1, Text.translatable('gtceu.multiblock.laser_input.description'))
+        text.add(1, Text.translatable('gtceu.multiblock.needed_laser_input.description'))
     })
     event.addAdvanced('gtceu:tesla_tower', (item, adv, text) => {
         text.add(1, Text.translatable('gtceu.multiblock.laser_output.description'))
     })
     event.addAdvanced('gtceu:xl_plasma_turbine', (item, adv, text) => {
         text.add(1, Text.translatable('gtceu.multiblock.laser_output.description'))
+    })
+    event.addAdvanced('gtceu:large_synchrotron_switcher', (item, adv, text) => {
+        text.add(1, Text.translatable('gtceu.multiblock.needed_laser_input.description'))
+        text.add(2, Text.translatable('gtceu.multiblock.lss.description'))
     })
 
 

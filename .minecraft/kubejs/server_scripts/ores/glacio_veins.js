@@ -2,10 +2,9 @@ GTCEuServerEvents.oreVeins(event => {
 
     event.add('kubejs:glacio_rutile', vein => vein
         .weight(30).clusterSize(30).density(0.2)
-        .layer('glacio_layer')
+        .layer('ad_astra_glacio')
         .dimensions("ad_astra:glacio") // 
-        .biomes('ad_astra:glacio_ice_peaks', 'ad_astra:glacio_snowy_barrens') // 
-        .heightRangeUniform(-60, 0)
+        .heightRangeUniform(8, 50)
         .layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(3).mat(GTMaterials.Bauxite).size(2, 4))
@@ -22,10 +21,9 @@ GTCEuServerEvents.oreVeins(event => {
     )
     event.add('kubejs:glacio_chaos', vein => vein
         .weight(5).clusterSize(60).density(0.4)
-        .layer('glacio_layer')
+        .layer('ad_astra_glacio')
         .dimensions("ad_astra:glacio") // 
-        .biomes('ad_astra:glacio_ice_peaks', 'ad_astra:glacio_snowy_barrens') // 
-        .heightRangeUniform(-60, 0)
+        .heightRangeUniform(8, 50)
         .layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(9).mat(GTMaterials.Plutonium239).size(2, 4))
@@ -42,10 +40,9 @@ GTCEuServerEvents.oreVeins(event => {
     )
     event.add('kubejs:glacio_pitchblend', vein => vein
         .weight(50).clusterSize(60).density(0.5)
-        .layer('glacio_layer')
+        .layer('ad_astra_glacio')
         .dimensions("ad_astra:glacio") // 
-        .biomes('ad_astra:glacio_ice_peaks', 'ad_astra:glacio_snowy_barrens') // 
-        .heightRangeUniform(-60, 0)
+        .heightRangeUniform(8, 50)
         .veinedVeinGenerator(generator => generator
             .oreBlock(GTMaterials.Pitchblende, 4) 
             .oreBlock(GTMaterials.Pitchblende, 4) 
