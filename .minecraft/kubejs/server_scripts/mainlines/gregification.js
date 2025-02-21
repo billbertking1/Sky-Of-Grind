@@ -200,7 +200,7 @@ ServerEvents.recipes(sog => {
         .EUt(32)
         .circuit(8)
     sog.recipes.gtceu.assembler('bronzemachinecasing')
-        .itemInputs('8x gtceu:bronze_machine_casing')
+        .itemInputs('8x gtceu:bronze_plate')
         .itemOutputs('gtceu:bronze_machine_casing')
         .duration(100)
         .EUt(32)
